@@ -1,0 +1,44 @@
+{
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "3 palabras para tu\nprimera comida en **Japón**",
+   "big": "🍱",
+   "sub": "Vocabulario N5"
+  },
+  {
+   "type": "list",
+   "title": "En la mesa:",
+   "items": [
+    {
+     "jp": "お茶",
+     "kana": "おちゃ",
+     "romaji": "ocha",
+     "meaning": "té verde"
+    },
+    {
+     "jp": "お弁当",
+     "kana": "おべんとう",
+     "romaji": "obentō",
+     "meaning": "fiambrera, bentō"
+    },
+    {
+     "jp": "おいしい",
+     "romaji": "oishii",
+     "meaning": "rico, delicioso"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "¿Cuál conocías ya?",
+   "sub": "Escríbelo en los comentarios 👇"
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app"
+  }
+ ],
+ "lang": "es"
+}

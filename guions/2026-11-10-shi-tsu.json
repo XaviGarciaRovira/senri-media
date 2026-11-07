@@ -1,0 +1,51 @@
+{
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "¿Confundes **シ** y **ツ**?\nNo eres el único",
+   "big": "シ ツ"
+  },
+  {
+   "type": "compare",
+   "title": "Fíjate en la dirección",
+   "left": {
+    "char": "シ",
+    "romaji": "shi",
+    "label": "el trazo largo sube"
+   },
+   "right": {
+    "char": "ツ",
+    "romaji": "tsu",
+    "label": "el trazo largo baja"
+   },
+   "tip": "En シ los puntos van de lado y el trazo largo sube desde abajo. En ツ los puntos caen desde arriba, como lluvia."
+  },
+  {
+   "type": "list",
+   "title": "Ahora léelas:",
+   "items": [
+    {
+     "jp": "シャツ",
+     "romaji": "shatsu",
+     "meaning": "camisa"
+    },
+    {
+     "jp": "タクシー",
+     "romaji": "takushī",
+     "meaning": "taxi"
+    },
+    {
+     "jp": "スポーツ",
+     "romaji": "supōtsu",
+     "meaning": "deporte"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app"
+  }
+ ],
+ "lang": "es"
+}

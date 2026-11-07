@@ -1,0 +1,36 @@
+{
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Nivel N5:\n¿sabes qué significa?",
+   "big": "ねこ"
+  },
+  {
+   "type": "quiz",
+   "question": "¿Qué significa ねこ?",
+   "prompt": "猫",
+   "options": [
+    "perro",
+    "gato",
+    "pájaro"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "word",
+   "label": "Respuesta",
+   "jp": "猫",
+   "kana": "ねこ",
+   "romaji": "neko",
+   "meaning": "gato",
+   "note": "Y «perro» es 犬 (いぬ, inu).",
+   "reveal_at": 0.6
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app"
+  }
+ ],
+ "lang": "es"
+}

@@ -1,0 +1,44 @@
+{
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Uno es **persona** y el otro **entrar**.\n¿Cuál es cuál?",
+   "big": "人 入",
+   "sub": "Kanji del día #3"
+  },
+  {
+   "type": "kanji",
+   "k": "人",
+   "paths": [
+    "M54.5,20c0.37,2.12,0.23,4.03-0.22,6.27C51.68,39.48,38.25,72.25,16.5,87.25",
+    "M46,54.25c6.12,6,25.51,22.24,35.52,29.72c3.66,2.73,6.94,4.64,11.48,5.53"
+   ],
+   "meaning": "persona",
+   "reading": "ひと",
+   "romaji": "hito",
+   "hint": "Una persona caminando, vista de lado.",
+   "label": "Kanji del día #3 · 2 trazos"
+  },
+  {
+   "type": "compare",
+   "title": "No los confundas",
+   "left": {
+    "char": "人",
+    "romaji": "hito",
+    "label": "persona"
+   },
+   "right": {
+    "char": "入",
+    "romaji": "hairu (入る)",
+    "label": "entrar"
+   },
+   "tip": "En 入 el trazo largo es el de la **derecha**. En 人, el de la izquierda."
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app"
+  }
+ ],
+ "lang": "es"
+}

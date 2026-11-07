@@ -1,0 +1,17 @@
+{
+ "title": "シ o ツ: el truco",
+ "lang": "es",
+ "theme": "dark",
+ "scenes": [
+  {"type": "hook", "text": "¿Confundes **シ** y **ツ**?\nNo eres el único", "big": "シ ツ"},
+  {"type": "compare", "title": "Fíjate en la dirección", "left": {"char": "シ", "romaji": "shi", "label": "el trazo largo sube"}, "right": {"char": "ツ", "romaji": "tsu", "label": "el trazo largo baja"}, "tip": "En シ los puntos van de lado y el trazo largo sube desde abajo. En ツ los puntos caen desde arriba, como lluvia."},
+  {"type": "list", "title": "Ya puedes leer:", "items": [
+    {"jp": "シャツ", "romaji": "shatsu", "meaning": "camisa"},
+    {"jp": "先生", "kana": "せんせい", "romaji": "sensei", "meaning": "profesor"},
+    {"jp": "魚", "kana": "さかな", "romaji": "sakana", "meaning": "pez, pescado"}
+  ]},
+  {"type": "word", "label": "Bonus", "jp": "先生", "kana": "せんせい", "romaji": "sensei", "meaning": "profesor", "note": "También se usa con médicos y abogados."},
+  {"type": "text", "text": "Practica **5 minutos al día**", "sub": "y dejarás de confundirlos"},
+  {"type": "cta", "url": "senri-kappa.vercel.app"}
+ ]
+}
