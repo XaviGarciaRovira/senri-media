@@ -2,13 +2,8 @@
  "theme": "light",
  "scenes": [
   {
-   "type": "hook",
-   "text": "¿Ves la **montaña**\nen este kanji?",
-   "big": "山",
-   "sub": "Kanji del día #2"
-  },
-  {
    "type": "kanji",
+   "question": "¿Qué significa\neste kanji?",
    "k": "山",
    "paths": [
     "M52.49,15.5c1.38,1.38,2.26,3.5,2.26,5.75c0,0.75-0.22,58.3-0.25,59.25",
@@ -19,22 +14,24 @@
    "reading": "やま",
    "romaji": "yama",
    "hint": "Tres cumbres.",
-   "label": "Kanji del día #2 · 3 trazos"
+   "label": "Kanji del día #2 · N5"
   },
   {
    "type": "quiz",
-   "question": "¿Y este qué significa?",
+   "question": "¿Y este?",
    "prompt": "川",
    "options": [
     "montaña",
     "río",
     "árbol"
    ],
-   "answer": 1
+   "answer": 1,
+   "countdown": 2
   },
   {
    "type": "cta",
-   "url": "senri-kappa.vercel.app"
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
   }
  ],
  "lang": "es"

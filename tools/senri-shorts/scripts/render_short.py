@@ -84,11 +84,13 @@ def scene_hook(s):
 
 def scene_kanji(s):
     paths = s.get("paths") or []
-    per, gap = s.get("stroke_time", 0.55), 0.12
+    per, gap = s.get("stroke_time", 0.45), 0.1
+    # Amb «question», l'escena fa de ganxo: la pregunta ja és al fotograma 0 i el traç comença tot seguit.
+    t0 = 0.05 if s.get("question") else 0.3
     strokes = "".join(
-        f'<path d="{html.escape(p)}" pathLength="1" style="animation:draw {per}s ease-in-out {0.3 + i * (per + gap):.2f}s both"/>'
+        f'<path d="{html.escape(p)}" pathLength="1" style="animation:draw {per}s ease-in-out {t0 + i * (per + gap):.2f}s both"/>'
         for i, p in enumerate(paths))
-    t_end = 0.3 + len(paths) * (per + gap)
+    t_end = t0 + len(paths) * (per + gap)
     if paths:
         glyph = f'''<svg class="t strokes" viewBox="0 0 109 109">
           <g class="guide"><line x1="54.5" y1="0" x2="54.5" y2="109"/><line x1="0" y1="54.5" x2="109" y2="54.5"/></g>
@@ -97,15 +99,19 @@ def scene_kanji(s):
         glyph = f'<div class="t big kana" {anim("pop", .2, .5)}>{html.escape(s["k"])}</div>'
         t_end = 0.8
     reading = " · ".join(x for x in [s.get("reading"), s.get("romaji")] if x)
-    parts = [f'<div class="t chip" {anim("up", 0)}>{fmt(s.get("label", "Kanji N5"))}</div>', glyph,
+    top = (f'<div class="t title">{fmt(s["question"])}</div>' if s.get("question")
+           else f'<div class="t chip" {anim("up", 0)}>{fmt(s.get("label", "Kanji N5"))}</div>')
+    parts = [top, glyph,
              f'<div class="t meaning" {anim("up", t_end)}>{fmt(s.get("meaning", ""))}</div>']
     if reading:
         parts.append(f'<div class="t reading kana" {anim("up", t_end + .35)}>{html.escape(reading)}</div>')
     if s.get("hint"):
         parts.append(f'<div class="t hint" {anim("up", t_end + .7)}>{fmt(s["hint"])}</div>')
+    if s.get("question") and s.get("label"):
+        parts.append(f'<div class="t chip" {anim("up", t_end + .9)}>{fmt(s["label"])}</div>')
     if s.get("strokes_label"):
         parts.insert(1, f'<div class="t small muted" {anim("up", .1)}>{fmt(s["strokes_label"])}</div>')
-    return f'<div class="stack center">{"".join(parts)}</div>', t_end + 2.6
+    return f'<div class="stack center">{"".join(parts)}</div>', t_end + 2.2
 
 
 def scene_word(s):
@@ -152,7 +158,8 @@ def scene_quiz(s):
         items.append(f'<div class="t opt" style="{fx}"><span class="optl">{"ABCD"[i]}</span>{fmt(o)}{mark}</div>')
     nums = "".join(
         f'<div class="num" style="animation:tick 1s linear {0.9 + k}s both">{count - k}</div>' for k in range(count))
-    prompt = f'<div class="t big kana q">{html.escape(s["prompt"])}</div>' if s.get("prompt") else ""
+    prompt = (f'<div class="t big kana q" style="font-size:{big_size(s["prompt"], 300)}px">'
+              f'{html.escape(s["prompt"])}</div>') if s.get("prompt") else ""
     return f'''<div class="stack center">
         <div class="t title">{fmt(s.get("question", "¿Qué significa?"))}</div>
         {prompt}
@@ -170,7 +177,7 @@ def scene_list(s):
             <span class="lj kana">{jp(it["jp"], it.get("kana"))}</span>
             <span class="lm">{fmt(it.get("meaning", ""))}{rom}</span></div>''')
     return f'''<div class="stack">
-        <div class="t title left" {anim("up", 0)}>{fmt(s["title"])}</div>
+        <div class="t title left">{fmt(s["title"])}</div>
         <div class="list">{"".join(rows)}</div></div>''', 0.5 + len(s["items"]) * step + 1.8
 
 
@@ -388,6 +395,16 @@ def main():
     lst.write_text("".join(f"file '{x}'\n" for x in files))
     video = work / "video.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(video)])
+    if spec.get("progress", True):
+        # Barra fina just a sobre del logo que avança durant tot el vídeo: dona moviment des del
+        # primer fotograma i diu «és curt, queda poc».
+        bar_color = THEMES[theme]["accent"].lstrip("#")
+        barred = work / "barred.mp4"
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-f", "lavfi",
+             "-i", f"color=c=0x{bar_color}:s={W}x10:r={FPS}",
+             "-filter_complex", f"[0:v][1:v]overlay=x='-w+w*t/{total:.3f}':y=196:shortest=1:eval=frame,format=yuv420p",
+             "-c:v", "libx264", "-preset", "veryfast", "-crf", a.crf, "-r", str(FPS), str(barred)])
+        video = barred
     tmp_out = out.with_name(out.stem + ".tmp.mp4")
     if a.audio:
         fade = max(total - 1.5, 0)

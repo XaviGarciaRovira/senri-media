@@ -12,12 +12,18 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 ## Publicats i programats
 | Data | Hora | Sèrie | Contingut | Xarxes | Estat |
 |---|---|---|---|---|---|
-| 2026-11-07 | 20:30 | Kanji del día #1 | 水 (quiz: 火) | IG, YT, TikTok | publicat · IG ~500, YT ~380, TikTok 1 (dades de l'usuari, 23 h) |
+| 2026-11-07 | 20:30 | Kanji del día #1 | 水 (quiz: 火) | IG, YT, TikTok | publicat · dades al resum de sota |
 | 2026-11-09 | 20:30 | Kanji del día #2 | 山 (quiz: 川) | IG, YT | esborrany |
 | 2026-11-10 | 13:30 | Parelles #1 | シ / ツ · シャツ, タクシー, スポーツ | IG, YT | esborrany |
 | 2026-11-11 | 20:30 | ¿Qué significa? #1 | ねこ 猫 (perro/gato/pájaro) · 犬 | IG, YT | esborrany |
-| 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 | IG, YT | esborrany |
+| 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 (quiz «¿cuál significa entrar?») | IG, YT | esborrany |
 | 2026-11-13 | 20:30 | 3 palabras de… #1 | comida: お茶, お弁当, おいしい | IG, YT | esborrany |
+
+## Resum del primer vídeo (8 nov, ~13 h després)
+- Instagram: 1.835 visualitzacions, 1.454 comptes, 93 m'agrada, 8 comentaris, 18 guardats, 11 republicacions. 86,5 % no seguidors. Edat: 25–34 36 %, 18–24 29 %, 13–17 20 %. Temps mitjà 6,9 s de 17 s; només el 46,6 % passa dels 3 s.
+- YouTube: 1.067 visualitzacions, 7 m'agrada, 5 comentaris, +1 subscriptor (dades de l'app; Metricool encara no les té). La corba s'aplana al cap d'unes hores.
+- TikTok: 1 visualització. Escalfament del compte fins al 22 nov.
+- Decisions: obertura amb moviment des del fotograma 0 (traç que comença de seguida o quiz directe), barra de progrés, vídeos de 10–14 s, compte enrere de 2 s. Vídeos de la setmana del 9 nov refets amb aquests canvis (fitxers -v2).
 
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13). La pròxima: 7.

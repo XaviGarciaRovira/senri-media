@@ -2,14 +2,9 @@
  "theme": "light",
  "scenes": [
   {
-   "type": "hook",
-   "text": "3 palabras para tu\nprimera comida en **Japón**",
-   "big": "🍱",
-   "sub": "Vocabulario N5"
-  },
-  {
    "type": "list",
-   "title": "En la mesa:",
+   "title": "3 palabras para tu primera comida en **Japón** 🍱",
+   "step": 1.0,
    "items": [
     {
      "jp": "お茶",
@@ -33,11 +28,13 @@
   {
    "type": "text",
    "text": "¿Cuál conocías ya?",
-   "sub": "Escríbelo en los comentarios 👇"
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
   },
   {
    "type": "cta",
-   "url": "senri-kappa.vercel.app"
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
   }
  ],
  "lang": "es"

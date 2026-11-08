@@ -3,8 +3,10 @@
  "scenes": [
   {
    "type": "hook",
-   "text": "¿Confundes **シ** y **ツ**?\nNo eres el único",
-   "big": "シ ツ"
+   "text": "¿**シ** o **ツ**?",
+   "big": "シ ツ",
+   "sub": "El truco para no confundirlas",
+   "duration": 1.8
   },
   {
    "type": "compare",
@@ -19,11 +21,13 @@
     "romaji": "tsu",
     "label": "el trazo largo baja"
    },
-   "tip": "En シ los puntos van de lado y el trazo largo sube desde abajo. En ツ los puntos caen desde arriba, como lluvia."
+   "tip": "En シ los puntos van de lado y el trazo largo sube desde abajo. En ツ los puntos caen desde arriba, como lluvia.",
+   "tip_at": 1.1
   },
   {
    "type": "list",
    "title": "Ahora léelas:",
+   "step": 0.9,
    "items": [
     {
      "jp": "シャツ",
@@ -44,7 +48,8 @@
   },
   {
    "type": "cta",
-   "url": "senri-kappa.vercel.app"
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
   }
  ],
  "lang": "es"
