@@ -14,7 +14,8 @@
    "reading": "やま",
    "romaji": "yama",
    "hint": "Tres cumbres.",
-   "label": "Kanji del día #2 · N5"
+   "label": "Kanji del día #2 · N5",
+   "stroke_time": 0.55
   },
   {
    "type": "quiz",
@@ -26,7 +27,7 @@
     "árbol"
    ],
    "answer": 1,
-   "countdown": 2
+   "countdown": 3
   },
   {
    "type": "cta",

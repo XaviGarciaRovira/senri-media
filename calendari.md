@@ -23,7 +23,9 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - Instagram: 1.835 visualitzacions, 1.454 comptes, 93 m'agrada, 8 comentaris, 18 guardats, 11 republicacions. 86,5 % no seguidors. Edat: 25–34 36 %, 18–24 29 %, 13–17 20 %. Temps mitjà 6,9 s de 17 s; només el 46,6 % passa dels 3 s.
 - YouTube: 1.067 visualitzacions, 7 m'agrada, 5 comentaris, +1 subscriptor (dades de l'app; Metricool encara no les té). La corba s'aplana al cap d'unes hores.
 - TikTok: 1 visualització. Escalfament del compte fins al 22 nov.
-- Decisions: obertura amb moviment des del fotograma 0 (traç que comença de seguida o quiz directe), barra de progrés, vídeos de 10–14 s, compte enrere de 2 s. Vídeos de la setmana del 9 nov refets amb aquests canvis (fitxers -v2).
+- Lectura: si el 53 % marxa abans dels 3 s i la mitjana és 6,9 s, els que es queden en veuen uns 13 de 17 (≈75–80 %). El problema és l'obertura, no el mig.
+- Decisions: obertura amb moviment des del fotograma 0 (traç que comença de seguida o quiz directe) i barra de progrés. Es manté el compte enrere de 3 s i la velocitat del traç (no es toca el que funciona). Vídeos de la setmana del 9 nov refets (fitxers -v3).
+- A comprovar amb la setmana del 9 nov: % que passa dels 3 s (abans 46,6 %) i temps mitjà. Comparar amb almenys 5 vídeos abans de treure conclusions.
 
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13). La pròxima: 7.
