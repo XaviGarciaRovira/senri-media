@@ -36,6 +36,7 @@ Fes-la servir sempre com a primera escena. Durada típica 2–3 s.
 | `meaning`, `reading`, `romaji`, `hint` | apareixen quan s'acaba de dibuixar |
 | `label` | xip de dalt, per defecte «Kanji N5» (p. ex. «Kanji N5 · 4 trazos») |
 | `stroke_time` | segons per traç (0,45 per defecte) |
+| `teaser` | frase que surt just amb la resposta i anuncia el que ve (p. ex. «Quédate: al final, un **reto** 👀»). Al primer vídeo, la gent marxava just quan sortia el significat |
 | `question` | pregunta a dalt, visible des del fotograma 0; el traç comença tot seguit i l'escena fa de ganxo. Amb `question`, el `label` surt al final com a xip |
 
 ### `word` — paraula amb furigana

@@ -107,6 +107,9 @@ def scene_kanji(s):
         parts.append(f'<div class="t reading kana" {anim("up", t_end + .35)}>{html.escape(reading)}</div>')
     if s.get("hint"):
         parts.append(f'<div class="t hint" {anim("up", t_end + .7)}>{fmt(s["hint"])}</div>')
+    if s.get("teaser"):
+        # Just quan surt la resposta és quan més gent marxa: deixa una porta oberta cap al que ve.
+        parts.append(f'<div class="t tip" {anim("up", t_end + .3)}>{fmt(s["teaser"])}</div>')
     if s.get("question") and s.get("label"):
         parts.append(f'<div class="t chip" {anim("up", t_end + .9)}>{fmt(s["label"])}</div>')
     if s.get("strokes_label"):

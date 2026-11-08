@@ -3,7 +3,7 @@
  "scenes": [
   {
    "type": "kanji",
-   "question": "¿Qué significa\neste kanji?",
+   "question": "Kanji del día #2\n¿Qué significa?",
    "k": "山",
    "paths": [
     "M52.49,15.5c1.38,1.38,2.26,3.5,2.26,5.75c0,0.75-0.22,58.3-0.25,59.25",
@@ -13,9 +13,8 @@
    "meaning": "montaña",
    "reading": "やま",
    "romaji": "yama",
-   "hint": "Tres cumbres.",
-   "label": "Kanji del día #2 · N5",
-   "stroke_time": 0.55
+   "stroke_time": 0.55,
+   "teaser": "Quédate: al final, un **reto** 👀"
   },
   {
    "type": "quiz",

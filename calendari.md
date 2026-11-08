@@ -25,6 +25,8 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - TikTok: 1 visualització. Escalfament del compte fins al 22 nov.
 - Lectura: si el 53 % marxa abans dels 3 s i la mitjana és 6,9 s, els que es queden en veuen uns 13 de 17 (≈75–80 %). El problema és l'obertura, no el mig.
 - Decisions: obertura amb moviment des del fotograma 0 (traç que comença de seguida o quiz directe) i barra de progrés. Es manté el compte enrere de 3 s i la velocitat del traç (no es toca el que funciona). Vídeos de la setmana del 9 nov refets (fitxers -v3).
+- Corba de retenció d'Instagram (8 nov): ~80 % a 1 s, ~60 % a 2 s, ~47 % a 3 s (omissió 53,1 %); baixa a poc a poc fins a ~27 % als 9 s, just quan s'acaba l'escena del kanji i surt el significat; durant el quiz es manté pla (~25→21 %); cau al tancament (~12 %). Orígens: pestanya Reels 63,6 %, Històries 21,6 % (republicacions), Explorar 6,6 %. 9 seguidors nous. Lectura corregida: l'obertura és la pèrdua principal, però també es perd gent quan surt la resposta; el quiz aguanta bé.
+- Canvi afegit: en els vídeos de kanji, una frase que surt amb la resposta i anuncia el repte final (camp `teaser`).
 - A comprovar amb la setmana del 9 nov: % que passa dels 3 s (abans 46,6 %) i temps mitjà. Comparar amb almenys 5 vídeos abans de treure conclusions.
 
 ## Llavors de música fetes servir
