@@ -11,6 +11,7 @@
 ```
 
 - `theme`: `light` (paper washi, per defecte) o `dark` (bosc de nit). Alterna'ls entre vídeos perquè el perfil no sigui monòton.
+- `progress`: barra fina a dalt que avança durant tot el vídeo (per defecte `true`).
 - `brand`: logo i «Senri» a dalt a l'esquerra (per defecte `true`). L'escena `cta` no el porta perquè ja mostra el logo gran.
 - Cada escena accepta `duration` (segons). Si no la poses, el script calcula el temps que necessiten les animacions més un marge de lectura. Posa-la quan vulguis un ritme concret.
 - Text: `**paraula**` surt en vermell 朱 (èmfasi) i `\n` és un salt de línia. Fes servir l'èmfasi en una o dues paraules per escena, no més.
@@ -34,7 +35,8 @@ Fes-la servir sempre com a primera escena. Durada típica 2–3 s.
 | `paths` | traços KanjiVG de `lookup.mjs` (si falten, es mostra el kanji sense animació) |
 | `meaning`, `reading`, `romaji`, `hint` | apareixen quan s'acaba de dibuixar |
 | `label` | xip de dalt, per defecte «Kanji N5» (p. ex. «Kanji N5 · 4 trazos») |
-| `stroke_time` | segons per traç (0,55 per defecte) |
+| `stroke_time` | segons per traç (0,45 per defecte) |
+| `question` | pregunta a dalt, visible des del fotograma 0; el traç comença tot seguit i l'escena fa de ganxo. Amb `question`, el `label` surt al final com a xip |
 
 ### `word` — paraula amb furigana
 `jp`, `kana` (furigana si `jp` porta kanji), `romaji`, `meaning`, `note`, `label`, `reveal_at` (segon en què apareix el significat; 1,2 per defecte; dona temps a l'espectador per endevinar).

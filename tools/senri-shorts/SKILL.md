@@ -26,9 +26,9 @@ Un vídeo, una idea. Escull el format segons l'objectiu:
 
 | Format | Escenes | Per què funciona |
 |---|---|---|
-| **Kanji en 15 s** | `hook` → `kanji` → `quiz` d'un altre kanji → `cta` | El traçat animat enganxa i el quiz final genera comentaris |
+| **Kanji en 12 s** | `kanji` amb `question` → `quiz` d'un altre kanji → `cta` (2,5 s) | El traçat animat enganxa i el quiz final genera comentaris |
 | **Parella que es confon** (シ/ツ, ソ/ン, ぬ/め, わ/ね…) | `hook` → `compare` → `list` amb paraules que la porten → `cta` | Resol un problema que tothom ha tingut; es guarda molt |
-| **¿Qué significa?** | `hook` → `quiz` → `word` amb la resposta i un ús → `cta` | La gent comenta abans de veure la resposta |
+| **¿Qué significa?** | `quiz` directe → `word` amb la resposta i un ús → `cta` | La gent comenta abans de veure la resposta |
 | **3 paraules de…** (menjar, família, viatge) | `hook` → `list` → `text` → `cta` | Útil i fàcil de guardar |
 | **Error típic** | `hook` («No digas X») → `compare` o `word` → `text` | La versió «error primer» és de les que més retenen en vídeos d'idiomes |
 | **Sèrie** («Kanji del día #3») | igual que el format base, amb el número al `label` | Fa tornar la gent i ordena el perfil |
@@ -39,9 +39,10 @@ Les dades dels kanji de cada unitat (`k-1` … ) donen sèries fetes: una unitat
 
 Llegeix `references/spec.md` per als camps de cada escena. Criteris que fan que un vídeo es vegi fins al final:
 
+- **Moviment des del fotograma 0 (dades pròpies).** Al primer vídeo, amb un `hook` de text quiet, el 53 % de la gent va marxar abans dels 3 s, i la resta en va mirar 6,9 s de 17. Per això: obre amb una escena que ja es mou i ja planteja la pregunta: `kanji` amb `question` (el traç comença a 0,05 s), `quiz` directe (la pregunta i el caràcter són al fotograma 0) o `list` amb el títol com a ganxo. Fes servir `hook` només de 1,5–2 s. La barra de progrés de dalt (activada per defecte) també dona moviment i diu «és curt».
 - **El primer fotograma ho decideix tot.** La gent decideix en un segon i mig si s'atura, i molts el veuen sense so. El `hook` ja és visible a t=0: ha de dir per què val la pena quedar-se en 10 paraules o menys. Escriu-ne tres variants mentalment (pregunta, repte, error, curiositat) i queda't amb la més concreta.
 - **Res inventat.** Cap estadística («el 90 % s'equivoca»), cap promesa («japonès en 7 dies»). Senri és experimental i gratuïta: aquest és l'argument, i és cert.
-- **Durada: 15–30 s.** Un canvi visual cada 2–4 s; el script ja anima l'entrada de cada element. Per sota de 10 s sembla incomplet; per sobre de 35 s cau la retenció.
+- **Durada: 10–15 s** per als formats de quiz i kanji (`countdown: 2`); fins a 25 s si el vídeo té més contingut. Abans: **15–30 s.** Un canvi visual cada 2–4 s; el script ja anima l'entrada de cada element. Per sota de 10 s sembla incomplet; per sobre de 35 s cau la retenció.
 - **Temps per pensar.** En un quiz o en una paraula, deixa 2–3 s abans de la resposta (`countdown`, `reveal_at`): és aquí on l'espectador participa.
 - **Tancament curt.** La `cta` no passa de 3 s. Si el vídeo acaba amb una pregunta oberta («¿Y este?»), el bucle fa que molts el tornin a veure.
 - **Nivell clar.** Diu «N5» o «principiantes» en algun lloc perquè cadascú sàpiga si és per a ell.
