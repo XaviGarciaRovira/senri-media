@@ -91,10 +91,12 @@ def scene_kanji(s):
         f'<path d="{html.escape(p)}" pathLength="1" style="animation:draw {per}s ease-in-out {t0 + i * (per + gap):.2f}s both"/>'
         for i, p in enumerate(paths))
     t_end = t0 + len(paths) * (per + gap)
+    # Amb «question», el kanji sencer ja es veu en gris des del fotograma 0: la pantalla mai surt buida.
+    ghost = ('<g class="ghost">' + "".join(f'<path d="{html.escape(p)}"/>' for p in paths) + '</g>') if s.get("question") else ""
     if paths:
         glyph = f'''<svg class="t strokes" viewBox="0 0 109 109">
           <g class="guide"><line x1="54.5" y1="0" x2="54.5" y2="109"/><line x1="0" y1="54.5" x2="109" y2="54.5"/></g>
-          <g class="ink">{strokes}</g></svg>'''
+          {ghost}<g class="ink">{strokes}</g></svg>'''
     else:
         glyph = f'<div class="t big kana" {anim("pop", .2, .5)}>{html.escape(s["k"])}</div>'
         t_end = 0.8
@@ -175,13 +177,15 @@ def scene_list(s):
     rows = []
     for i, it in enumerate(s["items"]):
         d = 0.5 + i * step
+        # El primer element ja és a la pantalla al fotograma 0: el títol sol no fa que la gent s'aturi.
+        fx = "" if i == 0 else anim("up", d - step)
         rom = f'<span class="lr">{html.escape(it.get("romaji", ""))}</span>' if it.get("romaji") else ""
-        rows.append(f'''<div class="t li" {anim("up", d)}>
+        rows.append(f'''<div class="t li" {fx}>
             <span class="lj kana">{jp(it["jp"], it.get("kana"))}</span>
             <span class="lm">{fmt(it.get("meaning", ""))}{rom}</span></div>''')
     return f'''<div class="stack">
         <div class="t title left">{fmt(s["title"])}</div>
-        <div class="list">{"".join(rows)}</div></div>''', 0.5 + len(s["items"]) * step + 1.8
+        <div class="list">{"".join(rows)}</div></div>''', 0.5 + (len(s["items"]) - 1) * step + 1.8
 
 
 def scene_text(s):
@@ -242,6 +246,7 @@ em{{font-style:normal;color:{c['shu']}}}
 .chip{{align-self:center;background:{c['accent_soft']};color:{c['accent']};border-radius:999px;padding:10px 30px;font-size:38px;font-weight:700}}
 .strokes{{width:600px;height:600px;background:{c['surface']};border:3px solid {c['line']};border-radius:36px}}
 .strokes .guide line{{stroke:{c['grid']};stroke-width:.6;stroke-dasharray:2 2}}
+.strokes .ghost path{{fill:none;stroke:{c['grid']};stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round}}
 .strokes .ink path{{fill:none;stroke:{c['ink']};stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1}}
 .row{{display:flex;gap:40px;justify-content:center}}
 .card{{background:{c['surface']};border:3px solid {c['line']};border-radius:40px;padding:40px 30px 34px;width:390px;display:flex;flex-direction:column;align-items:center;gap:14px}}

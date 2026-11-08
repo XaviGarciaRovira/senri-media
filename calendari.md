@@ -32,5 +32,11 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - Canvi afegit: en els vídeos de kanji, una frase que surt amb la resposta i anuncia el repte final (camp `teaser`).
 - A comprovar amb la setmana del 9 nov: % que passa dels 3 s (abans 46,6 %) i temps mitjà. Comparar amb almenys 5 vídeos abans de treure conclusions.
 
+## Resum del vídeo 一二三四 (8 nov, 3 h després)
+- Instagram: 327 visualitzacions, 253 comptes, omissió 67,2 % (pitjor que el 水: 53,1 %), temps mitjà 5 s, 7 m'agrada, 1 comentari, 1 guardat, 2 republicacions, 0 seguidors nous. Orígens: Històries 50,3 %, pestanya Reels 34 %. 70,6 % no seguidors.
+- YouTube: 582 visualitzacions en 3 h, 5 m'agrada, 1 comentari.
+- Lectura: el primer fotograma només tenia el títol (els kanji entraven als 0,5 s) i era fosc i buit. El del 水 tenia un kanji gran visible i va retenir més. Hipòtesi: cal un caràcter gran visible al fotograma 0.
+- Canvis: escena kanji amb question mostra el kanji en gris des del fotograma 0; la llista mostra el primer element des del fotograma 0. Refets 山 (-v5) i comida (-v4).
+
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15). La pròxima: 10.
