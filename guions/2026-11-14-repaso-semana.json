@@ -1,0 +1,49 @@
+{
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "quiz",
+   "question": "Repaso de la semana (1/3)\n¿Qué significa?",
+   "prompt": "山",
+   "options": [
+    "río",
+    "montaña",
+    "árbol"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "quiz",
+   "question": "Repaso (2/3)\n¿Cómo se lee?",
+   "prompt": "シャツ",
+   "options": [
+    "tsatsu",
+    "shatsu",
+    "shashi"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "quiz",
+   "question": "Repaso (3/3)\n¿Cuál significa «entrar»?",
+   "prompt": "人 入",
+   "options": [
+    "el de la izquierda",
+    "el de la derecha"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "text",
+   "text": "¿Cuántas acertaste?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

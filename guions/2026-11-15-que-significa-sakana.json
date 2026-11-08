@@ -1,0 +1,32 @@
+{
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "quiz",
+   "question": "Nivel N5: ¿qué significa?",
+   "prompt": "さかな",
+   "options": [
+    "carne",
+    "pescado",
+    "arroz"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "word",
+   "label": "Con kanji",
+   "jp": "魚",
+   "kana": "さかな",
+   "romaji": "sakana",
+   "meaning": "pescado, pez",
+   "note": "Y «carne» es 肉 (にく, niku).",
+   "reveal_at": 0.4
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

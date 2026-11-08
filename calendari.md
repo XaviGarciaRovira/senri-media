@@ -4,20 +4,24 @@ Registre de tot el que es publica, per no repetir contingut i per seguir les sè
 Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus Europe/Madrid.
 
 ## Pla vigent (des del 9 nov 2026)
-- Instagram + YouTube: 5 vídeos/setmana (dl–dv), programats per Claude a Metricool com a esborrany; s'aproven abans de programar.
+- Instagram + YouTube: 7 vídeos/setmana (cada dia, des del 8 nov), programats per Claude a Metricool com a esborrany; s'aproven abans de programar.
 - TikTok: setmanes del 9 i 16 nov sense publicar (escalfar el compte); després, 3/setmana pujats per Xavi des de l'app amb un so en tendència.
-- Hores en prova: alternar 13:30 i 20:30 dues setmanes i quedar-se amb la millor.
-- Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc «¿Qué significa?» · dv «3 palabras de…». Un format nou per setmana com a Trial Reel.
+- Hores en prova: entre setmana alternar 13:30 i 20:30; dissabte 20:30; diumenge 11:30 (prova de matí). Al cap de 2–3 setmanes comparar entre setmana vs cap de setmana i matí vs vespre.
+- Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc «¿Qué significa?» · dv «3 palabras de…» · ds «Repaso de la semana» (3 quiz amb el contingut de dl–dv) · dg format lliure/quiz (un format nou per setmana pot anar com a Trial Reel).
 
 ## Publicats i programats
 | Data | Hora | Sèrie | Contingut | Xarxes | Estat |
 |---|---|---|---|---|---|
 | 2026-11-07 | 20:30 | Kanji del día #1 | 水 (quiz: 火) | IG, YT, TikTok | publicat · dades al resum de sota |
+| 2026-11-08 | 20:30 | Especial | 一 二 三 i quiz amb 四 (よん/し) | IG, YT | esborrany |
 | 2026-11-09 | 20:30 | Kanji del día #2 | 山 (quiz: 川) | IG, YT | programat |
 | 2026-11-10 | 13:30 | Parelles #1 | シ / ツ · シャツ, タクシー, スポーツ | IG, YT | programat |
 | 2026-11-11 | 20:30 | ¿Qué significa? #1 | ねこ 猫 (perro/gato/pájaro) · 犬 | IG, YT | programat |
 | 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 (quiz «¿cuál significa entrar?») | IG, YT | programat |
 | 2026-11-13 | 20:30 | 3 palabras de… #1 | comida: お茶, お弁当, おいしい | IG, YT | programat |
+
+| 2026-11-14 | 20:30 | Repaso de la semana #1 | 山 · シャツ · 人/入 | IG, YT | esborrany |
+| 2026-11-15 | 11:30 | ¿Qué significa? #2 | さかな 魚 (carne/pescado/arroz) · 肉 | IG, YT | esborrany |
 
 ## Resum del primer vídeo (8 nov, ~13 h després)
 - Instagram: 1.835 visualitzacions, 1.454 comptes, 93 m'agrada, 8 comentaris, 18 guardats, 11 republicacions. 86,5 % no seguidors. Edat: 25–34 36 %, 18–24 29 %, 13–17 20 %. Temps mitjà 6,9 s de 17 s; només el 46,6 % passa dels 3 s.
@@ -30,4 +34,4 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - A comprovar amb la setmana del 9 nov: % que passa dels 3 s (abans 46,6 %) i temps mitjà. Comparar amb almenys 5 vídeos abans de treure conclusions.
 
 ## Llavors de música fetes servir
-1 (11-07), 2–6 (11-09 a 11-13). La pròxima: 7.
+1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15). La pròxima: 10.

@@ -1,0 +1,53 @@
+{
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "list",
+   "title": "Si sabes contar rayas,\nya lees **3 kanji**",
+   "step": 0.9,
+   "items": [
+    {
+     "jp": "一",
+     "romaji": "ichi",
+     "meaning": "uno"
+    },
+    {
+     "jp": "二",
+     "romaji": "ni",
+     "meaning": "dos"
+    },
+    {
+     "jp": "三",
+     "romaji": "san",
+     "meaning": "tres"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "question": "Fácil, ¿no? ¿Y este?",
+   "prompt": "四",
+   "options": [
+    "cuatro",
+    "cinco",
+    "seis"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "word",
+   "label": "Sorpresa",
+   "jp": "四",
+   "romaji": "yon · shi",
+   "meaning": "cuatro",
+   "note": "No son cuatro rayas 😅",
+   "reveal_at": 0.4
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}
