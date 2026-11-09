@@ -47,7 +47,7 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 | 水 | YT | 1.067 (app, 8 nov) | – | – | – | – | – | 5 | 7 |
 | 水 | TikTok | 5 | – | – | – | – | – | 4 | 4 |
 | 一二三四 (8 nov, ds 20:30) | IG | 363 | 277 | 33,9 % | 5,6 s | 1 | 1 | 1 | 10 |
-| 一二三四 | YT | 582 (app, 3 h) | – | – | – | – | – | 1 | 5 |
+| 一二三四 | YT | 878 (app, 13 h; corba plana des de ~4 h) | – | – | – | – | – | 1 | 7 |
 
 - Millor: 水 (IG ×5,8 visualitzacions, ×18 guardats, 45 % passa dels 3 s). Pitjor: 一二三四 (33,9 % passa dels 3 s, 1 guardat). Diferència principal: el 水 obria amb un kanji gran; el 一二三四 amb un títol sobre fons buit. Amb només 2 vídeos no és concloent (l'IG del 8 nov també té menys hores i més Històries).
 - 13:30 vs 20:30: encara no es pot comparar (cap vídeo a les 13:30; el primer és el dt 10 nov).
