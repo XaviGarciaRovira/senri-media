@@ -5,7 +5,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 
 ## Pla vigent (des del 9 nov 2026)
 - Instagram + YouTube: 7 vídeos/setmana (cada dia, des del 8 nov), programats per Claude a Metricool com a esborrany; s'aproven abans de programar.
-- TikTok: setmanes del 9 i 16 nov sense publicar (escalfar el compte); després, 3/setmana pujats per Xavi des de l'app amb un so en tendència.
+- TikTok: setmanes del 9 i 16 nov sense publicar (escalfar el compte; en curs, acaba el 22 nov); després, 3/setmana pujats per Xavi des de l'app amb un so en tendència.
 - Hores en prova: entre setmana alternar 13:30 i 20:30; dissabte 20:30; diumenge 11:30 (prova de matí). Al cap de 2–3 setmanes comparar entre setmana vs cap de setmana i matí vs vespre.
 - Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc «¿Qué significa?» · dv «3 palabras de…» · ds «Repaso de la semana» (3 quiz amb el contingut de dl–dv) · dg format lliure/quiz (un format nou per setmana pot anar com a Trial Reel).
 
@@ -37,6 +37,25 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - YouTube: 582 visualitzacions en 3 h, 5 m'agrada, 1 comentari.
 - Lectura: el primer fotograma només tenia el títol (els kanji entraven als 0,5 s) i era fosc i buit. El del 水 tenia un kanji gran visible i va retenir més. Hipòtesi: cal un caràcter gran visible al fotograma 0.
 - Canvis: escena kanji amb question mostra el kanji en gris des del fotograma 0; la llista mostra el primer element des del fotograma 0. Refets 山 (-v5) i comida (-v4).
+
+## Resum setmana del 2 nov 2026 (dades de Metricool, 9 nov 8:45)
+Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no dona la retenció en % d'IG ni cap mètrica de YouTube (només títols); YouTube amb les últimes dades de l'app.
+
+| Vídeo | Xarxa | Visualitzacions | Abast | Passen dels 3 s | Temps mitjà | Guardats | Compartits | Comentaris | M'agrada |
+|---|---|---|---|---|---|---|---|---|---|
+| 水 (7 nov, dv 20:30) | IG | 2.118 | 1.606 | 45,0 % | 6,9 s / 17 s | 18 | 4 | 11 | 98 |
+| 水 | YT | 1.067 (app, 8 nov) | – | – | – | – | – | 5 | 7 |
+| 水 | TikTok | 5 | – | – | – | – | – | 4 | 4 |
+| 一二三四 (8 nov, ds 20:30) | IG | 363 | 277 | 33,9 % | 5,6 s | 1 | 1 | 1 | 10 |
+| 一二三四 | YT | 582 (app, 3 h) | – | – | – | – | – | 1 | 5 |
+
+- Millor: 水 (IG ×5,8 visualitzacions, ×18 guardats, 45 % passa dels 3 s). Pitjor: 一二三四 (33,9 % passa dels 3 s, 1 guardat). Diferència principal: el 水 obria amb un kanji gran; el 一二三四 amb un títol sobre fons buit. Amb només 2 vídeos no és concloent (l'IG del 8 nov també té menys hores i més Històries).
+- 13:30 vs 20:30: encara no es pot comparar (cap vídeo a les 13:30; el primer és el dt 10 nov).
+- TikTok: 5 visualitzacions; escalfament en curs (9–22 nov), sense publicar.
+- Decisions per a la setmana del 9 nov:
+  1. Mantenir el caràcter gran al fotograma 0 en tots els vídeos (ja aplicat als -v3/-v4/-v5) i mesurar-ho: objectiu ≥ 45 % que passa dels 3 s i temps mitjà ≥ 7 s.
+  2. Repetir el format «un sol kanji + quiz» (Kanji del día); vigilar el format llista (3 palabras de… dv 13) i el Repaso (ds 14), que s'assemblen al 一二三四.
+  3. Hores: mantenir l'alternança 13:30/20:30 i comparar dt 10 i dj 12 (13:30) amb dl 9, dc 11 i dv 13 (20:30). Dades de YouTube a mà fins que Metricool les doni.
 
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15). La pròxima: 10.
