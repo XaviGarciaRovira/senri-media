@@ -59,7 +59,7 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 
 ## Resum del vídeo 山 (9 nov, 14 h després)
 - Instagram: 362 visualitzacions, 276 comptes, omissió 66,4 % (igual que 一二三四), temps mitjà 4 s de 12, 10 m'agrada, 1 comentari, 2 guardats, 3 republicacions, 0 seguidors nous. Orígens: Històries 42,8 %, Reels 34 %, Feed 17,8 %. 67 % no seguidors.
-- YouTube: 418 visualitzacions en 14 h, 2 m'agrada, 1 comentari (s'atura al cap de 2–3 h).
+- YouTube: 418 visualitzacions en 14 h, 2 m'agrada, 1 comentari (s'atura al cap de 2–3 h). Vist vs lliscat: 20,3 % es van quedar, 79,7 % van lliscar. 404 de 418 venen del feed de Shorts, 9 de la cerca. 89 «visualitzacions interessades».
 - Lectura: el kanji en gris dins el requadre no ha millorat l'omissió. Diferència amb el 水 (53 %): allà el kanji era gran, sòlid i sense requadre, i la frase tenia una xifra concreta («4 trazos»). Hipòtesi: caràcter gran i ple + pregunta concreta al fotograma 0. La resta de la setmana (シ ツ, ねこ, 人 入) ja obre així: servirà de prova.
 - Decisió per a la setmana del 16: els «Kanji del día» tornen a obrir com el 水 (escena hook amb el kanji gran i sòlid i una xifra o dada concreta, 1,5–2 s) abans del traçat. Provar dues obertures del mateix vídeo com a TRIAL_REEL a Instagram.
 
