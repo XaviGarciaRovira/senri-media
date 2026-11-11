@@ -20,7 +20,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-08 | 20:30 | Especial | 一 二 三 i quiz amb 四 (よん/し) | IG, YT | programat |
 | 2026-11-09 | 20:30 | Kanji del día #2 | 山 (quiz: 川) | IG, YT | programat |
 | 2026-11-10 | 13:30 | Parelles #1 | シ / ツ · シャツ, タクシー, スポーツ | IG, YT | programat |
-| 2026-11-11 | 13:30 | Carrusel #1 | Todo el hiragana (taules, parelles, dakuten) | IG | esborrany |
+| 2026-11-11 | 13:30 | Carrusel #1 | Todo el hiragana (taules, parelles, dakuten) | IG | programat |
 | 2026-11-11 | 20:30 | ¿Qué significa? #1 | ねこ 猫 (perro/gato/pájaro) · 犬 | IG, YT | programat |
 | 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 (quiz «¿cuál significa entrar?») | IG, YT | programat |
 | 2026-11-13 | 20:30 | 3 palabras de… #1 | comida: お茶, お弁当, おいしい | IG, YT | programat |
