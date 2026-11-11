@@ -82,6 +82,10 @@ Metricool necessita el vídeo en una adreça pública; un fitxer d'aquest espai 
 - Obté el `blogId` amb `getBrandSettings` (no el donis per sabut) i fes servir el fus horari de la marca. Instagram: `type: "REEL"`; YouTube: `type: "short"`, `madeForKids: false`, títol obligatori.
 - Abans de programar, confirma amb l'usuari dia, hora i text: és contingut públic.
 
+## Carrusels d'Instagram
+
+Per a taules, guies i xuletes que la gent desa (hiragana, parelles que es confonen, vocabulari temàtic, fitxa de kanji, quiz amb la resposta a la diapositiva següent), fes servir `scripts/render_carousel.py`. Llegeix `references/carrusels.md` per al format i els criteris.
+
 ## Quan en demana diversos
 
 Per a una setmana de contingut: fes una taula curta amb els vídeos (dia, format, ganxo), espera que l'usuari la validi o ajusti, i després genera'ls tots. Varia formats i temes clar/fosc perquè el perfil no sigui repetitiu, i no repeteixis cap kanji o paraula d'una setmana anterior si en tens constància.

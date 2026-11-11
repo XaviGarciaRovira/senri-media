@@ -3,8 +3,12 @@
 Registre de tot el que es publica, per no repetir contingut i per seguir les sèries.
 Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus Europe/Madrid.
 
-## Pla vigent (des del 9 nov 2026)
-- Instagram + YouTube: 7 vídeos/setmana (cada dia, des del 8 nov), programats per Claude a Metricool com a esborrany; s'aproven abans de programar.
+## Pla vigent (des del 11 nov 2026)
+- Instagram: 2 publicacions al dia. Un reel (el vídeo del dia) i un **carrusel** (`render_carousel.py`, vegeu tools/senri-shorts/references/carrusels.md), separats unes 5–7 h: el carrusel va a l'hora que no fa servir el reel (reel 20:30 → carrusel 13:30; reel 13:30 → carrusel 20:30; diumenge reel 11:30 → carrusel 19:30). Motiu: els reels porten gent nova; els carrusels es desen i s'envien, i això fa que Instagram els ensenyi a més gent.
+- Carrusels per dia: dl taula de kana (hiragana/katakana per files) · dt parelles que es confonen (guia) · dc vocabulari temàtic (6 paraules) · dj fitxa de kanji (kanji + 3 paraules) · dv gramàtica fàcil (una partícula o estructura amb frases de Senri) · ds quiz (pregunta → resposta a la diapositiva següent) · dg repàs de la setmana o errors típics.
+- Text dels posts d'Instagram: acabar demanant que l'**enviïn** («Envíaselo a quien…») i que el desin, a més de comentar. Text alternatiu a cada imatge.
+- YouTube: 1 Short al dia (el mateix vídeo). YouTube no premia el volum («no hi ha cap llindar de 5 o 10 shorts al dia») i decideix cada short pel % que «decideix veure'l» en lloc de lliscar: el que compta és el primer segon. Els dies de Trial Reels, la segona variant també surt a YouTube com a Short separat (5 h després) per comparar el % que es queda. Títols amb paraules que es busquen («Cómo se escribe 水 en japonés»). Mai esborrar i tornar a pujar un short.
+- Instagram + YouTube: tot com a esborrany a Metricool; s'aprova («endavant») abans de programar.
 - TikTok: setmanes del 9 i 16 nov sense publicar (escalfar el compte; en curs, acaba el 22 nov); després, 3/setmana pujats per Xavi des de l'app amb un so en tendència.
 - Hores en prova: entre setmana alternar 13:30 i 20:30; dissabte 20:30; diumenge 11:30 (prova de matí). Al cap de 2–3 setmanes comparar entre setmana vs cap de setmana i matí vs vespre.
 - Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc «¿Qué significa?» · dv «3 palabras de…» · ds «Repaso de la semana» (3 quiz amb el contingut de dl–dv) · dg format lliure/quiz (un format nou per setmana pot anar com a Trial Reel).
@@ -16,6 +20,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-08 | 20:30 | Especial | 一 二 三 i quiz amb 四 (よん/し) | IG, YT | programat |
 | 2026-11-09 | 20:30 | Kanji del día #2 | 山 (quiz: 川) | IG, YT | programat |
 | 2026-11-10 | 13:30 | Parelles #1 | シ / ツ · シャツ, タクシー, スポーツ | IG, YT | programat |
+| 2026-11-11 | 13:30 | Carrusel #1 | Todo el hiragana (taules, parelles, dakuten) | IG | esborrany |
 | 2026-11-11 | 20:30 | ¿Qué significa? #1 | ねこ 猫 (perro/gato/pájaro) · 犬 | IG, YT | programat |
 | 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 (quiz «¿cuál significa entrar?») | IG, YT | programat |
 | 2026-11-13 | 20:30 | 3 palabras de… #1 | comida: お茶, お弁当, おいしい | IG, YT | programat |
