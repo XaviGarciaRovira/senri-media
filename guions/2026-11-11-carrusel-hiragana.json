@@ -1,0 +1,14 @@
+{"theme":"light","slides":[
+ {"type":"cover","label":"Japonés N5 · desde cero","title":"Todo el **hiragana** en un carrusel","big":"あいうえお","sub":"46 letras + 25 con dakuten (が, ぱ…)"},
+ {"type":"table","title":"Vocales, K, S, T","rows":[[["あ","a"],["い","i"],["う","u"],["え","e"],["お","o"]],[["か","ka"],["き","ki"],["く","ku"],["け","ke"],["こ","ko"]],[["さ","sa"],["し","shi"],["す","su"],["せ","se"],["そ","so"]],[["た","ta"],["ち","chi"],["つ","tsu"],["て","te"],["と","to"]]],"note":"Ojo: し es **shi**, ち es **chi** y つ es **tsu**."},
+ {"type":"table","title":"N, H, M, Y","rows":[[["な","na"],["に","ni"],["ぬ","nu"],["ね","ne"],["の","no"]],[["は","ha"],["ひ","hi"],["ふ","fu"],["へ","he"],["ほ","ho"]],[["ま","ma"],["み","mi"],["む","mu"],["め","me"],["も","mo"]],[["や","ya"],null,["ゆ","yu"],null,["よ","yo"]]],"note":"ふ suena entre f y h: **fu**. は como partícula se lee **wa**."},
+ {"type":"table","title":"R, W y N","rows":[[["ら","ra"],["り","ri"],["る","ru"],["れ","re"],["ろ","ro"]],[["わ","wa"],null,null,null,["を","o"]],[["ん","n"],null,null,null,null]],"note":"を se pronuncia **o** y solo hace de partícula. ん es la única consonante que va sola."},
+ {"type":"pairs","title":"Los que más se confunden","items":[
+  {"a":"さ","ar":"sa","b":"き","br":"ki","tip":"き tiene **dos** rayas horizontales; さ, una."},
+  {"a":"ぬ","ar":"nu","b":"め","br":"me","tip":"ぬ acaba en un **bucle**; め, no."},
+  {"a":"ね","ar":"ne","b":"れ","br":"re","tip":"ね cierra con un **bucle**; れ acaba en una cola hacia fuera."},
+  {"a":"は","ar":"ha","b":"ほ","br":"ho","tip":"ほ tiene **dos** rayas a la derecha; は, una."},
+  {"a":"る","ar":"ru","b":"ろ","br":"ro","tip":"る acaba en un **bucle**; ろ queda abierta."}]},
+ {"type":"table","title":"Con dakuten: k→g, s→z, t→d, h→b/p","rows":[[["が","ga"],["ぎ","gi"],["ぐ","gu"],["げ","ge"],["ご","go"]],[["ざ","za"],["じ","ji"],["ず","zu"],["ぜ","ze"],["ぞ","zo"]],[["だ","da"],["ぢ","ji"],["づ","zu"],["で","de"],["ど","do"]],[["ば","ba"],["び","bi"],["ぶ","bu"],["べ","be"],["ぼ","bo"]],[["ぱ","pa"],["ぴ","pi"],["ぷ","pu"],["ぺ","pe"],["ぽ","po"]]]},
+ {"type":"cta","text":"Guárdalo y practica gratis con **Senri**","sub":"Repaso espaciado, sin cuenta ni anuncios · enlace en el perfil"}
+]}
