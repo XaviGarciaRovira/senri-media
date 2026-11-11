@@ -64,5 +64,16 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 - YouTube «es van quedar» (des de la publicació, 10 nov): 水 8,2 % · 一二三四 11,9 % · 山 20,3 %. A YouTube passa al revés que a Instagram: l'obertura nova (moviment des del fotograma 0, barra de progrés, vídeo més curt) és la que més reté. La hipòtesi del «kanji gran i ple» NO queda confirmada.
 - Decisió per a la setmana del 16: mantenir l'obertura actual (no tornar a l'estil 水). La baixada d'Instagram pot venir de la distribució (més Històries i menys pestanya Reels) i de l'empenta inicial del compte nou, no només del vídeo. Fer una prova neta a Instagram: el mateix Kanji del día amb dues obertures (actual vs kanji gran i ple amb dada concreta) publicades com a TRIAL_REEL. Decidir amb almenys 5 vídeos per variant.
 
+## Instagram a l'11 nov (Metricool)
+| Vídeo | Hora | Visualitz. | Comptes | M'agrada | Coment. | Guard. | Temps mitjà | >3 s |
+|---|---|---|---|---|---|---|---|---|
+| 水 | ds 20:30 | 2.157 | 1.621 | 99 | 11 | 18 | 6,9 s | 45,1 % |
+| 一二三四 | dg 20:30 | 518 | 378 | 15 | 3 | 1 | 5,8 s | 33,8 % |
+| 山 | dl 20:30 | 423 | 317 | 11 | 1 | 2 | 4,3 s | 32,5 % |
+| シ/ツ | dt 13:30 | 198 | 143 | 12 | 4 | 1 | 6,5 s | 40,6 % (23 h) |
+- Seguidors IG: 44 → 50. Subscriptors YT: 12 → 14.
+- A Instagram, les obertures amb caràcters grans i una pregunta (水, シ/ツ) retenen més (41–45 %) que la de text sol (一二三四) o la del kanji en gris dins el requadre (山) (~33 %). A YouTube, el 山 va ser el que més va retenir. La prova amb Trial Reels de la setmana del 16 ha de resoldre-ho.
+- L'abast baixa vídeo a vídeo (1.621 → 143). Pot ser el final de l'empenta inicial del compte nou; seguir-ho.
+
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15). La pròxima: 10.
