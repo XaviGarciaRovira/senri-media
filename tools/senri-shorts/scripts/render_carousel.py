@@ -70,10 +70,31 @@ def s_kanji(s):
                  f'<span class="lm">{fmt(e.get("meaning", ""))}<span class="lr">{esc(e.get("romaji"))}</span></span></div>'
                  for e in s.get("examples", []))
     reading = " · ".join(x for x in [s.get("reading"), s.get("romaji")] if x)
+    hint = f'<div class="t hintc">{fmt(s["hint"])}</div>' if s.get("hint") else ""
     return f'''<div class="stack center"><div class="t chip">{fmt(s.get("label", "Kanji N5"))}</div>
       <div class="t kbig kana">{esc(s["k"])}</div>
       <div class="t meaning">{fmt(s.get("meaning", ""))}</div>
-      <div class="t reading kana">{esc(reading)}</div><div class="list wide">{ex}</div></div>'''
+      <div class="t reading kana">{esc(reading)}</div>{hint}<div class="list wide">{ex}</div></div>'''
+
+
+def grammar_jp(src):
+    """Frase amb la sintaxi de tools/grammar-*.txt: 学生{がくせい} → furigana, [は] o [へ|に] → partícula en vermell."""
+    import re
+    out = []
+    for tok in src.split():
+        m = re.fullmatch(r"\[(.+?)\]", tok)
+        if m:
+            out.append(f"<em>{esc(m.group(1).split('|')[0])}</em>")
+            continue
+        out.append(re.sub(r"([^{}\s]+?)\{(.+?)\}", lambda g: f"<ruby>{esc(g.group(1))}<rt>{esc(g.group(2))}</rt></ruby>", esc(tok)))
+    return "".join(out)
+
+
+def s_sentences(s):
+    rows = "".join(f'<div class="t sent"><div class="sj kana">{grammar_jp(it["jp"])}</div>'
+                   f'<div class="se">{fmt(it.get("es", ""))}</div></div>' for it in s["items"])
+    note = f'<div class="t tip">{fmt(s["note"])}</div>' if s.get("note") else ""
+    return f'<div class="stack"><div class="t title">{fmt(s["title"])}</div>{rows}{note}</div>'
 
 
 def s_quiz(s):
@@ -100,7 +121,7 @@ def s_cta(s):
 
 
 SLIDES = dict(cover=s_cover, table=s_table, pairs=s_pairs, list=s_list, kanji=s_kanji,
-              quiz=s_quiz, text=s_text, cta=s_cta)
+              quiz=s_quiz, text=s_text, cta=s_cta, sentences=s_sentences)
 
 
 def css(theme):
@@ -157,6 +178,11 @@ em{{font-style:normal;color:{c['shu']}}}
 .opt.right{{background:{c['good_soft']};border-color:{c['good']}}}
 .optl{{width:60px;height:60px;border-radius:50%;background:{c['accent_soft']};color:{c['accent']};display:flex;align-items:center;justify-content:center;font-size:32px;flex:none}}
 .mark{{position:absolute;right:28px;top:50%;margin-top:-46px;font-size:92px;line-height:1;color:{c['shu']};transform:rotate(-8deg)}}
+em ruby rt{{color:{c['shu']}}}
+.sent{{background:{c['surface']};border:3px solid {c['line']};border-radius:26px;padding:20px 30px;display:flex;flex-direction:column;gap:6px}}
+.sj{{font-size:62px;line-height:1.5;color:{c['ink']}}} .sj rt{{font-size:24px;color:{c['muted']};font-weight:500}}
+.se{{font-size:38px;color:{c['muted']};font-weight:700}}
+.hintc{{font-size:38px;color:{c['muted']};text-wrap:balance}}
 .logo{{width:220px;height:220px;border-radius:50px}}
 """
 

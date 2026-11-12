@@ -1,0 +1,8 @@
+{"theme":"light","slides":[
+ {"type":"cover","label":"Hiragana · reto","title":"¿Puedes leer estas **4 palabras**?","big":"はな","sub":"Cuenta cuántas aciertas y dilo en comentarios"},
+ {"type":"quiz","question":"1 · ¿Qué significa?","prompt":"はな","options":["flor","montaña","mar"],"answer":0,"foot":"Respuesta en la siguiente →"},{"type":"quiz","question":"1 · ¿Qué significa?","prompt":"はな","options":["flor","montaña","mar"],"answer":0,"show_answer":true,"foot":"はな · hana"},
+ {"type":"quiz","question":"2 · ¿Qué significa?","prompt":"そら","options":["sol","cielo","nube"],"answer":1,"foot":"Respuesta en la siguiente →"},{"type":"quiz","question":"2 · ¿Qué significa?","prompt":"そら","options":["sol","cielo","nube"],"answer":1,"show_answer":true,"foot":"そら · sora"},
+ {"type":"quiz","question":"3 · ¿Qué significa?","prompt":"つき","options":["estrella","noche","luna"],"answer":2,"foot":"Respuesta en la siguiente →"},{"type":"quiz","question":"3 · ¿Qué significa?","prompt":"つき","options":["estrella","noche","luna"],"answer":2,"show_answer":true,"foot":"つき · tsuki"},
+ {"type":"quiz","question":"4 · ¿Qué significa?","prompt":"ゆき","options":["nieve","lluvia","viento"],"answer":0,"foot":"Respuesta en la siguiente →"},{"type":"quiz","question":"4 · ¿Qué significa?","prompt":"ゆき","options":["nieve","lluvia","viento"],"answer":0,"show_answer":true,"foot":"ゆき · yuki"},
+ {"type":"cta","text":"¿Cuántas acertaste? Practica gratis con **Senri**","sub":"Hiragana, katakana y kanji N5 · enlace en el perfil"}
+]}

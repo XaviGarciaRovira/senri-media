@@ -24,9 +24,13 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-11 | 13:30 | Carrusel #1 | Todo el hiragana (taules, parelles, dakuten) | IG | programat |
 | 2026-11-11 | 20:30 | ¿Qué significa? #1 | ねこ 猫 (perro/gato/pájaro) · 犬 | IG, YT | programat |
 | 2026-11-12 | 13:30 | Kanji del día #3 | 人 vs 入 (quiz «¿cuál significa entrar?») | IG, YT | programat |
+| 2026-11-12 | 20:30 | Carrusel #2 | 5 kanji que son dibujos: 木 日 月 口 目 | IG | esborrany |
 | 2026-11-13 | 20:30 | 3 palabras de… #1 | comida: お茶, お弁当, おいしい | IG, YT | programat |
+| 2026-11-13 | 13:30 | Carrusel #3 | Primera frase: X は Y です (g1, g3) | IG | esborrany |
 | 2026-11-14 | 20:30 | Repaso de la semana #1 | 山 · シャツ · 人/入 | IG, YT | programat |
+| 2026-11-14 | 13:30 | Carrusel #4 | Quiz hiragana: はな そら つき ゆき | IG | esborrany |
 | 2026-11-15 | 11:30 | ¿Qué significa? #2 | さかな 魚 (carne/pescado/arroz) · 肉 | IG, YT | programat |
+| 2026-11-15 | 19:30 | Carrusel #5 | 5 errores típicos (は=wa, を=o, し/ち/つ, ー, っ) | IG | esborrany |
 
 ## Resum del primer vídeo (8 nov, ~13 h després)
 - Instagram: 1.835 visualitzacions, 1.454 comptes, 93 m'agrada, 8 comentaris, 18 guardats, 11 republicacions. 86,5 % no seguidors. Edat: 25–34 36 %, 18–24 29 %, 13–17 20 %. Temps mitjà 6,9 s de 17 s; només el 46,6 % passa dels 3 s.

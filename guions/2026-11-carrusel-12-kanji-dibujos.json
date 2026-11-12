@@ -1,0 +1,9 @@
+{"theme":"light","slides":[
+ {"type":"cover","label":"Kanji N5 · principiantes","title":"5 kanji que son **dibujos**","big":"木日月口目","sub":"Si ves el dibujo, ya no se te olvidan"},
+ {"type":"kanji","k":"木","label":"1 · Kanji N5","meaning":"árbol","reading":"き","romaji":"ki","hint":"Tronco, ramas y raíces.","examples":[{"jp":"木","kana":"き","romaji":"ki","meaning":"árbol; madera"},{"jp":"木曜日","kana":"もくようび","romaji":"mokuyoubi","meaning":"jueves"}]},
+ {"type":"kanji","k":"日","label":"2 · Kanji N5","meaning":"sol; día","reading":"ひ","romaji":"hi","hint":"El sol, dibujado como un cuadrado.","examples":[{"jp":"明日","kana":"あした","romaji":"ashita","meaning":"mañana"},{"jp":"一日","kana":"いちにち","romaji":"ichinichi","meaning":"un día"}]},
+ {"type":"kanji","k":"月","label":"3 · Kanji N5","meaning":"luna; mes","reading":"つき","romaji":"tsuki","hint":"La luna creciente.","examples":[{"jp":"月曜日","kana":"げつようび","romaji":"getsuyoubi","meaning":"lunes"},{"jp":"今月","kana":"こんげつ","romaji":"kongetsu","meaning":"este mes"}]},
+ {"type":"kanji","k":"口","label":"4 · Kanji N5","meaning":"boca","reading":"くち","romaji":"kuchi","hint":"Una boca abierta.","examples":[{"jp":"出口","kana":"でぐち","romaji":"deguchi","meaning":"salida"},{"jp":"入口","kana":"いりぐち","romaji":"iriguchi","meaning":"entrada"}]},
+ {"type":"kanji","k":"目","label":"5 · Kanji N5","meaning":"ojo","reading":"め","romaji":"me","hint":"Un ojo puesto de pie.","examples":[{"jp":"目","kana":"め","romaji":"me","meaning":"ojo"}]},
+ {"type":"cta","text":"Guárdalo y practícalos gratis con **Senri**","sub":"Trazos animados y repaso espaciado · enlace en el perfil"}
+]}

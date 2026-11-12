@@ -1,0 +1,9 @@
+{"theme":"dark","slides":[
+ {"type":"cover","label":"Japonés N5 · principiantes","title":"5 errores típicos al **empezar** japonés","big":"は を っ","sub":"¿Cuál te pasaba a ti?"},
+ {"type":"text","title":"1 · は como partícula se lee **wa**","big":"私は","text":"わたし**は** → watashi **wa**, no «watashi ha»."},
+ {"type":"text","title":"2 · を se lee **o**","big":"パンを","text":"パン**を** 食べます → pan **o** tabemasu (como pan).\nSolo hace de partícula."},
+ {"type":"text","title":"3 · し, ち y つ","big":"しちつ","text":"し es **shi** (no si), ち es **chi** y つ es **tsu**."},
+ {"type":"text","title":"4 · La raya ー alarga la vocal","big":"コーヒー","text":"コーヒー → k**oo**h**ii** (café). No es un guion: se pronuncia."},
+ {"type":"text","title":"5 · La っ pequeña dobla la consonante","big":"がっこう","text":"がっこう → ga**kk**ou (escuela) · きって → ki**tt**e (sello).\nEs una pausa cortita antes del sonido."},
+ {"type":"cta","text":"Guárdalo y practica gratis con **Senri**","sub":"Si fallas, la app te explica el porqué · enlace en el perfil"}
+]}

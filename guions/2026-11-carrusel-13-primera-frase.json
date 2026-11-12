@@ -1,0 +1,14 @@
+{"theme":"dark","slides":[
+ {"type":"cover","label":"Gramática N5 · desde cero","title":"Tu **primera frase** en japonés","big":"は・です","sub":"X は Y です = X es Y"},
+ {"type":"text","title":"La fórmula","big":"XはYです","text":"**は** marca el tema («en cuanto a X») y se lee **wa**.\n**です** cierra la frase de forma educada, como «es»."},
+ {"type":"sentences","title":"Tres ejemplos","items":[
+   {"jp":"私{わたし} [は] 学生{がくせい} です 。","es":"Soy estudiante."},
+   {"jp":"これ [は] 本{ほん} です 。","es":"Esto es un libro."},
+   {"jp":"今日{きょう} [は] 月曜日{げつようび} です 。","es":"Hoy es lunes."}]},
+ {"type":"sentences","title":"En negativo y en pregunta","items":[
+   {"jp":"私{わたし} [は] 先生{せんせい} じゃ ありません 。","es":"No soy profesor."},
+   {"jp":"これ [は] 何{なん} です [か] 。","es":"¿Qué es esto?"},
+   {"jp":"トイレ [は] どこ です [か] 。","es":"¿Dónde está el baño?"}],
+  "note":"Para preguntar basta con añadir **か** al final: el orden no cambia."},
+ {"type":"cta","text":"Guárdalo y practica gratis con **Senri**","sub":"Ordena frases, elige partículas · enlace en el perfil"}
+]}
