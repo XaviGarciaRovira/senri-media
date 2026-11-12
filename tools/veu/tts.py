@@ -6,6 +6,9 @@ per a cada veu, veus/<veu>/<hash>.mp3 i veus/<veu>/index.json {text: fitxer}. No
 que falta. Motors amb llicència lliure:
   - kokoro:<veu>   Kokoro-82M (hexgrad, Apache 2.0) · ef_dora, em_alex, em_santa
   - piper:<model>  Piper (veus de rhasspy/piper-voices; cada una amb la llicència del seu MODEL_CARD)
+  - chatterbox:<variant>  Chatterbox Multilingual (Resemble AI, MIT) · default, expressiu
+  - melo:ES        MeloTTS (MyShell, MIT)
+Amb --only <motor> només fa les veus d'aquell motor (cada motor té les seves dependències).
 """
 import hashlib
 import json
@@ -60,10 +63,37 @@ def piper_engine(model):
     return say
 
 
+def chatterbox_engine(variant):
+    import torchaudio as ta
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+    model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+    kw = {"exaggeration": 0.7, "cfg_weight": 0.3} if variant == "expressiu" else {}
+
+    def say(text, wav):
+        ta.save(wav, model.generate(text, language_id="es", **kw), model.sr)
+    return say
+
+
+def melo_engine(lang):
+    from melo.api import TTS
+    model = TTS(language=lang, device="cpu")
+    spk = model.hps.data.spk2id[lang]
+
+    def say(text, wav):
+        model.tts_to_file(text, spk, wav, speed=1.0, quiet=True)
+    return say
+
+
+ENGINES = {"kokoro": kokoro_engine, "piper": piper_engine, "chatterbox": chatterbox_engine, "melo": melo_engine}
+
+
 def main():
     frases = json.loads((ROOT / "tools/veu/frases.json").read_text())
     voices = json.loads((ROOT / "tools/veu/config.json").read_text())["voices"]
+    only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
     for v in voices:
+        if only and not v.startswith(only + ":"):
+            continue
         engine, arg = v.split(":", 1)
         vdir = OUT / v.replace(":", "-")
         vdir.mkdir(parents=True, exist_ok=True)
@@ -72,7 +102,7 @@ def main():
         todo = [t for t in frases if t not in idx]
         if not todo:
             continue
-        say = kokoro_engine(arg) if engine == "kokoro" else piper_engine(arg)
+        say = ENGINES[engine](arg)
         for t in todo:
             with tempfile.NamedTemporaryFile(suffix=".wav") as w:
                 say(t, w.name)

@@ -10,20 +10,37 @@ concurrency: veu
 jobs:
   tts:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        engine: [chatterbox, melo, kokoro, piper]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
-      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
-      - run: |
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install "kokoro>=0.9" soundfile "piper-tts==1.2.0"
-      - run: python tools/veu/tts.py
-      - name: Desa els àudios
+      - name: Mira si hi ha veus d'aquest motor
+        id: need
+        run: python -c "import json,sys;v=json.load(open('tools/veu/config.json'))['voices'];print('run='+str(any(x.startswith('${{ matrix.engine }}:') for x in v)).lower())" >> "$GITHUB_OUTPUT"
+      - if: steps.need.outputs.run == 'true'
+        run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
+      - if: steps.need.outputs.run == 'true'
+        run: |
+          case "${{ matrix.engine }}" in
+            chatterbox) pip install chatterbox-tts ;;
+            melo) pip install git+https://github.com/myshell-ai/MeloTTS.git && python -m unidic download ;;
+            kokoro) pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install "kokoro>=0.9" soundfile ;;
+            piper) pip install "piper-tts==1.2.0" ;;
+          esac
+      - if: steps.need.outputs.run == 'true'
+        run: python tools/veu/tts.py --only ${{ matrix.engine }}
+      - if: steps.need.outputs.run == 'true'
+        name: Desa els àudios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add veus
-          git diff --cached --quiet || git commit -m "Veu: àudios nous"
-          git pull --rebase && git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Veu: àudios nous (${{ matrix.engine }})"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
