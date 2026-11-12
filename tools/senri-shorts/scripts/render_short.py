@@ -40,6 +40,14 @@ THEMES = {
 }
 
 
+# Esdeveniments de so de l'escena que s'està generant: (tipus, segon dins l'escena, dades).
+_EV = []
+
+
+def ev(kind, t, **kw):
+    _EV.append((kind, float(t), kw))
+
+
 def fmt(text):
     """Escapa el text i converteix **paraula** en èmfasi vermell i \\n en salt de línia."""
     t = html.escape(str(text or ""))
@@ -101,6 +109,8 @@ def scene_kanji(s):
         glyph = f'<div class="t big kana" {anim("pop", .2, .5)}>{html.escape(s["k"])}</div>'
         t_end = 0.8
     reading = " · ".join(x for x in [s.get("reading"), s.get("romaji")] if x)
+    ev("reveal", t_end)
+    ev("voice", t_end + 0.3, text=s.get("say") or s.get("reading"))
     top = (f'<div class="t title">{fmt(s["question"])}</div>' if s.get("question")
            else f'<div class="t chip" {anim("up", 0)}>{fmt(s.get("label", "Kanji N5"))}</div>')
     parts = [top, glyph,
@@ -121,6 +131,8 @@ def scene_kanji(s):
 
 def scene_word(s):
     reveal = s.get("reveal_at", 1.2)
+    ev("voice", 0.35, text=s.get("say") or s.get("kana") or s.get("jp"))
+    ev("reveal", reveal)
     parts = []
     if s.get("label"):
         parts.append(f'<div class="t chip" {anim("up", 0)}>{fmt(s["label"])}</div>')
@@ -141,6 +153,8 @@ def scene_compare(s):
             <div class="t reading">{html.escape(c.get("romaji", ""))}</div>{lab}</div>'''
     title = f'<div class="t title" {anim("up", 0)}>{fmt(s["title"])}</div>' if s.get("title") else ""
     tip_at = s.get("tip_at", 1.6)
+    ev("voice", 0.35, text=s["left"].get("say") or s["left"]["char"])
+    ev("voice", 1.05, text=s["right"].get("say") or s["right"]["char"])
     tip = f'<div class="t tip" {anim("up", tip_at)}>{fmt(s["tip"])}</div>' if s.get("tip") else ""
     return f'''<div class="stack center">{title}
         <div class="row">{card(s["left"], .25)}{card(s["right"], .55)}</div>{tip}</div>''', tip_at + 3.2
@@ -163,6 +177,10 @@ def scene_quiz(s):
         items.append(f'<div class="t opt" style="{fx}"><span class="optl">{"ABCD"[i]}</span>{fmt(o)}{mark}</div>')
     nums = "".join(
         f'<div class="num" style="animation:tick 1s linear {0.9 + k}s both">{count - k}</div>' for k in range(count))
+    for k in range(count):
+        ev("tick", 0.9 + k, last=k == count - 1)
+    ev("reveal", t_rev)
+    ev("voice", t_rev + 0.3, text=s.get("say") or s.get("prompt"))
     prompt = (f'<div class="t big kana q" style="font-size:{big_size(s["prompt"], 300)}px">'
               f'{html.escape(s["prompt"])}</div>') if s.get("prompt") else ""
     return f'''<div class="stack center">
@@ -179,6 +197,7 @@ def scene_list(s):
         d = 0.5 + i * step
         # El primer element ja és a la pantalla al fotograma 0: el títol sol no fa que la gent s'aturi.
         fx = "" if i == 0 else anim("up", d - step)
+        ev("voice", 0.3 if i == 0 else d - step + 0.2, text=it.get("say") or it.get("kana") or it["jp"])
         rom = f'<span class="lr">{html.escape(it.get("romaji", ""))}</span>' if it.get("romaji") else ""
         rows.append(f'''<div class="t li" {fx}>
             <span class="lj kana">{jp(it["jp"], it.get("kana"))}</span>
@@ -212,6 +231,9 @@ def scene_cta(s):
 def countdown(count):
     nums = "".join(f'<div class="num" style="animation:tick 1s linear {0.9 + k}s both">{count - k}</div>'
                    for k in range(count))
+    for k in range(count):
+        ev("tick", 0.9 + k, last=k == count - 1)
+    ev("reveal", 0.9 + count)
     return f'<div class="count">{nums}</div>', 0.9 + count
 
 
@@ -229,6 +251,7 @@ def icon_svg(name):
 def scene_guess(s):
     """Imatge o paraula → l'espectador diu què és abans que surti la resposta."""
     cd, t_rev = countdown(int(s.get("countdown", 3)))
+    ev("voice", t_rev + 0.3, text=s.get("say") or s.get("kana") or s.get("jp"))
     if s.get("icon"):
         shown = f'<div class="pic">{icon_svg(s["icon"])}</div>'
         answer = f'<div class="t word kana" {anim("pop", t_rev, .5)}>{jp(s["jp"], s.get("kana"))}</div>'
@@ -258,7 +281,8 @@ def scene_sign(s):
     st = SIGN_STYLES[s.get("style", "estacion")]
     cd, t_rev = countdown(int(s.get("countdown", 3)))
     rows = []
-    for r in s["rows"]:
+    for i, r in enumerate(s["rows"]):
+        ev("voice", t_rev + 0.3 + i * 1.2, text=r.get("say") or r["jp"])
         side = html.escape(r.get("arrow", "") or r.get("price", ""))
         rows.append(f'''<div class="srow"><span class="sjp kana">{html.escape(r["jp"])}</span><span class="sside">{side}</span></div>
           <div class="smean" {anim("up", t_rev)}>{fmt(r.get("meaning", ""))}<span>{html.escape(r.get("romaji", ""))}</span></div>''')
@@ -279,6 +303,7 @@ def scene_combo(s):
         parts.append(f'<div class="card small"><div class="t cmp kana">{html.escape(p["k"])}</div>'
                      f'<div class="t small muted">{fmt(p.get("meaning", ""))}</div></div>')
     r = s["result"]
+    ev("voice", t_rev + 0.3, text=r.get("say") or r.get("reading") or r["k"])
     reading = " · ".join(x for x in [r.get("reading"), r.get("romaji")] if x)
     res = (f'<div class="t big kana" {anim("pop", t_rev, .5, "font-size:300px")}>{html.escape(r["k"])}</div>'
            f'<div class="t meaning" {anim("up", t_rev + .3)}>{fmt(r.get("meaning", ""))}</div>')
@@ -433,6 +458,10 @@ def main():
     ap.add_argument("--stills", action="store_true", help="només un fotograma per escena (revisió ràpida)")
     ap.add_argument("--audio", help="àudio opcional (s'escurça al vídeo i s'hi fa un fos de sortida)")
     ap.add_argument("--crf", default="20")
+    ap.add_argument("--senri", default="/home/claude/senri",
+                    help="repositori de Senri: la veu japonesa surt dels seus àudios (audio/index.json)")
+    ap.add_argument("--no-voice", action="store_true", help="sense la pronunciació japonesa")
+    ap.add_argument("--no-sfx", action="store_true", help="sense tic-tac ni efectes")
     a = ap.parse_args()
 
     spec = json.loads(Path(a.spec).read_text())
@@ -450,18 +479,24 @@ def main():
     work = Path(tempfile.mkdtemp(prefix="short-"))
     shutil.copy(ASSETS / "logo.png", work / "logo.png")
     warnings, files, total = [], [], 0.0
+    events = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         pg = browser.new_page(viewport={"width": W, "height": H})
         for i, s in enumerate(scenes):
+            _EV.clear()
             doc, auto = page(s, theme, brand)
+            if i:
+                events.append(("whoosh", total, {}))
+            scene_start = total
             f = work / f"scene{i}.html"
             f.write_text(doc)
             pg.goto(f.as_uri())
             end_ms = pg.evaluate(FREEZE_JS)
             dur = float(s.get("duration") or max(auto, end_ms / 1000 + 0.8))
             total += dur
+            events += [(k, scene_start + tt, kw) for k, tt, kw in _EV if tt < dur]
             pg.evaluate(f"window.__seek({end_ms + 1})")
             for w in pg.evaluate(CHECK_JS, list(SAFE)):
                 warnings.append(f"escena {i} ({s['type']}): {w}")
@@ -515,7 +550,17 @@ def main():
              "-c:v", "libx264", "-preset", "veryfast", "-crf", a.crf, "-r", str(FPS), str(barred)])
         video = barred
     tmp_out = out.with_name(out.stem + ".tmp.mp4")
-    if a.audio:
+    if not a.no_sfx or not a.no_voice:
+        from sound import build_track
+        mixed, used_voice, missing = build_track(events, total, work, music=a.audio, senri=a.senri,
+                                                 voice=not a.no_voice, sfx=not a.no_sfx)
+        if missing:
+            warnings.append("sense àudio de Senri per a: " + ", ".join(missing))
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-i", str(mixed), "-map", "0:v", "-map", "1:a",
+             "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(tmp_out)])
+        if used_voice:
+            warnings.append("porta veu japonesa: posa «Voz: VOICEVOX:春日部つむぎ» a la descripció")
+    elif a.audio:
         fade = max(total - 1.5, 0)
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-i", a.audio, "-map", "0:v", "-map", "1:a",
              "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-af", f"afade=t=out:st={fade}:d=1.5", "-shortest",

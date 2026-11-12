@@ -73,3 +73,10 @@ Un rètol dibuixat de la vida real: `style` `estacion` (groc, com els de sortida
 - `sortida-portada.jpg`: el primer fotograma, per a portada.
 - Amb `--stills`: `sortida-escenaN.jpg` (cada escena acabada) i `sortida-primer-fotograma.jpg`, en un o dos segons.
 - `avisos`: textos que surten de la zona segura (x 80–940, y 220–1580) o que no hi caben. Arregla'ls abans del render complet: allà la interfície de TikTok, Reels o Shorts els taparia.
+
+## So (automàtic)
+`render_short.py` hi afegeix sol, mesclat amb `--audio`:
+- **Tic-tac** a cada número del compte enrere (l'últim, més agut), **campaneta** quan surt la resposta i una **transició** suau entre escenes. Sintetitzats a `scripts/sound.py`, sense res de tercers.
+- **Veu japonesa** de Senri (VOICEVOX:春日部つむぎ, els MP3 de `audio/` del repositori de Senri, `--senri`): pronuncia la resposta (quiz, guess, combo, kanji), cada fila del cartell, cada paraula de `list` i `word` i els dos caràcters de `compare`. La música baixa mentre parla. Busca el text a `audio/index.json` pel `kana`; si la paraula porta kanji, posa `say` amb la lectura en kana (p. ex. `"say": "でぐち"`). Els textos que no troba surten als `avisos`.
+- **Crèdit obligatori** quan hi ha veu: «Voz: VOICEVOX:春日部つむぎ» a la descripció.
+- `--no-voice` o `--no-sfx` per treure'ls.

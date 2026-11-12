@@ -1,11 +1,52 @@
-{"title":"¿Puedes leer este cartel?","lang":"es","theme":"light","scenes":[
- {"type":"sign","question":"Estás en una estación de Japón.\n¿Por dónde **sales**?","style":"estacion","rows":[
-   {"jp":"出口","arrow":"→","meaning":"salida","romaji":"deguchi"},
-   {"jp":"入口","arrow":"←","meaning":"entrada","romaji":"iriguchi"}],
-  "note":"出 = salir · 入 = entrar · 口 = boca, abertura"},
- {"type":"sign","question":"Y en la cafetería… ¿qué pides?","style":"pizarra","rows":[
-   {"jp":"コーヒー","price":"¥400","meaning":"café","romaji":"koohii"},
-   {"jp":"パン","price":"¥250","meaning":"pan","romaji":"pan"}],
-  "note":"パン viene del portugués **pão**: ¡ya la sabías!"},
- {"type":"cta"}
-]}
+{
+ "title": "¿Puedes leer este cartel?",
+ "lang": "es",
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "sign",
+   "question": "Estás en una estación de Japón.\n¿Por dónde **sales**?",
+   "style": "estacion",
+   "rows": [
+    {
+     "jp": "出口",
+     "arrow": "→",
+     "meaning": "salida",
+     "romaji": "deguchi",
+     "say": "でぐち"
+    },
+    {
+     "jp": "入口",
+     "arrow": "←",
+     "meaning": "entrada",
+     "romaji": "iriguchi",
+     "say": "いりぐち"
+    }
+   ],
+   "note": "出 = salir · 入 = entrar · 口 = boca, abertura"
+  },
+  {
+   "type": "sign",
+   "question": "Y en la cafetería… ¿qué pides?",
+   "style": "pizarra",
+   "rows": [
+    {
+     "jp": "コーヒー",
+     "price": "¥400",
+     "meaning": "café",
+     "romaji": "koohii"
+    },
+    {
+     "jp": "パン",
+     "price": "¥250",
+     "meaning": "pan",
+     "romaji": "pan"
+    }
+   ],
+   "note": "パン viene del portugués **pão**: ¡ya la sabías!"
+  },
+  {
+   "type": "cta"
+  }
+ ]
+}
