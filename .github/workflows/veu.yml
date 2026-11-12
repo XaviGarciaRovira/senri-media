@@ -1,0 +1,29 @@
+name: Veu en castellà
+on:
+  push:
+    branches: [main]
+    paths: ["tools/veu/frases.json", "tools/veu/config.json", "tools/veu/tts.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: veu
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
+      - run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install "kokoro>=0.9" soundfile "piper-tts==1.2.0"
+      - run: python tools/veu/tts.py
+      - name: Desa els àudios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veus
+          git diff --cached --quiet || git commit -m "Veu: àudios nous"
+          git pull --rebase && git push
