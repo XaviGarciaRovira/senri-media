@@ -1,8 +1,7 @@
 name: Veu en castellà
+# Desactivat (12 nov 2026): les veus sintètiques en castellà sonaven massa robòtiques.
+# Només s'executa a mà si mai es vol tornar a provar una veu nova.
 on:
-  push:
-    branches: [main]
-    paths: ["tools/veu/frases.json", "tools/veu/config.json", "tools/veu/tts.py"]
   workflow_dispatch:
 permissions:
   contents: write
