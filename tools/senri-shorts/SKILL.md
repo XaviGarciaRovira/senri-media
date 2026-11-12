@@ -31,6 +31,10 @@ Un vídeo, una idea. Escull el format segons l'objectiu:
 | **¿Qué significa?** | `quiz` directe → `word` amb la resposta i un ús → `cta` | La gent comenta abans de veure la resposta |
 | **3 paraules de…** (menjar, família, viatge) | `hook` → `list` → `text` → `cta` | Útil i fàcil de guardar |
 | **Error típic** | `hook` («No digas X») → `compare` o `word` → `text` | La versió «error primer» és de les que més retenen en vídeos d'idiomes |
+| **¿Puedes leer este cartel?** | `sign` (1–2 rètols: estació, cafeteria, porta) → `cta` | Japonès que serveix al viatge; l'espectador tradueix a partir d'una imatge |
+| **Si sabes katakana…** | `guess` sense icona (カメラ, テレビ, パン…) ×3 → `cta` | Fa sentir capaç al principiant; es comparteix |
+| **Dilo en japonés** | `guess` amb `icon` ×3 → `cta` | Imatge → paraula: recordar activament, no reconèixer |
+| **Kanji = dibujo + dibujo** | `combo` (休 = 亻+ 木) → `quiz` d'un altre → `cta` | Mnemotècnia visual, el format de kanji que més es comparteix |
 | **Sèrie** («Kanji del día #3») | igual que el format base, amb el número al `label` | Fa tornar la gent i ordena el perfil |
 
 Les dades dels kanji de cada unitat (`k-1` … ) donen sèries fetes: una unitat = una setmana de vídeos.

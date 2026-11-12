@@ -11,7 +11,8 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - Instagram + YouTube: tot com a esborrany a Metricool; s'aprova («endavant») abans de programar.
 - TikTok: setmanes del 9 i 16 nov sense publicar (escalfar el compte; en curs, acaba el 22 nov); després, 3/setmana pujats per Xavi des de l'app amb un so en tendència.
 - Hores en prova: entre setmana alternar 13:30 i 20:30; dissabte 20:30; diumenge 11:30 (prova de matí). Al cap de 2–3 setmanes comparar entre setmana vs cap de setmana i matí vs vespre.
-- Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc «¿Qué significa?» · dv «3 palabras de…» · ds «Repaso de la semana» (3 quiz amb el contingut de dl–dv) · dg format lliure/quiz (un format nou per setmana pot anar com a Trial Reel).
+- Sèries: dl i dj «Kanji del día #N» · dt «¿Shi o Tsu? / parelles» · dc alterna «¿Qué significa?» i «¿Puedes leer este cartel?» (escena `sign`) · dv «3 palabras de…» · ds «Repaso de la semana» (3 quiz amb el contingut de dl–dv) · dg alterna «Si sabes katakana, ya sabes estas palabras» (`guess` amb paraules en katakana), «Dilo en japonés» (`guess` amb `icon`: imatge → paraula) i «Kanji = dibujo + dibujo» (`combo`) (un format nou per setmana pot anar com a Trial Reel).
+- Formats nous (12 nov), triats a partir del que fan els comptes de japonès que funcionen: japonès de situacions reals, imatge en lloc d'explicació, el principiant que ja pot fer alguna cosa. Ja fet: videos/2026-11-18-cartel.mp4 (rètol d'estació 出口/入口 + pissarra コーヒー/パン, llavor 10) → per al dc 18 nov; la tasca de diumenge el fa servir en lloc de fer-ne un de nou.
 
 ## Publicats i programats
 | Data | Hora | Sèrie | Contingut | Xarxes | Estat |
@@ -81,4 +82,4 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 - L'abast baixa vídeo a vídeo (1.621 → 143). Pot ser el final de l'empenta inicial del compte nou; seguir-ho.
 
 ## Llavors de música fetes servir
-1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15). La pròxima: 10.
+1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel). La pròxima: 11.

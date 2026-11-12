@@ -205,8 +205,114 @@ def scene_cta(s):
         {url}</div>''', 3.0
 
 
+# ---------- escenes de «respon abans que surti» ----------
+# Totes tres segueixen el mateix ritme que el quiz: la pregunta i la imatge ja hi són al
+# fotograma 0, compte enrere des de 0,9 s i la resposta just quan s'acaba.
+
+def countdown(count):
+    nums = "".join(f'<div class="num" style="animation:tick 1s linear {0.9 + k}s both">{count - k}</div>'
+                   for k in range(count))
+    return f'<div class="count">{nums}</div>', 0.9 + count
+
+
+# Dibuixos senzills de línia (viewBox 0 0 200 200), fets per a Senri: res de tercers.
+ICONS = {
+    "gato": '<path d="M52 92 L48 38 L86 66 Q100 62 114 66 L152 38 L148 92"/><ellipse cx="100" cy="112" rx="58" ry="50"/>'
+            '<circle cx="78" cy="106" r="6" class="fill"/><circle cx="122" cy="106" r="6" class="fill"/>'
+            '<path d="M94 124 L100 130 L106 124"/><path d="M40 118 L72 122 M40 134 L72 128 M160 118 L128 122 M160 134 L128 128"/>',
+    "perro": '<path d="M58 70 Q30 64 32 112 Q36 130 54 120 L58 92"/><path d="M142 70 Q170 64 168 112 Q164 130 146 120 L142 92"/>'
+             '<path d="M58 70 Q100 40 142 70 L146 124 Q140 168 100 168 Q60 168 54 124 Z"/>'
+             '<circle cx="82" cy="104" r="6" class="fill"/><circle cx="118" cy="104" r="6" class="fill"/>'
+             '<ellipse cx="100" cy="132" rx="12" ry="8" class="fill"/><path d="M100 140 L100 150 M88 152 Q100 160 112 152"/>',
+    "libro": '<path d="M100 56 Q72 42 34 48 L34 150 Q72 144 100 158 Q128 144 166 150 L166 48 Q128 42 100 56 Z"/>'
+             '<path d="M100 56 L100 158"/><path d="M50 74 Q70 72 86 78 M50 96 Q70 94 86 100 M114 78 Q130 72 150 74 M114 100 Q130 94 150 96"/>',
+    "cafe": '<path d="M46 84 L154 84 L146 150 Q144 162 132 162 L68 162 Q56 162 54 150 Z"/>'
+            '<path d="M152 98 Q178 98 176 118 Q174 138 148 136"/>'
+            '<path d="M80 40 Q72 52 80 64 M100 34 Q92 48 100 64 M120 40 Q112 52 120 64"/>',
+    "arbol": '<path d="M100 172 L100 112 M100 132 L80 116 M100 124 L118 108"/>'
+             '<path d="M100 26 Q140 26 146 62 Q172 74 160 104 Q150 124 124 118 Q100 128 76 118 Q50 124 40 104 Q28 74 54 62 Q60 26 100 26 Z"/>',
+    "sol": '<circle cx="100" cy="100" r="34"/><path d="M100 30 L100 50 M100 150 L100 170 M30 100 L50 100 M150 100 L170 100'
+           ' M50 50 L64 64 M136 136 L150 150 M150 50 L136 64 M64 136 L50 150"/>',
+    "casa": '<path d="M30 98 L100 38 L170 98"/><path d="M50 82 L50 166 L150 166 L150 82"/>'
+            '<path d="M86 166 L86 120 L114 120 L114 166"/><rect x="122" y="104" width="18" height="18"/>',
+    "pez": '<path d="M36 100 Q80 50 140 100 Q80 150 36 100 Z"/><path d="M140 100 L172 72 L166 100 L172 128 Z"/>'
+           '<circle cx="66" cy="94" r="5" class="fill"/><path d="M92 82 Q100 100 92 118"/>',
+}
+
+
+def icon_svg(name):
+    if name not in ICONS:
+        sys.exit(f"Icona desconeguda «{name}». Icones: {', '.join(ICONS)}")
+    return f'<svg class="t icon" viewBox="0 0 200 200">{ICONS[name]}</svg>'
+
+
+def scene_guess(s):
+    """Imatge o paraula → l'espectador diu què és abans que surti la resposta."""
+    cd, t_rev = countdown(int(s.get("countdown", 3)))
+    if s.get("icon"):
+        shown = f'<div class="pic">{icon_svg(s["icon"])}</div>'
+        answer = f'<div class="t word kana" {anim("pop", t_rev, .5)}>{jp(s["jp"], s.get("kana"))}</div>'
+        extra = [x for x in [s.get("romaji"), s.get("meaning")] if x]
+        answer += f'<div class="t reading" {anim("up", t_rev + .35)}>{fmt(" · ".join(extra))}</div>' if extra else ""
+    else:
+        shown = f'<div class="t big kana q" style="font-size:{big_size(s["jp"], 300)}px">{html.escape(s["jp"])}</div>'
+        answer = f'<div class="t meaning" {anim("pop", t_rev, .5)}>{fmt(s.get("meaning", ""))}</div>'
+        if s.get("romaji"):
+            answer += f'<div class="t reading" {anim("up", t_rev + .35)}>{html.escape(s["romaji"])}</div>'
+    if s.get("note"):
+        answer += f'<div class="t hint" {anim("up", t_rev + .8)}>{fmt(s["note"])}</div>'
+    return f'''<div class="stack center"><div class="t title">{fmt(s.get("question", "¿Cómo se dice en japonés?"))}</div>
+        {shown}<div class="reveal">{cd}<div class="ans">{answer}</div></div></div>''', t_rev + 2.6
+
+
+SIGN_STYLES = {
+    # Rètol d'estació (groc, lletra negra), pissarra de cafeteria i placa de porta.
+    "estacion": dict(bg="#F4C430", fg="#141414", border="#141414", radius=18),
+    "pizarra": dict(bg="#24382B", fg="#F3F1E7", border="#8A6A44", radius=14),
+    "placa": dict(bg="#FAFAF7", fg="#1D2A22", border="#9AA39C", radius=40),
+}
+
+
+def scene_sign(s):
+    """Un rètol de la vida real dibuixat: l'espectador el llegeix i, després del compte, surt la traducció."""
+    st = SIGN_STYLES[s.get("style", "estacion")]
+    cd, t_rev = countdown(int(s.get("countdown", 3)))
+    rows = []
+    for r in s["rows"]:
+        side = html.escape(r.get("arrow", "") or r.get("price", ""))
+        rows.append(f'''<div class="srow"><span class="sjp kana">{html.escape(r["jp"])}</span><span class="sside">{side}</span></div>
+          <div class="smean" {anim("up", t_rev)}>{fmt(r.get("meaning", ""))}<span>{html.escape(r.get("romaji", ""))}</span></div>''')
+    sign = (f'<div class="t sign" style="background:{st["bg"]};color:{st["fg"]};border-color:{st["border"]};'
+            f'border-radius:{st["radius"]}px">{"".join(rows)}</div>')
+    note = f'<div class="t hint" {anim("up", t_rev + .8)}>{fmt(s["note"])}</div>' if s.get("note") else ""
+    return f'''<div class="stack center"><div class="t title">{fmt(s.get("question", "¿Puedes leer este cartel?"))}</div>
+        {sign}{cd}{note}</div>''', t_rev + 3.0
+
+
+def scene_combo(s):
+    """Kanji com a suma de dibuixos: A + B = ? i, després del compte, el resultat."""
+    cd, t_rev = countdown(int(s.get("countdown", 3)))
+    parts = []
+    for i, p in enumerate(s["parts"]):
+        if i:
+            parts.append('<div class="plus">+</div>')
+        parts.append(f'<div class="card small"><div class="t cmp kana">{html.escape(p["k"])}</div>'
+                     f'<div class="t small muted">{fmt(p.get("meaning", ""))}</div></div>')
+    r = s["result"]
+    reading = " · ".join(x for x in [r.get("reading"), r.get("romaji")] if x)
+    res = (f'<div class="t big kana" {anim("pop", t_rev, .5, "font-size:300px")}>{html.escape(r["k"])}</div>'
+           f'<div class="t meaning" {anim("up", t_rev + .3)}>{fmt(r.get("meaning", ""))}</div>')
+    if reading:
+        res += f'<div class="t reading kana" {anim("up", t_rev + .55)}>{html.escape(reading)}</div>'
+    if s.get("hint"):
+        res += f'<div class="t hint" {anim("up", t_rev + .9)}>{fmt(s["hint"])}</div>'
+    return f'''<div class="stack center"><div class="t title">{fmt(s.get("question", "¿Qué kanji sale?"))}</div>
+        <div class="row combo">{"".join(parts)}</div><div class="reveal">{cd}<div class="ans">{res}</div></div></div>''', t_rev + 3.0
+
+
 SCENES = dict(hook=scene_hook, kanji=scene_kanji, word=scene_word, compare=scene_compare,
-              quiz=scene_quiz, list=scene_list, text=scene_text, cta=scene_cta)
+              quiz=scene_quiz, list=scene_list, text=scene_text, cta=scene_cta,
+              guess=scene_guess, sign=scene_sign, combo=scene_combo)
 
 
 def css(theme):
@@ -266,6 +372,22 @@ em{{font-style:normal;color:{c['shu']}}}
 .lr{{font-size:36px;font-weight:500;color:{c['muted']}}}
 .logo{{width:260px;height:260px;border-radius:60px}}
 .url{{font-size:42px;color:{c['accent']};font-weight:700}}
+.pic{{width:520px;height:520px;background:{c['surface']};border:3px solid {c['line']};border-radius:48px;display:flex;align-items:center;justify-content:center}}
+.icon{{width:400px;height:400px;fill:none;stroke:{c['ink']};stroke-width:7;stroke-linecap:round;stroke-linejoin:round}}
+.icon .fill{{fill:{c['ink']};stroke:none}}
+.reveal{{position:relative;width:100%;display:flex;flex-direction:column;align-items:center}}
+.reveal .count{{position:absolute;top:0;left:50%;margin-left:-60px}}
+.ans{{display:flex;flex-direction:column;align-items:center;gap:22px;min-height:120px}}
+.sign{{width:100%;border:8px solid;padding:34px 50px;display:flex;flex-direction:column;gap:8px;box-shadow:0 18px 0 rgba(0,0,0,.12)}}
+.srow{{display:flex;align-items:center;justify-content:space-between;gap:30px}}
+.sjp{{font-size:120px;line-height:1.15}}
+.sside{{font-size:84px;font-weight:700}}
+.smean{{display:flex;gap:22px;align-items:baseline;justify-content:flex-start;background:{c['shu_soft']};color:{c['ink']};border-radius:18px;padding:8px 24px;font-size:48px;font-weight:700;margin-bottom:14px}}
+.smean span{{font-size:36px;font-weight:500;color:{c['muted']}}}
+.combo{{align-items:center;gap:22px}}
+.card.small{{width:300px;padding:30px 20px 24px}}
+.card.small .cmp{{font-size:200px}}
+.plus{{font-size:110px;font-weight:700;color:{c['muted']}}}
 @keyframes up{{from{{opacity:0;transform:translateY(46px)}}to{{opacity:1;transform:none}}}}
 @keyframes pop{{0%{{opacity:0;transform:scale(.6)}}70%{{opacity:1;transform:scale(1.06)}}100%{{transform:scale(1)}}}}
 @keyframes zoom{{from{{transform:scale(1)}}to{{transform:scale(1.07)}}}}

@@ -57,6 +57,17 @@ Fes-la servir sempre com a primera escena. Durada típica 2–3 s.
 ### `cta` — tancament
 `text` (per defecte «Aprende japonés gratis con **Senri**»), `sub` (per defecte «Sin cuenta ni anuncios · enlace en el perfil»), `url` (opcional). Màxim 3 s.
 
+### `guess` — «dilo antes que yo»
+Amb `icon` (dibuix: `gato`, `perro`, `libro`, `cafe`, `arbol`, `sol`, `casa`, `pez`): imatge → l'espectador diu la paraula japonesa; després del compte surten `jp` (amb furigana si porta `kana`), `romaji` i `meaning`. Pregunta per defecte: «¿Cómo se dice en japonés?». És recordar activament (produir la paraula), el principi de Senri.
+Sense `icon`: `jp` gran (p. ex. `カメラ`) → l'espectador endevina el significat; surten `meaning` i `romaji`. Ideal per a «Si sabes katakana, ya sabes estas palabras».
+Camps comuns: `question`, `countdown` (3), `note`. Si cal una icona nova, afegeix-la a `ICONS` (traç de línia, viewBox 200×200, fet per nosaltres).
+
+### `sign` — «¿Puedes leer este cartel?»
+Un rètol dibuixat de la vida real: `style` `estacion` (groc, com els de sortida de les estacions), `pizarra` (carta de cafeteria) o `placa` (placa de porta). `rows`: `jp`, `arrow` o `price` a la dreta, `meaning`, `romaji` (surten com a traducció dins el rètol després del compte). `question` amb el context («Estás en una estación…»), `countdown`, `note` (p. ex. el significat de cada kanji). Màxim 3 files.
+
+### `combo` — kanji = dibuix + dibuix
+`parts` (2–3: `k`, `meaning`), `result` (`k`, `meaning`, `reading`, `romaji`), `hint`, `question` («¿Qué kanji sale?»), `countdown`. Fes servir la pista (`hint`) de Senri (`lookup.mjs`) i només kanji que hi siguin.
+
 ## Sortida
 - `sortida.mp4`: H.264 1080×1920, 30 fps, amb una pista d'àudio silenciosa (perquè les plataformes deixin afegir-hi música). Amb `--audio fitxer.mp3` en fa servir un de propi, retallat i amb fos de sortida.
 - `sortida-portada.jpg`: el primer fotograma, per a portada.
