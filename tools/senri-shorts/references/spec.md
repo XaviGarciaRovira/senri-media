@@ -58,9 +58,9 @@ Fes-la servir sempre com a primera escena. Durada típica 2–3 s.
 `text` (per defecte «Aprende japonés gratis con **Senri**»), `sub` (per defecte «Sin cuenta ni anuncios · enlace en el perfil»), `url` (opcional). Màxim 3 s.
 
 ### `guess` — «dilo antes que yo»
-Amb `icon` (dibuix: `gato`, `perro`, `libro`, `cafe`, `arbol`, `sol`, `casa`, `pez`): imatge → l'espectador diu la paraula japonesa; després del compte surten `jp` (amb furigana si porta `kana`), `romaji` i `meaning`. Pregunta per defecte: «¿Cómo se dice en japonés?». És recordar activament (produir la paraula), el principi de Senri.
+Amb `icon` (il·lustració de `assets/emoji/`: arbol, arroz, avion, bento, bicicleta, cafe, casa, coche, flor, gafas, gato, huevo, leche, libro, llave, lluvia, luna, montana, nieve, pajaro, pan, paraguas, perro, pez, reloj, te, telefono, tren, zapatos, agua): imatge → l'espectador diu la paraula japonesa; després del compte surten `jp` (amb furigana si porta `kana`), `romaji` i `meaning`. Pregunta per defecte: «¿Cómo se dice en japonés?». És recordar activament (produir la paraula), el principi de Senri.
 Sense `icon`: `jp` gran (p. ex. `カメラ`) → l'espectador endevina el significat; surten `meaning` i `romaji`. Ideal per a «Si sabes katakana, ya sabes estas palabras».
-Camps comuns: `question`, `countdown` (3), `note`. Si cal una icona nova, afegeix-la a `ICONS` (traç de línia, viewBox 200×200, fet per nosaltres).
+Camps comuns: `question`, `countdown` (3), `note`. Les il·lustracions són Fluent Emoji (Flat) de Microsoft, llicència MIT: posa «Ilustraciones: Fluent Emoji (Microsoft, MIT)» a la descripció. Per afegir-ne una, copia el `*_flat.svg` de github.com/microsoft/fluentui-emoji (clon amb `--sparse`) a `assets/emoji/<nom>.svg`. Comprova abans que la paraula sigui a Senri (`lookup.mjs`).
 
 ### `sign` — «¿Puedes leer este cartel?»
 Un rètol dibuixat de la vida real: `style` `estacion` (groc, com els de sortida de les estacions), `pizarra` (carta de cafeteria) o `placa` (placa de porta). `rows`: `jp`, `arrow` o `price` a la dreta, `meaning`, `romaji` (surten com a traducció dins el rètol després del compte). `question` amb el context («Estás en una estación…»), `countdown`, `note` (p. ex. el significat de cada kanji). Màxim 3 files.

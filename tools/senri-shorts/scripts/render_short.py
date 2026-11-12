@@ -215,35 +215,15 @@ def countdown(count):
     return f'<div class="count">{nums}</div>', 0.9 + count
 
 
-# Dibuixos senzills de línia (viewBox 0 0 200 200), fets per a Senri: res de tercers.
-ICONS = {
-    "gato": '<path d="M52 92 L48 38 L86 66 Q100 62 114 66 L152 38 L148 92"/><ellipse cx="100" cy="112" rx="58" ry="50"/>'
-            '<circle cx="78" cy="106" r="6" class="fill"/><circle cx="122" cy="106" r="6" class="fill"/>'
-            '<path d="M94 124 L100 130 L106 124"/><path d="M40 118 L72 122 M40 134 L72 128 M160 118 L128 122 M160 134 L128 128"/>',
-    "perro": '<path d="M58 70 Q30 64 32 112 Q36 130 54 120 L58 92"/><path d="M142 70 Q170 64 168 112 Q164 130 146 120 L142 92"/>'
-             '<path d="M58 70 Q100 40 142 70 L146 124 Q140 168 100 168 Q60 168 54 124 Z"/>'
-             '<circle cx="82" cy="104" r="6" class="fill"/><circle cx="118" cy="104" r="6" class="fill"/>'
-             '<ellipse cx="100" cy="132" rx="12" ry="8" class="fill"/><path d="M100 140 L100 150 M88 152 Q100 160 112 152"/>',
-    "libro": '<path d="M100 56 Q72 42 34 48 L34 150 Q72 144 100 158 Q128 144 166 150 L166 48 Q128 42 100 56 Z"/>'
-             '<path d="M100 56 L100 158"/><path d="M50 74 Q70 72 86 78 M50 96 Q70 94 86 100 M114 78 Q130 72 150 74 M114 100 Q130 94 150 96"/>',
-    "cafe": '<path d="M46 84 L154 84 L146 150 Q144 162 132 162 L68 162 Q56 162 54 150 Z"/>'
-            '<path d="M152 98 Q178 98 176 118 Q174 138 148 136"/>'
-            '<path d="M80 40 Q72 52 80 64 M100 34 Q92 48 100 64 M120 40 Q112 52 120 64"/>',
-    "arbol": '<path d="M100 172 L100 112 M100 132 L80 116 M100 124 L118 108"/>'
-             '<path d="M100 26 Q140 26 146 62 Q172 74 160 104 Q150 124 124 118 Q100 128 76 118 Q50 124 40 104 Q28 74 54 62 Q60 26 100 26 Z"/>',
-    "sol": '<circle cx="100" cy="100" r="34"/><path d="M100 30 L100 50 M100 150 L100 170 M30 100 L50 100 M150 100 L170 100'
-           ' M50 50 L64 64 M136 136 L150 150 M150 50 L136 64 M64 136 L50 150"/>',
-    "casa": '<path d="M30 98 L100 38 L170 98"/><path d="M50 82 L50 166 L150 166 L150 82"/>'
-            '<path d="M86 166 L86 120 L114 120 L114 166"/><rect x="122" y="104" width="18" height="18"/>',
-    "pez": '<path d="M36 100 Q80 50 140 100 Q80 150 36 100 Z"/><path d="M140 100 L172 72 L166 100 L172 128 Z"/>'
-           '<circle cx="66" cy="94" r="5" class="fill"/><path d="M92 82 Q100 100 92 118"/>',
-}
+# Il·lustracions: Fluent Emoji (Flat) de Microsoft, llicència MIT (assets/emoji/LICENSE-fluentui-emoji.txt).
+EMOJI = ASSETS / "emoji"
 
 
 def icon_svg(name):
-    if name not in ICONS:
-        sys.exit(f"Icona desconeguda «{name}». Icones: {', '.join(ICONS)}")
-    return f'<svg class="t icon" viewBox="0 0 200 200">{ICONS[name]}</svg>'
+    f = EMOJI / f"{name}.svg"
+    if not f.exists():
+        sys.exit(f"Icona desconeguda «{name}». Icones: {', '.join(sorted(x.stem for x in EMOJI.glob('*.svg')))}")
+    return f'<img class="t icon" src="{f.as_uri()}">'
 
 
 def scene_guess(s):
@@ -373,8 +353,7 @@ em{{font-style:normal;color:{c['shu']}}}
 .logo{{width:260px;height:260px;border-radius:60px}}
 .url{{font-size:42px;color:{c['accent']};font-weight:700}}
 .pic{{width:520px;height:520px;background:{c['surface']};border:3px solid {c['line']};border-radius:48px;display:flex;align-items:center;justify-content:center}}
-.icon{{width:400px;height:400px;fill:none;stroke:{c['ink']};stroke-width:7;stroke-linecap:round;stroke-linejoin:round}}
-.icon .fill{{fill:{c['ink']};stroke:none}}
+.icon{{width:380px;height:380px;animation:zoom 4.5s linear both}}
 .reveal{{position:relative;width:100%;display:flex;flex-direction:column;align-items:center}}
 .reveal .count{{position:absolute;top:0;left:50%;margin-left:-60px}}
 .ans{{display:flex;flex-direction:column;align-items:center;gap:22px;min-height:120px}}
