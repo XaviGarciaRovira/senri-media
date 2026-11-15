@@ -108,5 +108,8 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 - A Instagram, les obertures amb caràcters grans i una pregunta (水, シ/ツ) retenen més (41–45 %) que la de text sol (一二三四) o la del kanji en gris dins el requadre (山) (~33 %). A YouTube, el 山 va ser el que més va retenir. La prova amb Trial Reels de la setmana del 16 ha de resoldre-ho.
 - L'abast baixa vídeo a vídeo (1.621 → 143). Pot ser el final de l'empenta inicial del compte nou; seguir-ho.
 
+## Esborranys a Metricool (setmana del 16 nov) · id / uuid
+16 13:30 雨 A 429142170 / 1281771298705653937 · 16 18:30 雨 B (trial) 429142724 / 7118371957775483786 · 16 20:30 carr. katakana 429143498 / -4779296519501035086 · 17 13:30 carr. parejas 429143526 / -5854539274802936529 · 17 20:30 ソ/ン 429142746 / 6105152511694620473 · 18 13:30 cartel 429142764 / -2235423624247097806 · 18 20:30 carr. familia 429143555 / 1593905415992004114 · 19 13:30 carr. 学 429143565 / 5057611344700195959 · 19 20:30 手 429142788 / 3284237774253410069 · 20 13:30 compras 429142804 / -6669598357699343941 · 20 20:30 carr. を 429143574 / 7501078870691695107 · 21 13:30 carr. quiz kanji 429143587 / -7701801460244657786 · 21 20:30 repaso 429142822 / 472348895330583282 · 22 11:30 katakana 429142835 / 405735511462661185 · 22 19:30 carr. repaso 429143604 / -240370088255534466
+
 ## Llavors de música fetes servir
 1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel), 11–17 (setmana del 16 nov; 12 = variant B del 16). La pròxima: 18.
