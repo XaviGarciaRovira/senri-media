@@ -37,7 +37,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-15 | 19:30 | Carrusel #5 | 5 errores típicos (は=wa, を=o, し/ち/つ, ー, っ) | IG | programat |
 | 2026-11-16 | 13:30 | Kanji del día #4 (A, obertura actual) | 雨 (quiz: 電) · llavor 11 | IG, YT | esborrany |
 | 2026-11-16 | 18:30 | Kanji del día #4 (B, prova d'obertura: kanji gran + «8 trazos») | 雨 (quiz: 電) · llavor 12 | IG (Trial Reel), YT | esborrany |
-| 2026-11-16 | 20:30 | Carrusel #6 | Todo el katakana (taules, dakuten, ホテル バス トイレ ドア) | IG | esborrany |
+| 2026-11-16 | 20:30 | Carrusel #6 | Katakana v2: «Aunque no sepas katakana, estas 2 palabras ya las lees» (quiz ホテル, カレー → truc → 3 taules) | IG | esborrany |
 | 2026-11-17 | 13:30 | Carrusel #7 | 5 parejas de katakana: ク/タ ウ/ワ ス/ヌ ル/レ マ/ム + quiz | IG | esborrany |
 | 2026-11-17 | 20:30 | Parelles #2 | ソ / ン · ボタン, ズボン, レストラン · llavor 13 | IG, YT | esborrany |
 | 2026-11-18 | 13:30 | ¿Puedes leer este cartel? #1 | 出口/入口 + コーヒー/パン · llavor 10 | IG, YT | esborrany |
@@ -53,6 +53,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
+- Carrusels (16 nov, Xavi): el de taules soles no convida a lliscar. Estructura nova: portada amb repte → pregunta i resposta a la diapositiva següent → el truc → la referència per desar al final. Comparar els guardats i el % de diapositives vistes amb el d'hiragana (11 nov).
 - Hores invertides respecte a la setmana del 9 (dl/dc/dv 13:30, dt/dj 20:30) perquè cada sèrie es vegi a totes dues franges.
 
 ## Resum del primer vídeo (8 nov, ~13 h després)

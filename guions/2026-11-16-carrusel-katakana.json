@@ -3,14 +3,70 @@
  "slides": [
   {
    "type": "cover",
-   "label": "Japonés N5 · desde cero",
-   "title": "Todo el **katakana** en un carrusel",
+   "label": "Katakana · desde cero",
+   "title": "Aunque no sepas katakana, **estas 2 palabras** ya las lees",
+   "big": "ホテル カレー",
+   "sub": "Desliza y compruébalo · al final, la tabla entera"
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Qué significa?",
+   "prompt": "ホテル",
+   "options": [
+    "hora",
+    "hotel",
+    "hospital"
+   ],
+   "answer": 1,
+   "foot": "Piénsalo y desliza →"
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Qué significa?",
+   "prompt": "ホテル",
+   "options": [
+    "hora",
+    "hotel",
+    "hospital"
+   ],
+   "answer": 1,
+   "foot": "ホ ho · テ te · ル ru → **hoteru**",
+   "show_answer": true
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Qué significa?",
+   "prompt": "カレー",
+   "options": [
+    "calle",
+    "carne",
+    "curry"
+   ],
+   "answer": 2,
+   "foot": "Pista: la raya alarga la vocal →"
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Qué significa?",
+   "prompt": "カレー",
+   "options": [
+    "calle",
+    "carne",
+    "curry"
+   ],
+   "answer": 2,
+   "foot": "カ ka · レ re · ー alarga → **karee**",
+   "show_answer": true
+  },
+  {
+   "type": "text",
+   "title": "El truco",
    "big": "アイウエオ",
-   "sub": "Las letras de las palabras extranjeras: ホテル, バス…"
+   "text": "El katakana sirve para las palabras **extranjeras**.\nSi lo lees en voz alta, muchas ya las conoces.\nAquí tienes las 46 letras →"
   },
   {
    "type": "table",
-   "title": "Vocales, K, S, T",
+   "title": "Guárdalo: vocales, K, S, T",
    "rows": [
     [
      [
@@ -242,155 +298,12 @@
      null
     ]
    ],
-   "note": "ヲ casi no se usa: para la partícula se escribe **を** en hiragana."
-  },
-  {
-   "type": "table",
-   "title": "Con dakuten: k→g, s→z, t→d, h→b/p",
-   "rows": [
-    [
-     [
-      "ガ",
-      "ga"
-     ],
-     [
-      "ギ",
-      "gi"
-     ],
-     [
-      "グ",
-      "gu"
-     ],
-     [
-      "ゲ",
-      "ge"
-     ],
-     [
-      "ゴ",
-      "go"
-     ]
-    ],
-    [
-     [
-      "ザ",
-      "za"
-     ],
-     [
-      "ジ",
-      "ji"
-     ],
-     [
-      "ズ",
-      "zu"
-     ],
-     [
-      "ゼ",
-      "ze"
-     ],
-     [
-      "ゾ",
-      "zo"
-     ]
-    ],
-    [
-     [
-      "ダ",
-      "da"
-     ],
-     [
-      "ヂ",
-      "ji"
-     ],
-     [
-      "ヅ",
-      "zu"
-     ],
-     [
-      "デ",
-      "de"
-     ],
-     [
-      "ド",
-      "do"
-     ]
-    ],
-    [
-     [
-      "バ",
-      "ba"
-     ],
-     [
-      "ビ",
-      "bi"
-     ],
-     [
-      "ブ",
-      "bu"
-     ],
-     [
-      "ベ",
-      "be"
-     ],
-     [
-      "ボ",
-      "bo"
-     ]
-    ],
-    [
-     [
-      "パ",
-      "pa"
-     ],
-     [
-      "ピ",
-      "pi"
-     ],
-     [
-      "プ",
-      "pu"
-     ],
-     [
-      "ペ",
-      "pe"
-     ],
-     [
-      "ポ",
-      "po"
-     ]
-    ]
-   ]
-  },
-  {
-   "type": "list",
-   "title": "Ya puedes leer estas:",
-   "items": [
-    {
-     "jp": "ホテル",
-     "romaji": "hoteru",
-     "meaning": "hotel"
-    },
-    {
-     "jp": "バス",
-     "romaji": "basu",
-     "meaning": "autobús"
-    },
-    {
-     "jp": "トイレ",
-     "romaji": "toire",
-     "meaning": "baño, váter"
-    },
-    {
-     "jp": "ドア",
-     "romaji": "doa",
-     "meaning": "puerta"
-    }
-   ],
-   "note": "La raya **ー** alarga la vocal: コーヒー es koohii."
+   "note": "Con dakuten, igual que en hiragana: カ→**ガ**, ハ→**バ/パ**."
   },
   {
    "type": "cta",
    "text": "Guárdalo y practica gratis con **Senri**",
-   "sub": "Hiragana, katakana y kanji N5 · enlace en el perfil"
+   "sub": "¿Cuántas acertaste? Dilo en comentarios · enlace en el perfil"
   }
  ]
 }
