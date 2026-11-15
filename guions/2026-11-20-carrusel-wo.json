@@ -1,0 +1,60 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Gramática N5 · desde cero",
+   "title": "Cómo decir **qué haces** en japonés",
+   "big": "を",
+   "sub": "X を V-ます: como, bebo, leo…"
+  },
+  {
+   "type": "text",
+   "title": "La fórmula",
+   "big": "Xを〜ます",
+   "text": "**を** marca lo que recibe la acción y se lee **o**.\nEl verbo va **siempre al final**."
+  },
+  {
+   "type": "sentences",
+   "title": "Comer, beber, leer",
+   "items": [
+    {
+     "jp": "私{わたし} [は] パン [を] 食{た}べます 。",
+     "es": "Como pan."
+    },
+    {
+     "jp": "毎朝{まいあさ} コーヒー [を] 飲{の}みます 。",
+     "es": "Cada mañana bebo café."
+    },
+    {
+     "jp": "新聞{しんぶん} [を] 読{よ}みます 。",
+     "es": "Leo el periódico."
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "Escuchar, ver, limpiar",
+   "items": [
+    {
+     "jp": "音楽{おんがく} [を] 聞{き}きます 。",
+     "es": "Escucho música."
+    },
+    {
+     "jp": "テレビ [を] 見{み}ます 。",
+     "es": "Veo la televisión."
+    },
+    {
+     "jp": "部屋{へや} [を] 掃除{そうじ} します 。",
+     "es": "Limpio la habitación."
+    }
+   ],
+   "note": "En pasado, **〜ました**: 昨日 映画を見ました = Ayer vi una película."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Ordena frases y elige partículas · enlace en el perfil"
+  }
+ ]
+}

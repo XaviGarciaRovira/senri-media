@@ -1,0 +1,45 @@
+{
+ "title": "3 palabras de compras",
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "list",
+   "title": "3 palabras para ir de **compras** en Japón 🛍️",
+   "step": 1.6,
+   "items": [
+    {
+     "jp": "いくら",
+     "romaji": "ikura",
+     "meaning": "¿cuánto cuesta?"
+    },
+    {
+     "jp": "高い",
+     "kana": "たかい",
+     "romaji": "takai",
+     "meaning": "caro (y alto)",
+     "say": "たかい"
+    },
+    {
+     "jp": "安い",
+     "kana": "やすい",
+     "romaji": "yasui",
+     "meaning": "barato",
+     "say": "やすい"
+    }
+   ],
+   "duration": 7.0
+  },
+  {
+   "type": "text",
+   "text": "¿Cuál usarías más?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.5
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

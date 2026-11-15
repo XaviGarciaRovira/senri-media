@@ -1,0 +1,53 @@
+{
+ "title": "Repaso de la semana #2",
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "quiz",
+   "question": "Repaso de la semana (1/3)\n¿Qué significa?",
+   "prompt": "雨",
+   "options": [
+    "nube",
+    "lluvia",
+    "nieve"
+   ],
+   "answer": 1,
+   "say": "あめ"
+  },
+  {
+   "type": "quiz",
+   "question": "Repaso (2/3)\n¿Cómo se lee?",
+   "prompt": "ボタン",
+   "options": [
+    "botaso",
+    "botan",
+    "potan"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "quiz",
+   "question": "Repaso (3/3)\nEn la estación, ¿qué es?",
+   "prompt": "出口",
+   "options": [
+    "entrada",
+    "salida",
+    "taquilla"
+   ],
+   "answer": 1,
+   "say": "でぐち"
+  },
+  {
+   "type": "text",
+   "text": "¿Cuántas acertaste?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

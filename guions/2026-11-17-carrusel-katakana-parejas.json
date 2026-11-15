@@ -1,0 +1,108 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Katakana · principiantes",
+   "title": "5 parejas de **katakana** que se confunden",
+   "big": "ク タ",
+   "sub": "Y el detalle que las separa"
+  },
+  {
+   "type": "pairs",
+   "title": "Mira el detalle",
+   "items": [
+    {
+     "a": "ク",
+     "ar": "ku",
+     "b": "タ",
+     "br": "ta",
+     "tip": "タ lleva una raya **más** por dentro; ク está vacía."
+    },
+    {
+     "a": "ウ",
+     "ar": "u",
+     "b": "ワ",
+     "br": "wa",
+     "tip": "ウ tiene un **trazo arriba**; ワ, no."
+    },
+    {
+     "a": "ス",
+     "ar": "su",
+     "b": "ヌ",
+     "br": "nu",
+     "tip": "ヌ lleva un trazo que la **cruza**; ス acaba abierta."
+    },
+    {
+     "a": "ル",
+     "ar": "ru",
+     "b": "レ",
+     "br": "re",
+     "tip": "ル tiene **dos** trazos; レ, uno solo."
+    },
+    {
+     "a": "マ",
+     "ar": "ma",
+     "b": "ム",
+     "br": "mu",
+     "tip": "マ tiene la raya **arriba**; ム, abajo."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Cómo se lee?",
+   "prompt": "ワ",
+   "options": [
+    "u",
+    "wa",
+    "fu"
+   ],
+   "answer": 1,
+   "foot": "Respuesta en la siguiente →"
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Cómo se lee?",
+   "prompt": "ワ",
+   "options": [
+    "u",
+    "wa",
+    "fu"
+   ],
+   "answer": 1,
+   "show_answer": true,
+   "foot": "Sin trazo arriba: ワ · wa"
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Cómo se lee?",
+   "prompt": "ヌ",
+   "options": [
+    "su",
+    "nu",
+    "me"
+   ],
+   "answer": 1,
+   "foot": "Respuesta en la siguiente →"
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Cómo se lee?",
+   "prompt": "ヌ",
+   "options": [
+    "su",
+    "nu",
+    "me"
+   ],
+   "answer": 1,
+   "show_answer": true,
+   "foot": "Con el trazo que cruza: ヌ · nu"
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Katakana con repaso espaciado · enlace en el perfil"
+  }
+ ]
+}

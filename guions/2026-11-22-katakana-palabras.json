@@ -1,0 +1,42 @@
+{
+ "title": "Si sabes katakana…",
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "guess",
+   "question": "Si sabes katakana, ya sabes estas palabras (1/3)",
+   "jp": "カメラ",
+   "romaji": "kamera",
+   "meaning": "cámara",
+   "countdown": 3
+  },
+  {
+   "type": "guess",
+   "question": "(2/3) ¿Qué significa?",
+   "jp": "ギター",
+   "romaji": "gitaa",
+   "meaning": "guitarra",
+   "countdown": 3
+  },
+  {
+   "type": "guess",
+   "question": "(3/3) ¿Y esta?",
+   "jp": "テレビ",
+   "romaji": "terebi",
+   "meaning": "televisión",
+   "countdown": 3
+  },
+  {
+   "type": "text",
+   "text": "¿Cuántas sabías?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

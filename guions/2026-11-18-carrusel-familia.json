@@ -1,0 +1,108 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Vocabulario N5",
+   "title": "La **familia** en japonés",
+   "big": "父 母",
+   "sub": "Ojo: se dice distinto si es tu familia o la de otro"
+  },
+  {
+   "type": "list",
+   "title": "Tu familia",
+   "items": [
+    {
+     "jp": "父",
+     "kana": "ちち",
+     "romaji": "chichi",
+     "meaning": "mi padre"
+    },
+    {
+     "jp": "母",
+     "kana": "はは",
+     "romaji": "haha",
+     "meaning": "mi madre"
+    },
+    {
+     "jp": "兄",
+     "kana": "あに",
+     "romaji": "ani",
+     "meaning": "mi hermano mayor"
+    },
+    {
+     "jp": "姉",
+     "kana": "あね",
+     "romaji": "ane",
+     "meaning": "mi hermana mayor"
+    },
+    {
+     "jp": "弟",
+     "kana": "おとうと",
+     "romaji": "otouto",
+     "meaning": "mi hermano pequeño"
+    },
+    {
+     "jp": "妹",
+     "kana": "いもうと",
+     "romaji": "imouto",
+     "meaning": "mi hermana pequeña"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "title": "La familia de otra persona",
+   "items": [
+    {
+     "jp": "お父さん",
+     "kana": "おとうさん",
+     "romaji": "otousan",
+     "meaning": "padre (de alguien); papá"
+    },
+    {
+     "jp": "お母さん",
+     "kana": "おかあさん",
+     "romaji": "okaasan",
+     "meaning": "madre (de alguien); mamá"
+    },
+    {
+     "jp": "お兄さん",
+     "kana": "おにいさん",
+     "romaji": "oniisan",
+     "meaning": "hermano mayor (de alguien)"
+    },
+    {
+     "jp": "お姉さん",
+     "kana": "おねえさん",
+     "romaji": "oneesan",
+     "meaning": "hermana mayor (de alguien)"
+    }
+   ],
+   "note": "Con **お〜さん** hablas con respeto de la familia de otro."
+  },
+  {
+   "type": "sentences",
+   "title": "En frases",
+   "items": [
+    {
+     "jp": "父{ちち} [は] 医者{いしゃ} です 。",
+     "es": "Mi padre es médico."
+    },
+    {
+     "jp": "母{はは} [の] 名前{なまえ} [は] ゆき です 。",
+     "es": "El nombre de mi madre es Yuki."
+    },
+    {
+     "jp": "姉{あね} [の] 車{くるま} [は] 赤{あか}い です 。",
+     "es": "El coche de mi hermana es rojo."
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Vocabulario N5 con audio · enlace en el perfil"
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Japonés N5 · desde cero",
+   "title": "Todo el **katakana** en un carrusel",
+   "big": "アイウエオ",
+   "sub": "Las letras de las palabras extranjeras: ホテル, バス…"
+  },
+  {
+   "type": "table",
+   "title": "Vocales, K, S, T",
+   "rows": [
+    [
+     [
+      "ア",
+      "a"
+     ],
+     [
+      "イ",
+      "i"
+     ],
+     [
+      "ウ",
+      "u"
+     ],
+     [
+      "エ",
+      "e"
+     ],
+     [
+      "オ",
+      "o"
+     ]
+    ],
+    [
+     [
+      "カ",
+      "ka"
+     ],
+     [
+      "キ",
+      "ki"
+     ],
+     [
+      "ク",
+      "ku"
+     ],
+     [
+      "ケ",
+      "ke"
+     ],
+     [
+      "コ",
+      "ko"
+     ]
+    ],
+    [
+     [
+      "サ",
+      "sa"
+     ],
+     [
+      "シ",
+      "shi"
+     ],
+     [
+      "ス",
+      "su"
+     ],
+     [
+      "セ",
+      "se"
+     ],
+     [
+      "ソ",
+      "so"
+     ]
+    ],
+    [
+     [
+      "タ",
+      "ta"
+     ],
+     [
+      "チ",
+      "chi"
+     ],
+     [
+      "ツ",
+      "tsu"
+     ],
+     [
+      "テ",
+      "te"
+     ],
+     [
+      "ト",
+      "to"
+     ]
+    ]
+   ],
+   "note": "Ojo con **シ/ツ** y **ソ/ン**: la clave es la dirección del trazo largo."
+  },
+  {
+   "type": "table",
+   "title": "N, H, M, Y",
+   "rows": [
+    [
+     [
+      "ナ",
+      "na"
+     ],
+     [
+      "ニ",
+      "ni"
+     ],
+     [
+      "ヌ",
+      "nu"
+     ],
+     [
+      "ネ",
+      "ne"
+     ],
+     [
+      "ノ",
+      "no"
+     ]
+    ],
+    [
+     [
+      "ハ",
+      "ha"
+     ],
+     [
+      "ヒ",
+      "hi"
+     ],
+     [
+      "フ",
+      "fu"
+     ],
+     [
+      "ヘ",
+      "he"
+     ],
+     [
+      "ホ",
+      "ho"
+     ]
+    ],
+    [
+     [
+      "マ",
+      "ma"
+     ],
+     [
+      "ミ",
+      "mi"
+     ],
+     [
+      "ム",
+      "mu"
+     ],
+     [
+      "メ",
+      "me"
+     ],
+     [
+      "モ",
+      "mo"
+     ]
+    ],
+    [
+     [
+      "ヤ",
+      "ya"
+     ],
+     null,
+     [
+      "ユ",
+      "yu"
+     ],
+     null,
+     [
+      "ヨ",
+      "yo"
+     ]
+    ]
+   ],
+   "note": "ヘ es casi igual que へ en hiragana."
+  },
+  {
+   "type": "table",
+   "title": "R, W y N",
+   "rows": [
+    [
+     [
+      "ラ",
+      "ra"
+     ],
+     [
+      "リ",
+      "ri"
+     ],
+     [
+      "ル",
+      "ru"
+     ],
+     [
+      "レ",
+      "re"
+     ],
+     [
+      "ロ",
+      "ro"
+     ]
+    ],
+    [
+     [
+      "ワ",
+      "wa"
+     ],
+     null,
+     null,
+     null,
+     [
+      "ヲ",
+      "o"
+     ]
+    ],
+    [
+     [
+      "ン",
+      "n"
+     ],
+     null,
+     null,
+     null,
+     null
+    ]
+   ],
+   "note": "ヲ casi no se usa: para la partícula se escribe **を** en hiragana."
+  },
+  {
+   "type": "table",
+   "title": "Con dakuten: k→g, s→z, t→d, h→b/p",
+   "rows": [
+    [
+     [
+      "ガ",
+      "ga"
+     ],
+     [
+      "ギ",
+      "gi"
+     ],
+     [
+      "グ",
+      "gu"
+     ],
+     [
+      "ゲ",
+      "ge"
+     ],
+     [
+      "ゴ",
+      "go"
+     ]
+    ],
+    [
+     [
+      "ザ",
+      "za"
+     ],
+     [
+      "ジ",
+      "ji"
+     ],
+     [
+      "ズ",
+      "zu"
+     ],
+     [
+      "ゼ",
+      "ze"
+     ],
+     [
+      "ゾ",
+      "zo"
+     ]
+    ],
+    [
+     [
+      "ダ",
+      "da"
+     ],
+     [
+      "ヂ",
+      "ji"
+     ],
+     [
+      "ヅ",
+      "zu"
+     ],
+     [
+      "デ",
+      "de"
+     ],
+     [
+      "ド",
+      "do"
+     ]
+    ],
+    [
+     [
+      "バ",
+      "ba"
+     ],
+     [
+      "ビ",
+      "bi"
+     ],
+     [
+      "ブ",
+      "bu"
+     ],
+     [
+      "ベ",
+      "be"
+     ],
+     [
+      "ボ",
+      "bo"
+     ]
+    ],
+    [
+     [
+      "パ",
+      "pa"
+     ],
+     [
+      "ピ",
+      "pi"
+     ],
+     [
+      "プ",
+      "pu"
+     ],
+     [
+      "ペ",
+      "pe"
+     ],
+     [
+      "ポ",
+      "po"
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "list",
+   "title": "Ya puedes leer estas:",
+   "items": [
+    {
+     "jp": "ホテル",
+     "romaji": "hoteru",
+     "meaning": "hotel"
+    },
+    {
+     "jp": "バス",
+     "romaji": "basu",
+     "meaning": "autobús"
+    },
+    {
+     "jp": "トイレ",
+     "romaji": "toire",
+     "meaning": "baño, váter"
+    },
+    {
+     "jp": "ドア",
+     "romaji": "doa",
+     "meaning": "puerta"
+    }
+   ],
+   "note": "La raya **ー** alarga la vocal: コーヒー es koohii."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Hiragana, katakana y kanji N5 · enlace en el perfil"
+  }
+ ]
+}

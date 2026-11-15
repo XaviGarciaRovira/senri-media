@@ -1,0 +1,57 @@
+{
+ "title": "¿ソ o ン?",
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "¿**ソ** o **ン**?",
+   "big": "ソ ン",
+   "sub": "El truco para no confundirlas",
+   "duration": 1.8
+  },
+  {
+   "type": "compare",
+   "title": "Fíjate en el trazo largo",
+   "left": {
+    "char": "ソ",
+    "romaji": "so",
+    "label": "cae de arriba abajo"
+   },
+   "right": {
+    "char": "ン",
+    "romaji": "n",
+    "label": "sube de abajo arriba"
+   },
+   "tip": "Igual que **ツ** y **シ**: en ソ el trazo largo baja; en ン, sube.",
+   "tip_at": 1.1
+  },
+  {
+   "type": "list",
+   "title": "Ahora léelas:",
+   "step": 0.9,
+   "items": [
+    {
+     "jp": "ボタン",
+     "romaji": "botan",
+     "meaning": "botón"
+    },
+    {
+     "jp": "ズボン",
+     "romaji": "zubon",
+     "meaning": "pantalones"
+    },
+    {
+     "jp": "レストラン",
+     "romaji": "resutoran",
+     "meaning": "restaurante"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ],
+ "lang": "es"
+}

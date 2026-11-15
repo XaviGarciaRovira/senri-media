@@ -35,6 +35,25 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-14 | 13:30 | Carrusel #4 | Quiz hiragana: はな そら つき ゆき | IG | programat |
 | 2026-11-15 | 11:30 | ¿Qué significa? #2 | さかな 魚 (carne/pescado/arroz) · 肉 | IG, YT | programat |
 | 2026-11-15 | 19:30 | Carrusel #5 | 5 errores típicos (は=wa, を=o, し/ち/つ, ー, っ) | IG | programat |
+| 2026-11-16 | 13:30 | Kanji del día #4 (A, obertura actual) | 雨 (quiz: 電) · llavor 11 | IG, YT | esborrany |
+| 2026-11-16 | 18:30 | Kanji del día #4 (B, prova d'obertura: kanji gran + «8 trazos») | 雨 (quiz: 電) · llavor 12 | IG (Trial Reel), YT | esborrany |
+| 2026-11-16 | 20:30 | Carrusel #6 | Todo el katakana (taules, dakuten, ホテル バス トイレ ドア) | IG | esborrany |
+| 2026-11-17 | 13:30 | Carrusel #7 | 5 parejas de katakana: ク/タ ウ/ワ ス/ヌ ル/レ マ/ム + quiz | IG | esborrany |
+| 2026-11-17 | 20:30 | Parelles #2 | ソ / ン · ボタン, ズボン, レストラン · llavor 13 | IG, YT | esborrany |
+| 2026-11-18 | 13:30 | ¿Puedes leer este cartel? #1 | 出口/入口 + コーヒー/パン · llavor 10 | IG, YT | esborrany |
+| 2026-11-18 | 20:30 | Carrusel #8 | La familia: 父 母 兄 姉 弟 妹 + お〜さん (g1, g2) | IG | esborrany |
+| 2026-11-19 | 13:30 | Carrusel #9 | Fitxa de kanji 学: 学生 学校 大学 (g1, g8, g7) | IG | esborrany |
+| 2026-11-19 | 20:30 | Kanji del día #5 | 手 (quiz: 足) · llavor 14 | IG, YT | esborrany |
+| 2026-11-20 | 13:30 | 3 palabras de… #2 | compras: いくら, 高い, 安い · llavor 15 | IG, YT | esborrany |
+| 2026-11-20 | 20:30 | Carrusel #10 | を: X を V-ます (g4) | IG | esborrany |
+| 2026-11-21 | 13:30 | Carrusel #11 | Quiz: kanji que se parecen (大 上 白 車) | IG | esborrany |
+| 2026-11-21 | 20:30 | Repaso de la semana #2 | 雨 · ボタン · 出口 · llavor 16 | IG, YT | esborrany |
+| 2026-11-22 | 11:30 | Si sabes katakana… #1 | カメラ, ギター, テレビ · llavor 17 | IG, YT | esborrany |
+| 2026-11-22 | 19:30 | Carrusel #12 | Repaso de la semana (palabras, ソ/ン, を) | IG | esborrany |
+
+## Prova d'obertura (setmana del 16 nov)
+- dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
+- Hores invertides respecte a la setmana del 9 (dl/dc/dv 13:30, dt/dj 20:30) perquè cada sèrie es vegi a totes dues franges.
 
 ## Resum del primer vídeo (8 nov, ~13 h després)
 - Instagram: 1.835 visualitzacions, 1.454 comptes, 93 m'agrada, 8 comentaris, 18 guardats, 11 republicacions. 86,5 % no seguidors. Edat: 25–34 36 %, 18–24 29 %, 13–17 20 %. Temps mitjà 6,9 s de 17 s; només el 46,6 % passa dels 3 s.
@@ -90,4 +109,4 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 - L'abast baixa vídeo a vídeo (1.621 → 143). Pot ser el final de l'empenta inicial del compte nou; seguir-ho.
 
 ## Llavors de música fetes servir
-1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel). La pròxima: 11.
+1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel), 11–17 (setmana del 16 nov; 12 = variant B del 16). La pròxima: 18.

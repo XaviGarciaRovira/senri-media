@@ -1,0 +1,69 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Kanji N5 · fichas",
+   "title": "El kanji de **estudiar**",
+   "big": "学",
+   "sub": "Y 3 palabras que ya puedes leer con él"
+  },
+  {
+   "type": "kanji",
+   "k": "学",
+   "label": "Kanji N5 · 8 trazos",
+   "meaning": "estudiar",
+   "reading": "がく",
+   "romaji": "gaku",
+   "examples": [
+    {
+     "jp": "学生",
+     "kana": "がくせい",
+     "romaji": "gakusei",
+     "meaning": "estudiante"
+    },
+    {
+     "jp": "学校",
+     "kana": "がっこう",
+     "romaji": "gakkou",
+     "meaning": "escuela"
+    },
+    {
+     "jp": "大学",
+     "kana": "だいがく",
+     "romaji": "daigaku",
+     "meaning": "universidad"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Para recordarlo",
+   "big": "子",
+   "text": "Abajo hay un **niño** (子) bajo un tejado: un niño que estudia."
+  },
+  {
+   "type": "sentences",
+   "title": "En frases",
+   "items": [
+    {
+     "jp": "私{わたし} [は] 学生{がくせい} です 。",
+     "es": "Soy estudiante."
+    },
+    {
+     "jp": "私{わたし} [も] 学生{がくせい} です 。",
+     "es": "Yo también soy estudiante."
+    },
+    {
+     "jp": "学校{がっこう} [の] 前{まえ} [に] 公園{こうえん} [が] あります 。",
+     "es": "Delante de la escuela hay un parque."
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Kanji con trazos animados · enlace en el perfil"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Repaso · semana 2",
+   "title": "Lo que has aprendido **esta semana**",
+   "big": "雨 手",
+   "sub": "Repásalo en 1 minuto"
+  },
+  {
+   "type": "list",
+   "title": "Palabras de la semana",
+   "items": [
+    {
+     "jp": "雨",
+     "kana": "あめ",
+     "romaji": "ame",
+     "meaning": "lluvia"
+    },
+    {
+     "jp": "手",
+     "kana": "て",
+     "romaji": "te",
+     "meaning": "mano"
+    },
+    {
+     "jp": "足",
+     "kana": "あし",
+     "romaji": "ashi",
+     "meaning": "pie; pierna"
+    },
+    {
+     "jp": "出口",
+     "kana": "でぐち",
+     "romaji": "deguchi",
+     "meaning": "salida"
+    },
+    {
+     "jp": "いくら",
+     "romaji": "ikura",
+     "meaning": "¿cuánto (cuesta)?"
+    },
+    {
+     "jp": "安い",
+     "kana": "やすい",
+     "romaji": "yasui",
+     "meaning": "barato"
+    }
+   ]
+  },
+  {
+   "type": "pairs",
+   "title": "La pareja de la semana",
+   "items": [
+    {
+     "a": "ソ",
+     "ar": "so",
+     "b": "ン",
+     "br": "n",
+     "tip": "En ソ el trazo largo **baja**; en ン, **sube**."
+    },
+    {
+     "a": "シ",
+     "ar": "shi",
+     "b": "ツ",
+     "br": "tsu",
+     "tip": "Lo mismo: シ sube, ツ baja."
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "La frase de la semana",
+   "items": [
+    {
+     "jp": "私{わたし} [は] パン [を] 食{た}べます 。",
+     "es": "Como pan."
+    }
+   ],
+   "note": "**を** (se lee o) marca lo que comes, bebes o lees."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Repaso espaciado cada día · enlace en el perfil"
+  }
+ ]
+}
