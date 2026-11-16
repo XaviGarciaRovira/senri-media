@@ -137,6 +137,7 @@ Període 9–15 nov: 7 reels i 5 carrusels. Els del dg 15 (魚 11:30 i carrusel 
 - 13:30 vs 20:30: 13:30 (2 reels) 46,3 % >3 s de mitjana i 222 d'abast; 20:30 (4 reels) 34,9 % i 190 (146 sense el 山). Però les dues de 13:30 són les parelles, que també són el format que millor va: hora i format barrejats, n=2. No concloent; la setmana del 16 inverteix les hores.
 - Carrusels: abast molt baix (31–192; els reels 139–323) i 1 guardat cadascun → no es pot dir quin tema es desa més. L'únic que surt de la mitjana és el de gramàtica (X は Y です, abast ×3), n=1. 0 seguidors des de carrusels.
 - YouTube: sense xifres (Metricool no les dona). Pendent que Xavi passi el % «se quedaron» i les visites des de la cerca de シ/ツ, ねこ, 人/入, comida, Repaso i 魚.
+- YouTube Studio (captura de Xavi, 16 nov 9:04, últims 28 dies): canal 14,2 % «se quedaron viendo» / 85,8 % saltaron. Shorts destacats: 水 1,2 K · 一二三四 1,1 K · comida 1,0 K · 山 729 · Repaso 425 (シ/ツ, ねこ, 人/入 i 魚 per sota del top 5). La comida, la pitjor a IG (30,2 % >3 s), és la 3a a YouTube: el format llista no va malament a YT. Matisa la decisió 2: no deixar el format llista fins a tenir el % «se quedaron» de cada short.
 - Trial Reels: el primer és el dl 16 18:30 (雨 B); comparar la setmana que ve.
 - Decisions per a la setmana del 16 (i preparar la del 23):
   1. Obertura: la que guanya a IG és «dos caràcters grans + pregunta concreta» (人/入, シ/ツ). La prova 雨 A/B continua igual; per a la setmana del 23 posar almenys un altre «X vs Y» de kanji (p. ex. 木/本, 日/目) com a Kanji del día.
