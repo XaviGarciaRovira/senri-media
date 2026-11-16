@@ -138,6 +138,25 @@ Període 9–15 nov: 7 reels i 5 carrusels. Els del dg 15 (魚 11:30 i carrusel 
 - Carrusels: abast molt baix (31–192; els reels 139–323) i 1 guardat cadascun → no es pot dir quin tema es desa més. L'únic que surt de la mitjana és el de gramàtica (X は Y です, abast ×3), n=1. 0 seguidors des de carrusels.
 - YouTube: sense xifres (Metricool no les dona). Pendent que Xavi passi el % «se quedaron» i les visites des de la cerca de シ/ツ, ねこ, 人/入, comida, Repaso i 魚.
 - YouTube Studio (captura de Xavi, 16 nov 9:04, últims 28 dies): canal 14,2 % «se quedaron viendo» / 85,8 % saltaron. Shorts destacats: 水 1,2 K · 一二三四 1,1 K · comida 1,0 K · 山 729 · Repaso 425 (シ/ツ, ねこ, 人/入 i 魚 per sota del top 5). La comida, la pitjor a IG (30,2 % >3 s), és la 3a a YouTube: el format llista no va malament a YT. Matisa la decisió 2: no deixar el format llista fins a tenir el % «se quedaron» de cada short.
+- YouTube per short (captures de Xavi, 16 nov 9:23, «se quedaron viendo» des de la publicació · visualitzacions interessades):
+
+| Short | Hora | Se quedaron | Interessades | IG >3 s (comparació) | Fons de l'obertura |
+|---|---|---|---|---|---|
+| 山 | dl 20:30 | **22,1 %** | 172 | 32,4 % | clar |
+| comida | dv 20:30 | 19,7 % | 227 | 30,2 % | clar |
+| ねこ | dc 20:30 | 14,8 % | 64 | 38,2 % | clar |
+| Repaso | ds 20:30 | 13,6 % | 69 | 38,7 % | clar |
+| 一二三四 | dg 20:30 | 11,9 % | 160 | 33,8 % | fosc |
+| シ/ツ | dt 13:30 | 11,3 % | 24 | 40,9 % | fosc |
+| 人/入 | dj 13:30 | 9,8 % | 14 | **51,6 %** | fosc |
+| 水 | ds 20:30 | 8,5 % | 113 | 45,1 % | clar (obertura antiga) |
+
+- Lectura: YouTube i Instagram van **a l'inrevés**. Els que més retenen a IG (人/入, 水, シ/ツ) són els que menys a YT, i els pitjors d'IG (山, comida) són els millors de YT. Possibles causes, barrejades i amb n petita: (a) l'escena de parelles té fons fosc i a YT els tres de fons fosc queden a 10–12 % i els clars nous a 14–22 %; (b) a YT funciona el moviment des del fotograma 0 (llista, traç), a IG la pregunta concreta amb caràcters grans; (c) hora: a YT les 20:30 (14–22 %) guanyen a les 13:30 (10–11 %), al revés que a IG, però les dues de 13:30 són parelles.
+- Decisions corregides:
+  1. No triar obertura pels resultats d'una sola xarxa. La prova 雨 A/B (avui) es mira a les dues: % >3 s a IG i % «se quedaron» a YT.
+  2. El format llista **es manté** (2n millor a YT, 1,0 K visualitzacions). El canvi d'obertura del dv 20 (paraula gran + pregunta) segueix sent una prova, no una substitució.
+  3. Per veure si és el fons fosc: el ソ/ン (dt 17, parelles) surt amb fons fosc; si a YT torna a quedar per sota del 12 %, provar l'escena de parelles amb fons clar la setmana del 23.
+- Pendent: % de visites des de la cerca (Cobertura › «Cómo encuentran los usuarios») i el 魚.
 - Trial Reels: el primer és el dl 16 18:30 (雨 B); comparar la setmana que ve.
 - Decisions per a la setmana del 16 (i preparar la del 23):
   1. Obertura: la que guanya a IG és «dos caràcters grans + pregunta concreta» (人/入, シ/ツ). La prova 雨 A/B continua igual; per a la setmana del 23 posar almenys un altre «X vs Y» de kanji (p. ex. 木/本, 日/目) com a Kanji del día.
