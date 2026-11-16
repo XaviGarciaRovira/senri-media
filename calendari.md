@@ -156,7 +156,8 @@ Període 9–15 nov: 7 reels i 5 carrusels. Els del dg 15 (魚 11:30 i carrusel 
   1. No triar obertura pels resultats d'una sola xarxa. La prova 雨 A/B (avui) es mira a les dues: % >3 s a IG i % «se quedaron» a YT.
   2. El format llista **es manté** (2n millor a YT, 1,0 K visualitzacions). El canvi d'obertura del dv 20 (paraula gran + pregunta) segueix sent una prova, no una substitució.
   3. Per veure si és el fons fosc: el ソ/ン (dt 17, parelles) surt amb fons fosc; si a YT torna a quedar per sota del 12 %, provar l'escena de parelles amb fons clar la setmana del 23.
-- Pendent: % de visites des de la cerca (Cobertura › «Cómo encuentran los usuarios») i el 魚.
+- 魚 (dg 11:30, 22 h): 12,4 % «se quedaron», 71 interessades. Fons fosc → 4 de 4 vídeos foscos entre 9,8 i 12,4 %, i els clars nous entre 13,6 i 22,1 %. La hipòtesi del fons guanya pes (encara barrejada amb el format: 3 dels 4 foscos són parelles o quiz amb opcions).
+- Orígens YouTube (canal, 18 oct–14 nov): feed de Shorts 4,9 K (93,8 %) · cerca de YouTube 208 (3,9 %) · pàgines del canal 62 (1,2 %) · altres <1 %. La cerca ja aporta alguna cosa; mantenir títols amb paraules que es busquen («Cómo se escribe X en japonés», «japones desde cero» a la descripció).
 - Trial Reels: el primer és el dl 16 18:30 (雨 B); comparar la setmana que ve.
 - Decisions per a la setmana del 16 (i preparar la del 23):
   1. Obertura: la que guanya a IG és «dos caràcters grans + pregunta concreta» (人/入, シ/ツ). La prova 雨 A/B continua igual; per a la setmana del 23 posar almenys un altre «X vs Y» de kanji (p. ex. 木/本, 日/目) com a Kanji del día.
