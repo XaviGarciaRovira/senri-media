@@ -109,6 +109,40 @@ Període 2–9 nov: 2 vídeos publicats (tots dos a les 20:30). Metricool no don
 - A Instagram, les obertures amb caràcters grans i una pregunta (水, シ/ツ) retenen més (41–45 %) que la de text sol (一二三四) o la del kanji en gris dins el requadre (山) (~33 %). A YouTube, el 山 va ser el que més va retenir. La prova amb Trial Reels de la setmana del 16 ha de resoldre-ho.
 - L'abast baixa vídeo a vídeo (1.621 → 143). Pot ser el final de l'empenta inicial del compte nou; seguir-ho.
 
+## Resum setmana del 9 nov 2026 (dades de Metricool, 16 nov 8:50)
+Període 9–15 nov: 7 reels i 5 carrusels. Els del dg 15 (魚 11:30 i carrusel d'errors 19:30) encara no tenen dades a Metricool. YouTube: Metricool només dona els títols (cap xifra) → cal el % «se quedaron» de YouTube Studio. TikTok: cap publicació (escalfament fins al 22 nov).
+
+**Reels (Instagram)**
+| Vídeo | Hora | Visualitz. | Abast | >3 s | Temps mitjà | Guard. | Comp. | Coment. | M'agrada |
+|---|---|---|---|---|---|---|---|---|---|
+| 山 Kanji #2 | dl 20:30 | 433 | 323 | 32,4 % | 4,3 s | 2 | 1 | 1 | 11 |
+| シ/ツ Parelles #1 | dt 13:30 | 225 | 154 | 40,9 % | 6,5 s | 1 | 0 | 4 | 13 |
+| ねこ ¿Qué significa? #1 | dc 20:30 | 185 | 144 | 38,2 % | 5,0 s | 0 | 0 | 1 | 10 |
+| 人/入 Kanji #3 | dj 13:30 | 351 | 289 | **51,6 %** | 6,5 s | 2 | 0 | 1 | 13 |
+| comida 3 palabras #1 | dv 20:30 | 165 | 139 | 30,2 % | 3,5 s | 2 | 0 | 1 | 7 |
+| Repaso #1 | ds 20:30 | 180 | 156 | 38,7 % | 6,2 s | 1 | 0 | 2 | 10 |
+| 魚 ¿Qué significa? #2 | dg 11:30 | – | – | – | – | – | – | – | – |
+
+**Carrusels (Instagram)**
+| Carrusel | Hora | Abast | Visualitz. | Guard. | Comp. | Coment. | M'agrada |
+|---|---|---|---|---|---|---|---|
+| Todo el hiragana | dc 13:30 | 55 | 103 | 1 | 0 | 1 | 6 |
+| 5 kanji dibujos | dj 20:30 | 68 | 162 | 1 | 0 | 1 | 9 |
+| X は Y です | dv 13:30 | **192** | 299 | 1 | 1 | 1 | 7 |
+| Quiz hiragana | ds 13:30 | 31 | 73 | 1 | 0 | 0 | 6 |
+| 5 errores típicos | dg 19:30 | – | – | – | – | – | – |
+
+- Seguidors IG: 49 (9 nov) → 53 (14 nov). Subscriptors YT: 14 → 15.
+- Millor reel: 人/入 (51,6 % passa dels 3 s, el millor fins ara, per sobre del 水 45 %). Obre amb dos kanji grans i una pregunta concreta («¿cuál significa entrar?»). El segon millor en retenció és シ/ツ (40,9 %), també una parella. Pitjor: comida (30,2 %, 3,5 s), format llista, com el 一二三四 (33,8 %).
+- 13:30 vs 20:30: 13:30 (2 reels) 46,3 % >3 s de mitjana i 222 d'abast; 20:30 (4 reels) 34,9 % i 190 (146 sense el 山). Però les dues de 13:30 són les parelles, que també són el format que millor va: hora i format barrejats, n=2. No concloent; la setmana del 16 inverteix les hores.
+- Carrusels: abast molt baix (31–192; els reels 139–323) i 1 guardat cadascun → no es pot dir quin tema es desa més. L'únic que surt de la mitjana és el de gramàtica (X は Y です, abast ×3), n=1. 0 seguidors des de carrusels.
+- YouTube: sense xifres (Metricool no les dona). Pendent que Xavi passi el % «se quedaron» i les visites des de la cerca de シ/ツ, ねこ, 人/入, comida, Repaso i 魚.
+- Trial Reels: el primer és el dl 16 18:30 (雨 B); comparar la setmana que ve.
+- Decisions per a la setmana del 16 (i preparar la del 23):
+  1. Obertura: la que guanya a IG és «dos caràcters grans + pregunta concreta» (人/入, シ/ツ). La prova 雨 A/B continua igual; per a la setmana del 23 posar almenys un altre «X vs Y» de kanji (p. ex. 木/本, 日/目) com a Kanji del día.
+  2. Format llista («3 palabras de…»): segon pitjor resultat. El dv 20 (compras) hauria d'obrir amb la primera paraula gran i una pregunta («¿Cómo se dice "¿cuánto cuesta?"?») en lloc del títol. Si torna a quedar per sota del 35 %, deixar-lo.
+  3. Carrusels: repetir gramàtica (を del dv 20 ja ho és) i mesurar l'estructura nova (repte → resposta → truc → taula, des del katakana v2). Mantenir hores fins tenir 2 setmanes.
+
 ## Programats a Metricool (setmana del 16 nov, aprovats per Xavi el 15 nov) · uuid
 16 13:30 雨 A 1281771298705653937 · 16 18:30 雨 B (trial) 7118371957775483786 · 16 20:30 carr. katakana v2 -4779296519501035086 · 17 13:30 carr. parejas -5854539274802936529 · 17 20:30 ソ/ン 6105152511694620473 · 18 13:30 cartel -2235423624247097806 · 18 20:30 carr. familia 1593905415992004114 · 19 13:30 carr. 学 5057611344700195959 · 19 20:30 手 3284237774253410069 · 20 13:30 compras -6669598357699343941 · 20 20:30 carr. を 7501078870691695107 · 21 13:30 carr. quiz kanji -7701801460244657786 · 21 20:30 repaso 472348895330583282 · 22 11:30 katakana 405735511462661185 · 22 19:30 carr. repaso -240370088255534466
 
