@@ -9,6 +9,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - Text dels posts d'Instagram: acabar demanant que l'**enviïn** («Envíaselo a quien…») i que el desin, a més de comentar. Text alternatiu a cada imatge.
 - YouTube: 1 Short al dia (el mateix vídeo). YouTube no premia el volum («no hi ha cap llindar de 5 o 10 shorts al dia») i decideix cada short pel % que «decideix veure'l» en lloc de lliscar: el que compta és el primer segon. Els dies de Trial Reels, la segona variant també surt a YouTube com a Short separat (5 h després) per comparar el % que es queda. Títols amb paraules que es busquen («Cómo se escribe 水 en japonés»). Mai esborrar i tornar a pujar un short.
 - YouTube (18 nov): des del 16 nov els shorts es van quedar a 12 visualitzacions. Causa probable: YouTube els ensenyava sobretot al Japó (621 visualitzacions, només el 9 % s'hi queda) i a Corea (11 %), contra el 20–29 % de Mèxic, Espanya o el Perú; la veu japonesa nova (16 nov) ho va empitjorar. Xavi ha posat «Idioma del vídeo: Español» a tots els vídeos. Regles: **títols de YouTube sempre començant per paraules en castellà** (mai per kana o kanji); **mai dues versions del mateix vídeo a YouTube** (les proves d'obertura, només a Instagram).
+- TikTok (18 nov): connectat a vidIQ (públic, comentaris activats, música acceptada per Xavi). Tots els reels nous surten també a TikTok a la mateixa hora. Reels antics (8–17 nov, el de 水 ja hi era) com a esborrany per pujar-los 2 al dia (10:30 i 17:30) del 19 al 23 nov.
 - Publicació (16 nov): Metricool gratuït = 20 publicacions/mes **per xarxa** (es renova l'1 de cada mes; només compten les publicades). No arriba per al nostre ritme. Des del 17 nov es publica amb **vidIQ** (Instagram i YouTube connectats; gratis excepte X): imatges amb vidiq_upload_image (adreça raw), vídeos amb vidiq_video_upload, vidiq_social_post_draft_create amb publishAt i vidiq_social_post_publish només després de l'«endavant». Un cop programat a vidIQ no es pot cancel·lar ni canviar. vidIQ no admet text alternatiu. Metricool queda per a estadístiques i de reserva; quan es mou una publicació a vidIQ, la de Metricool es passa a esborrany abans. Trial Reels: no disponibles fins que el compte tingui més seguidors (error de 16 nov).
 - vidIQ (13 nov, pla gratuït: 150 crèdits/mes, ~5 per consulta): ús puntual per investigar el nínxol, no per al seguiment.
   - Paraules clau YouTube (cerques/mes aprox.): «aprender japones» 21.000 (competència 42) · «clases de japones» 13.000 · «curso de japones» 9.800 · «japones desde cero» 4.500 (competència 27, la més fàcil) · «como aprender japones» 3.200. La gent les escriu sense accent: als títols de YouTube posa «japonés» i, a la descripció, també «japones desde cero» / «aprender japones».
@@ -42,16 +43,16 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-16 | 20:30 | Carrusel #6 | Katakana v2: «Aunque no sepas katakana, estas 2 palabras ya las lees» (quiz ホテル, カレー → truc → 3 taules) | IG | programat |
 | 2026-11-17 | 13:30 | Carrusel #7 (vidIQ, prova) | 5 parejas de katakana: ク/タ ウ/ワ ス/ヌ ル/レ マ/ム + quiz | IG | programat |
 | 2026-11-17 | 20:30 | Parelles #2 | ソ / ン · ボタン, ズボン, レストラン · llavor 13 | IG, YT | programat |
-| 2026-11-18 | 13:30 | ¿Puedes leer este cartel? #1 | 出口/入口 + コーヒー/パン · llavor 10 | IG, YT | programat |
-| 2026-11-18 | 20:30 | Carrusel #8 | La familia: 父 母 兄 姉 弟 妹 + お〜さん (g1, g2) | IG | programat |
-| 2026-11-19 | 13:30 | Carrusel #9 | Fitxa de kanji 学: 学生 学校 大学 (g1, g8, g7) | IG | programat |
-| 2026-11-19 | 20:30 | Kanji del día #5 | 手 (quiz: 足) · llavor 14 | IG, YT | programat |
-| 2026-11-20 | 13:30 | 3 palabras de… #2 | compras: いくら, 高い, 安い · llavor 15 | IG, YT | programat |
-| 2026-11-20 | 20:30 | Carrusel #10 | を: X を V-ます (g4) | IG | programat |
-| 2026-11-21 | 13:30 | Carrusel #11 | Quiz: kanji que se parecen (大 上 白 車) | IG | programat |
-| 2026-11-21 | 20:30 | Repaso de la semana #2 | 雨 · ボタン · 出口 · llavor 16 | IG, YT | programat |
-| 2026-11-22 | 11:30 | Si sabes katakana… #1 | カメラ, ギター, テレビ · llavor 17 | IG, YT | programat |
-| 2026-11-22 | 19:30 | Carrusel #12 | Repaso de la semana (palabras, ソ/ン, を) | IG | programat |
+| 2026-11-18 | 13:30 | ¿Puedes leer este cartel? #1 | 出口/入口 + コーヒー/パン · llavor 10 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-18 | 20:30 | Carrusel #8 | La familia: 父 母 兄 姉 弟 妹 + お〜さん (g1, g2) | IG | programat (vidIQ) |
+| 2026-11-19 | 13:30 | Carrusel #9 | Fitxa de kanji 学: 学生 学校 大学 (g1, g8, g7) | IG | programat (vidIQ) |
+| 2026-11-19 | 20:30 | Kanji del día #5 | 手 (quiz: 足) · llavor 14 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-20 | 13:30 | 3 palabras de… #2 | compras: いくら, 高い, 安い · llavor 15 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-20 | 20:30 | Carrusel #10 | を: X を V-ます (g4) | IG | programat (vidIQ) |
+| 2026-11-21 | 13:30 | Carrusel #11 | Quiz: kanji que se parecen (大 上 白 車) | IG | programat (vidIQ) |
+| 2026-11-21 | 20:30 | Repaso de la semana #2 | 雨 · ボタン · 出口 · llavor 16 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-22 | 11:30 | Si sabes katakana… #1 | カメラ, ギター, テレビ · llavor 17 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-22 | 19:30 | Carrusel #12 | Repaso de la semana (palabras, ソ/ン, を) | IG | programat (vidIQ) |
 
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
