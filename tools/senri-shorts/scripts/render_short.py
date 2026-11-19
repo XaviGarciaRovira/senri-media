@@ -289,8 +289,10 @@ def scene_sign(s):
     sign = (f'<div class="t sign" style="background:{st["bg"]};color:{st["fg"]};border-color:{st["border"]};'
             f'border-radius:{st["radius"]}px">{"".join(rows)}</div>')
     note = f'<div class="t hint" {anim("up", t_rev + .8)}>{fmt(s["note"])}</div>' if s.get("note") else ""
-    return f'''<div class="stack center"><div class="t title">{fmt(s.get("question", "¿Puedes leer este cartel?"))}</div>
-        {sign}{cd}{note}</div>''', t_rev + 3.0
+    # `series`: xip de dalt per a sèries numerades («Sobrevive en Japón #1»), visible des del fotograma 0.
+    chip = f'<div class="t chip">{fmt(s["series"])}</div>' if s.get("series") else ""
+    return f'''<div class="stack center">{chip}<div class="t title">{fmt(s.get("question", "¿Puedes leer este cartel?"))}</div>
+        {sign}{cd}{note}</div>''', t_rev + float(s.get("tail", 3.0))
 
 
 def scene_combo(s):

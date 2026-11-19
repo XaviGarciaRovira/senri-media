@@ -1,0 +1,36 @@
+{
+ "title": "Sobrevive en Japón #2: el restaurante",
+ "lang": "es",
+ "theme": "dark",
+ "scenes": [
+  {
+   "type": "sign",
+   "series": "Sobrevive en Japón #2",
+   "question": "Tienes sed.\n¿Cuál es el **agua**?",
+   "style": "pizarra",
+   "rows": [
+    {
+     "jp": "お茶",
+     "price": "¥200",
+     "meaning": "té",
+     "romaji": "ocha",
+     "say": "おちゃ"
+    },
+    {
+     "jp": "水",
+     "price": "¥0",
+     "meaning": "agua",
+     "romaji": "mizu",
+     "say": "みず"
+    }
+   ],
+   "tail": 3.0,
+   "note": "En Japón, el agua suele ser **gratis**"
+  },
+  {
+   "type": "cta",
+   "text": "¿Acertaste? Comenta **〇** o **×**",
+   "sub": "Aprende japonés gratis con Senri · enlace en el perfil"
+  }
+ ]
+}

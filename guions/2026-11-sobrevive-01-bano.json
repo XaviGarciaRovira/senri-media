@@ -1,0 +1,35 @@
+{
+ "title": "Sobrevive en Japón #1: el baño",
+ "lang": "es",
+ "theme": "light",
+ "scenes": [
+  {
+   "type": "sign",
+   "series": "Sobrevive en Japón #1",
+   "question": "Buscas el baño de **mujeres**.\n¿Qué puerta es?",
+   "style": "placa",
+   "rows": [
+    {
+     "jp": "男",
+     "arrow": "←",
+     "meaning": "hombres",
+     "romaji": "otoko",
+     "say": "おとこ"
+    },
+    {
+     "jp": "女",
+     "arrow": "→",
+     "meaning": "mujeres",
+     "romaji": "onna",
+     "say": "おんな"
+    }
+   ],
+   "note": "男 = fuerza (力) en el arrozal (田)"
+  },
+  {
+   "type": "cta",
+   "text": "¿Acertaste? Comenta **〇** o **×**",
+   "sub": "Aprende japonés gratis con Senri · enlace en el perfil"
+  }
+ ]
+}
