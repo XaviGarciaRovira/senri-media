@@ -1,0 +1,69 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Kanji N5 · fichas",
+   "title": "El kanji de **comer**",
+   "big": "食",
+   "sub": "Y 3 palabras que ya puedes leer con él"
+  },
+  {
+   "type": "kanji",
+   "k": "食",
+   "label": "Kanji N5 · 9 trazos",
+   "meaning": "comer",
+   "reading": "た(べる) · しょく",
+   "romaji": "taberu · shoku",
+   "examples": [
+    {
+     "jp": "食べる",
+     "romaji": "taberu",
+     "meaning": "comer",
+     "kana": "たべる"
+    },
+    {
+     "jp": "食べ物",
+     "romaji": "tabemono",
+     "meaning": "comida (lo que se come)",
+     "kana": "たべもの"
+    },
+    {
+     "jp": "食堂",
+     "romaji": "shokudou",
+     "meaning": "comedor",
+     "kana": "しょくどう"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Para recordarlo",
+   "big": "人",
+   "text": "Un **techo** (人) sobre un plato lleno: comer."
+  },
+  {
+   "type": "sentences",
+   "title": "En frases",
+   "items": [
+    {
+     "jp": "箸{はし} [で] ご飯{ごはん} [を] 食{た}べます 。",
+     "es": "Como el arroz con palillos."
+    },
+    {
+     "jp": "レストラン [で] 晩ご飯{ばんごはん} [を] 食{た}べます 。",
+     "es": "Ceno en el restaurante."
+    },
+    {
+     "jp": "まだ 晩ご飯{ばんごはん} [を] 食{た}べていません 。",
+     "es": "Todavía no he cenado."
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Kanji con trazos animados · enlace en el perfil"
+  }
+ ]
+}

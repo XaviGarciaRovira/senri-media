@@ -1,0 +1,51 @@
+{
+ "title": "Dilo en japonés #1",
+ "theme": "light",
+ "lang": "es",
+ "scenes": [
+  {
+   "type": "guess",
+   "icon": "paraguas",
+   "question": "Dilo en japonés antes que yo (1/3)",
+   "jp": "傘",
+   "kana": "かさ",
+   "romaji": "kasa",
+   "meaning": "paraguas",
+   "countdown": 3,
+   "say": "かさ"
+  },
+  {
+   "type": "guess",
+   "icon": "reloj",
+   "question": "(2/3) ¿Y esto?",
+   "jp": "時計",
+   "kana": "とけい",
+   "romaji": "tokei",
+   "meaning": "reloj",
+   "countdown": 3,
+   "say": "とけい"
+  },
+  {
+   "type": "guess",
+   "icon": "flor",
+   "question": "(3/3) ¿Y la última?",
+   "jp": "花",
+   "kana": "はな",
+   "romaji": "hana",
+   "meaning": "flor",
+   "countdown": 3,
+   "say": "はな"
+  },
+  {
+   "type": "text",
+   "text": "¿Cuántas dijiste?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ]
+}

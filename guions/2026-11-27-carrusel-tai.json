@@ -1,0 +1,67 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Gramática N5 · desde cero",
+   "title": "Cómo decir **quiero** en japonés",
+   "big": "〜たい",
+   "sub": "Quiero beber agua, quiero ir a Japón…"
+  },
+  {
+   "type": "text",
+   "title": "La fórmula",
+   "big": "飲みます→飲みたい",
+   "text": "Cambia **-ます** por **-たい** y añade です para sonar educado.\n飲みます (bebo) → 飲みたいです (quiero beber)."
+  },
+  {
+   "type": "sentences",
+   "title": "Quiero hacer algo",
+   "items": [
+    {
+     "jp": "水{みず} [を|が] 飲{の}みたい です 。",
+     "es": "Quiero beber agua."
+    },
+    {
+     "jp": "日本{にほん} [へ|に] 行{い}きたい です 。",
+     "es": "Quiero ir a Japón."
+    },
+    {
+     "jp": "映画{えいが} [を|が] 見{み}たい です 。",
+     "es": "Quiero ver una película."
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "Quiero una cosa: ほしい",
+   "items": [
+    {
+     "jp": "新{あたら}しい 靴{くつ} [が] ほしい です 。",
+     "es": "Quiero unos zapatos nuevos."
+    },
+    {
+     "jp": "誕生日{たんじょうび} [に] 何{なに} [が] ほしい です [か] 。",
+     "es": "¿Qué quieres para tu cumpleaños?"
+    }
+   ],
+   "note": "Para una **acción**: -たい. Para una **cosa**: X が ほしい です."
+  },
+  {
+   "type": "sentences",
+   "title": "Y en negativo",
+   "items": [
+    {
+     "jp": "今日{きょう} [は] 何{なに} [も] 食{た}べたくない です 。",
+     "es": "Hoy no quiero comer nada."
+    }
+   ],
+   "note": "-たい funciona como un adjetivo en い: 食べたい → **食べたくない**."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Ordena frases y elige partículas · enlace en el perfil"
+  }
+ ]
+}

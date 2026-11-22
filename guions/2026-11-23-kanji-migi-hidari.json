@@ -1,0 +1,42 @@
+{
+ "title": "Kanji del día #6",
+ "theme": "dark",
+ "lang": "es",
+ "scenes": [
+  {
+   "type": "quiz",
+   "question": "Kanji del día #6\n¿Cuál significa «**derecha**»?",
+   "prompt": "右 左",
+   "options": [
+    "el primero",
+    "el segundo"
+   ],
+   "answer": 0,
+   "countdown": 3,
+   "say": "みぎ"
+  },
+  {
+   "type": "compare",
+   "title": "Casi iguales",
+   "left": {
+    "char": "右",
+    "romaji": "migi",
+    "label": "derecha",
+    "say": "みぎ"
+   },
+   "right": {
+    "char": "左",
+    "romaji": "hidari",
+    "label": "izquierda",
+    "say": "ひだり"
+   },
+   "tip": "Abajo, 右 tiene una **boca** (口): con la derecha comes. 左 tiene una herramienta (工).",
+   "tip_at": 1.1
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ]
+}

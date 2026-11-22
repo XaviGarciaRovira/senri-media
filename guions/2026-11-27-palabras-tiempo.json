@@ -1,0 +1,48 @@
+{
+ "title": "3 palabras de… #3: el tiempo",
+ "theme": "light",
+ "lang": "es",
+ "scenes": [
+  {
+   "type": "guess",
+   "question": "3 palabras que usarás cada día (1/3)\n¿Qué significa?",
+   "jp": "今日",
+   "kana": "きょう",
+   "romaji": "きょう · kyou",
+   "meaning": "hoy",
+   "countdown": 3,
+   "say": "きょう"
+  },
+  {
+   "type": "guess",
+   "question": "(2/3) ¿Y esta?",
+   "jp": "明日",
+   "kana": "あした",
+   "romaji": "あした · ashita",
+   "meaning": "mañana",
+   "countdown": 3,
+   "say": "あした"
+  },
+  {
+   "type": "guess",
+   "question": "(3/3) ¿Y la última?",
+   "jp": "昨日",
+   "kana": "きのう",
+   "romaji": "きのう · kinou",
+   "meaning": "ayer",
+   "countdown": 3,
+   "say": "きのう"
+  },
+  {
+   "type": "text",
+   "text": "¿Cuántas sabías?",
+   "sub": "Escríbelo en los comentarios 👇",
+   "duration": 2.0
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ]
+}

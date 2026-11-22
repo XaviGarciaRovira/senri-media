@@ -1,0 +1,104 @@
+{
+ "theme": "dark",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Hiragana · desde cero",
+   "title": "5 parejas de hiragana que **se confunden**",
+   "big": "さ ち",
+   "sub": "Y el truco para distinguir cada una"
+  },
+  {
+   "type": "pairs",
+   "title": "Guárdalo: el truco de cada pareja",
+   "items": [
+    {
+     "a": "さ",
+     "ar": "sa",
+     "b": "ち",
+     "br": "chi",
+     "tip": "La curva de abajo de さ se abre a la **derecha** (como una c); la de ち, a la izquierda (como un 5)."
+    },
+    {
+     "a": "る",
+     "ar": "ru",
+     "b": "ろ",
+     "br": "ro",
+     "tip": "る acaba con un **lazo**; ろ no."
+    },
+    {
+     "a": "ね",
+     "ar": "ne",
+     "b": "わ",
+     "br": "wa",
+     "tip": "Empiezan igual. Al final, ね hace un **lazo** y わ se cierra en una curva redonda."
+    },
+    {
+     "a": "は",
+     "ar": "ha",
+     "b": "ほ",
+     "br": "ho",
+     "tip": "ほ tiene **dos rayas** a la derecha y el trazo vertical cerrado arriba; は, solo una."
+    },
+    {
+     "a": "い",
+     "ar": "i",
+     "b": "り",
+     "br": "ri",
+     "tip": "En い el trazo de la derecha es **corto**; en り es largo y baja mucho más."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Cómo se lee?",
+   "prompt": "くるま",
+   "options": [
+    "kuroma",
+    "kuruma"
+   ],
+   "answer": 1,
+   "foot": "Respuesta en la siguiente →"
+  },
+  {
+   "type": "quiz",
+   "question": "1 · ¿Cómo se lee?",
+   "prompt": "くるま",
+   "options": [
+    "kuroma",
+    "kuruma"
+   ],
+   "answer": 1,
+   "show_answer": true,
+   "foot": "る acaba con un lazo → **kuruma** (coche)"
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Cómo se lee?",
+   "prompt": "ほん",
+   "options": [
+    "han",
+    "hon"
+   ],
+   "answer": 1,
+   "foot": "Respuesta en la siguiente →"
+  },
+  {
+   "type": "quiz",
+   "question": "2 · ¿Cómo se lee?",
+   "prompt": "ほん",
+   "options": [
+    "han",
+    "hon"
+   ],
+   "answer": 1,
+   "show_answer": true,
+   "foot": "ほ tiene dos rayas → **hon** (libro)"
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "¿Cuál confundes tú? Dilo en comentarios · enlace en el perfil"
+  }
+ ]
+}

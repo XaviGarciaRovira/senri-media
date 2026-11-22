@@ -1,0 +1,90 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Repaso · semana 3",
+   "title": "Lo que has aprendido **esta semana**",
+   "big": "右 左",
+   "sub": "Repásalo en 1 minuto"
+  },
+  {
+   "type": "list",
+   "title": "Palabras de la semana",
+   "items": [
+    {
+     "jp": "右",
+     "romaji": "migi",
+     "meaning": "derecha",
+     "kana": "みぎ"
+    },
+    {
+     "jp": "左",
+     "romaji": "hidari",
+     "meaning": "izquierda",
+     "kana": "ひだり"
+    },
+    {
+     "jp": "お金",
+     "romaji": "okane",
+     "meaning": "dinero",
+     "kana": "おかね"
+    },
+    {
+     "jp": "昨日",
+     "romaji": "kinou",
+     "meaning": "ayer",
+     "kana": "きのう"
+    },
+    {
+     "jp": "明日",
+     "romaji": "ashita",
+     "meaning": "mañana",
+     "kana": "あした"
+    },
+    {
+     "jp": "時計",
+     "romaji": "tokei",
+     "meaning": "reloj",
+     "kana": "とけい"
+    }
+   ]
+  },
+  {
+   "type": "pairs",
+   "title": "La pareja de la semana",
+   "items": [
+    {
+     "a": "ぬ",
+     "ar": "nu",
+     "b": "め",
+     "br": "me",
+     "tip": "ぬ acaba con un **lazo**; め no."
+    },
+    {
+     "a": "右",
+     "ar": "migi",
+     "b": "左",
+     "br": "hidari",
+     "tip": "右 lleva una **boca** (口): con la derecha comes."
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "La frase de la semana",
+   "items": [
+    {
+     "jp": "水{みず} [を|が] 飲{の}みたい です 。",
+     "es": "Quiero beber agua."
+    }
+   ],
+   "note": "Cambia **-ます** por **-たい** para decir lo que quieres hacer."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Repaso espaciado cada día · enlace en el perfil"
+  }
+ ]
+}

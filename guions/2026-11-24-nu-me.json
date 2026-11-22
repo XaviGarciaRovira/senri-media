@@ -1,0 +1,57 @@
+{
+ "title": "¿ぬ o め?",
+ "theme": "light",
+ "lang": "es",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "¿**ぬ** o **め**?",
+   "big": "ぬ め",
+   "sub": "El truco para no confundirlas",
+   "duration": 1.8
+  },
+  {
+   "type": "compare",
+   "title": "Fíjate en el final",
+   "left": {
+    "char": "ぬ",
+    "romaji": "nu",
+    "label": "acaba con un lazo"
+   },
+   "right": {
+    "char": "め",
+    "romaji": "me",
+    "label": "sin lazo"
+   },
+   "tip": "ぬ acaba con un **lazo**; め no.",
+   "tip_at": 1.1
+  },
+  {
+   "type": "list",
+   "title": "Ahora léelas:",
+   "step": 0.9,
+   "items": [
+    {
+     "jp": "いぬ",
+     "romaji": "inu",
+     "meaning": "perro"
+    },
+    {
+     "jp": "めがね",
+     "romaji": "megane",
+     "meaning": "gafas"
+    },
+    {
+     "jp": "ぬぐ",
+     "romaji": "nugu",
+     "meaning": "quitarse (ropa)"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "url": "senri-kappa.vercel.app",
+   "duration": 2.5
+  }
+ ]
+}

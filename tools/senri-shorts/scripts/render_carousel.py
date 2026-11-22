@@ -37,7 +37,7 @@ def s_table(s):
     rows = []
     for r in s["rows"]:
         cells = "".join(
-            f'<div class="cell"><span class="ck kana">{esc(c[0])}</span><span class="cr">{esc(c[1])}</span></div>'
+            f'<div class="cell"><span class="ck kana{" ck2" if len(c[0]) > 1 else ""}">{esc(c[0])}</span><span class="cr">{esc(c[1])}</span></div>'
             if c else '<div class="cell empty"></div>' for c in r)
         rows.append(f'<div class="trow">{cells}</div>')
     note = f'<div class="t tip">{fmt(s["note"])}</div>' if s.get("note") else ""
@@ -160,6 +160,7 @@ em{{font-style:normal;color:{c['shu']}}}
 .cell{{background:{c['surface']};border:3px solid {c['line']};border-radius:24px;height:178px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}}
 .cell.empty{{background:none;border:none}}
 .ck{{font-size:100px;line-height:1.05;color:{c['accent']}}}
+.ck2{{font-size:72px;white-space:nowrap;letter-spacing:-4px}}
 .cr{{font-size:36px;font-weight:700;color:{c['muted']}}}
 .tip{{background:{c['shu_soft']};border-radius:26px;padding:24px 32px;font-size:38px;line-height:1.3}}
 .pair{{display:grid;grid-template-columns:130px 130px 1fr;gap:18px;align-items:center;background:{c['surface']};border:3px solid {c['line']};border-radius:28px;padding:10px 24px}}

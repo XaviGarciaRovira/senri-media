@@ -1,0 +1,88 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Viaje a Japón · N5",
+   "title": "Moverte en **tren** por Japón",
+   "big": "駅",
+   "sub": "6 palabras y las frases para usarlas"
+  },
+  {
+   "type": "list",
+   "title": "6 palabras para la estación",
+   "items": [
+    {
+     "jp": "駅",
+     "romaji": "eki",
+     "meaning": "estación",
+     "kana": "えき"
+    },
+    {
+     "jp": "電車",
+     "romaji": "densha",
+     "meaning": "tren",
+     "kana": "でんしゃ"
+    },
+    {
+     "jp": "地下鉄",
+     "romaji": "chikatetsu",
+     "meaning": "metro",
+     "kana": "ちかてつ"
+    },
+    {
+     "jp": "切符",
+     "romaji": "kippu",
+     "meaning": "billete",
+     "kana": "きっぷ"
+    },
+    {
+     "jp": "乗る",
+     "romaji": "noru",
+     "meaning": "subir (a un vehículo)",
+     "kana": "のる"
+    },
+    {
+     "jp": "降りる",
+     "romaji": "oriru",
+     "meaning": "bajar (de un vehículo)",
+     "kana": "おりる"
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "Frases que puedes usar",
+   "items": [
+    {
+     "jp": "電車{でんしゃ} [に] 乗{の}ります 。",
+     "es": "Subo al tren."
+    },
+    {
+     "jp": "駅{えき} [で] 会{あ}いましょう 。",
+     "es": "Quedemos en la estación."
+    },
+    {
+     "jp": "駅{えき} [の] 前{まえ} [で] 待{ま}ってください 。",
+     "es": "Espérame delante de la estación, por favor."
+    }
+   ]
+  },
+  {
+   "type": "sentences",
+   "title": "El truco: に y を",
+   "items": [
+    {
+     "jp": "駅{えき} [で] 電車{でんしゃ} [を] 降{お}りて 、 バス [に] 乗{の}りました 。",
+     "es": "Bajé del tren en la estación y cogí el autobús."
+    }
+   ],
+   "note": "Subes **a** algo: 〜**に**乗ります.\nBajas **de** algo: 〜**を**降ります."
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "Envíaselo a quien viaje a Japón · enlace en el perfil"
+  }
+ ]
+}

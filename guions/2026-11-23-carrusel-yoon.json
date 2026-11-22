@@ -1,0 +1,287 @@
+{
+ "theme": "light",
+ "slides": [
+  {
+   "type": "cover",
+   "label": "Hiragana · desde cero",
+   "title": "¿Sabes leer **しゃしん**?",
+   "big": "しゃしん",
+   "sub": "Las letras pequeñas ゃ ゅ ょ · al final, la tabla entera"
+  },
+  {
+   "type": "quiz",
+   "question": "¿Cómo se lee?",
+   "prompt": "しゃしん",
+   "options": [
+    "shiyashin",
+    "shashin",
+    "sashin"
+   ],
+   "answer": 1,
+   "foot": "Piénsalo y desliza →"
+  },
+  {
+   "type": "quiz",
+   "question": "¿Cómo se lee?",
+   "prompt": "しゃしん",
+   "options": [
+    "shiyashin",
+    "shashin",
+    "sashin"
+   ],
+   "answer": 1,
+   "show_answer": true,
+   "foot": "し + ゃ pequeña = **sha** → shashin (foto)"
+  },
+  {
+   "type": "text",
+   "title": "El truco",
+   "big": "き+ゃ=きゃ",
+   "text": "Las **ゃ ゅ ょ pequeñas** se unen al kana de antes en **una sola sílaba**: kya, no ki-ya.\nOjo: し → **sha**, ち → **cha**, じ → **ja**."
+  },
+  {
+   "type": "table",
+   "title": "Guárdalo: K, S, C, N",
+   "rows": [
+    [
+     [
+      "きゃ",
+      "kya"
+     ],
+     null,
+     [
+      "きゅ",
+      "kyu"
+     ],
+     null,
+     [
+      "きょ",
+      "kyo"
+     ]
+    ],
+    [
+     [
+      "しゃ",
+      "sha"
+     ],
+     null,
+     [
+      "しゅ",
+      "shu"
+     ],
+     null,
+     [
+      "しょ",
+      "sho"
+     ]
+    ],
+    [
+     [
+      "ちゃ",
+      "cha"
+     ],
+     null,
+     [
+      "ちゅ",
+      "chu"
+     ],
+     null,
+     [
+      "ちょ",
+      "cho"
+     ]
+    ],
+    [
+     [
+      "にゃ",
+      "nya"
+     ],
+     null,
+     [
+      "にゅ",
+      "nyu"
+     ],
+     null,
+     [
+      "にょ",
+      "nyo"
+     ]
+    ]
+   ],
+   "note": "しゃ = **sha**, ちゃ = **cha** (no sya, tya)."
+  },
+  {
+   "type": "table",
+   "title": "H, M, R, G",
+   "rows": [
+    [
+     [
+      "ひゃ",
+      "hya"
+     ],
+     null,
+     [
+      "ひゅ",
+      "hyu"
+     ],
+     null,
+     [
+      "ひょ",
+      "hyo"
+     ]
+    ],
+    [
+     [
+      "みゃ",
+      "mya"
+     ],
+     null,
+     [
+      "みゅ",
+      "myu"
+     ],
+     null,
+     [
+      "みょ",
+      "myo"
+     ]
+    ],
+    [
+     [
+      "りゃ",
+      "rya"
+     ],
+     null,
+     [
+      "りゅ",
+      "ryu"
+     ],
+     null,
+     [
+      "りょ",
+      "ryo"
+     ]
+    ],
+    [
+     [
+      "ぎゃ",
+      "gya"
+     ],
+     null,
+     [
+      "ぎゅ",
+      "gyu"
+     ],
+     null,
+     [
+      "ぎょ",
+      "gyo"
+     ]
+    ]
+   ],
+   "note": "Siempre detrás de un kana con **i**: き, し, ち, に, ひ…"
+  },
+  {
+   "type": "table",
+   "title": "J, B, P",
+   "rows": [
+    [
+     [
+      "じゃ",
+      "ja"
+     ],
+     null,
+     [
+      "じゅ",
+      "ju"
+     ],
+     null,
+     [
+      "じょ",
+      "jo"
+     ]
+    ],
+    [
+     [
+      "びゃ",
+      "bya"
+     ],
+     null,
+     [
+      "びゅ",
+      "byu"
+     ],
+     null,
+     [
+      "びょ",
+      "byo"
+     ]
+    ],
+    [
+     [
+      "ぴゃ",
+      "pya"
+     ],
+     null,
+     [
+      "ぴゅ",
+      "pyu"
+     ],
+     null,
+     [
+      "ぴょ",
+      "pyo"
+     ]
+    ]
+   ],
+   "note": "じゃ = **ja**, como en «jazz» en inglés."
+  },
+  {
+   "type": "list",
+   "title": "Ahora léelas",
+   "items": [
+    {
+     "jp": "写真",
+     "romaji": "shashin",
+     "meaning": "fotografía",
+     "kana": "しゃしん"
+    },
+    {
+     "jp": "会社",
+     "romaji": "kaisha",
+     "meaning": "empresa",
+     "kana": "かいしゃ"
+    },
+    {
+     "jp": "旅行",
+     "romaji": "ryokou",
+     "meaning": "viaje",
+     "kana": "りょこう"
+    },
+    {
+     "jp": "病院",
+     "romaji": "byouin",
+     "meaning": "hospital",
+     "kana": "びょういん"
+    },
+    {
+     "jp": "牛乳",
+     "romaji": "gyuunyuu",
+     "meaning": "leche",
+     "kana": "ぎゅうにゅう"
+    },
+    {
+     "jp": "茶色",
+     "romaji": "chairo",
+     "meaning": "marrón",
+     "kana": "ちゃいろ"
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "text": "Guárdalo y practica gratis con **Senri**",
+   "sub": "¿Cuál te ha costado más? · enlace en el perfil"
+  }
+ ]
+}

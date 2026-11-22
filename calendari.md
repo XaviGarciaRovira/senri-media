@@ -56,8 +56,25 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-21 | 20:30 | Repaso de la semana #2 | 雨 · ボタン · 出口 · llavor 16 | IG, YT, TT | programat (vidIQ) |
 | 2026-11-22 | 11:30 | Si sabes katakana… #1 | カメラ, ギター, テレビ · llavor 17 | IG, YT, TT | programat (vidIQ) |
 | 2026-11-22 | 19:30 | Carrusel #12 | Repaso de la semana (palabras, ソ/ン, を) | IG | programat (vidIQ) |
+| 2026-11-23 | 13:30 | Carrusel #13 | Yōon: ¿Sabes leer しゃしん? (quiz → truc → 3 taules きゃ…ぴょ → 6 paraules) | IG | esborrany |
+| 2026-11-23 | 20:30 | Kanji del día #6 (X vs Y) | 右 vs 左 («¿cuál significa derecha?») · fosc · llavor 18 | IG, YT, TT | esborrany |
+| 2026-11-24 | 13:30 | Parelles #3 (prova fons clar) | ぬ / め · いぬ, めがね, ぬぐ · clar · llavor 19 | IG, YT, TT | esborrany |
+| 2026-11-24 | 20:30 | Carrusel #14 | 5 parejas de hiragana: さ/ち る/ろ ね/わ は/ほ い/り + quiz くるま, ほん | IG | esborrany |
+| 2026-11-25 | 13:30 | Carrusel #15 | En la estación: 駅 電車 地下鉄 切符 乗る 降りる + frases (g5, g13, g14, g16) | IG | esborrany |
 | 2026-11-25 | 20:30 | Sobrevive en Japón #1 (cartel) | lavabo 男/女 · vidIQ f93168a5 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-26 | 13:30 | Kanji del día #7 | 金 (quiz: 千) · fosc · llavor 20 | IG, YT, TT | esborrany |
+| 2026-11-26 | 20:30 | Carrusel #16 | Fitxa de kanji 食: 食べる 食べ物 食堂 (g6, g28) | IG | esborrany |
+| 2026-11-27 | 13:30 | Carrusel #17 | Quiero: 〜たい i 〜がほしい (g12) | IG | esborrany |
+| 2026-11-27 | 20:30 | 3 palabras de… #3 (obertura: paraula gran + pregunta) | el tiempo: 今日, 明日, 昨日 · clar · llavor 21 | IG, YT, TT | esborrany |
+| 2026-11-28 | 13:30 | Carrusel #18 | Quiz: ¿qué partícula falta? に で に を (g5, g6, g14) | IG | esborrany |
 | 2026-11-28 | 20:30 | Sobrevive en Japón #2 (cartel) | pissarra お茶/水 (¥0) · vidIQ 500951ef | IG, YT, TT | programat (vidIQ) |
+| 2026-11-29 | 11:30 | Dilo en japonés #1 | icones: 傘, 時計, 花 · clar · llavor 22 | IG, YT, TT | esborrany |
+| 2026-11-29 | 19:30 | Carrusel #19 | Repaso de la semana (右/左, お金, 昨日/明日, 時計, ぬ/め, 水を飲みたいです) | IG | esborrany |
+
+## Setmana del 23 nov (preparada el 22 nov)
+- Proves: (1) parelles amb **fons clar** (ぬ/め, dt 24) per comparar el % «se quedaron» de YT amb els 4 foscos (9,8–12,4 %); (2) «3 palabras de…» obre amb la **primera paraula gran + pregunta** (escena `guess`, dv 27), com es va decidir el 16 nov; (3) Kanji del día #6 en format «X vs Y» (右/左), com 人/入.
+- Carrusels cap a frases útils (decisió del 19 nov): estació, 〜たい, quiz de partícules; només una taula de referència (yōon) i amb repte al davant.
+- Eina: `render_carousel.py` ara redueix els kana de dues lletres (きゃ…) a les taules perquè no es parteixin.
 
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
@@ -176,4 +193,4 @@ Període 9–15 nov: 7 reels i 5 carrusels. Els del dg 15 (魚 11:30 i carrusel 
 16 13:30 雨 A 1281771298705653937 · 16 18:30 雨 B (trial) 7118371957775483786 · 16 20:30 carr. katakana v2 -4779296519501035086 · 17 13:30 carr. parejas -5854539274802936529 · 17 20:30 ソ/ン 6105152511694620473 · 18 13:30 cartel -2235423624247097806 · 18 20:30 carr. familia 1593905415992004114 · 19 13:30 carr. 学 5057611344700195959 · 19 20:30 手 3284237774253410069 · 20 13:30 compras -6669598357699343941 · 20 20:30 carr. を 7501078870691695107 · 21 13:30 carr. quiz kanji -7701801460244657786 · 21 20:30 repaso 472348895330583282 · 22 11:30 katakana 405735511462661185 · 22 19:30 carr. repaso -240370088255534466
 
 ## Llavors de música fetes servir
-1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel), 11–17 (setmana del 16 nov; 12 = variant B del 16). La pròxima: 18.
+1 (11-07), 2–6 (11-09 a 11-13), 7 (11-08), 8 (11-14), 9 (11-15), 10 (11-18 cartel), 11–17 (setmana del 16 nov; 12 = variant B del 16), 18–22 (setmana del 23 nov). La pròxima: 23.
