@@ -76,6 +76,10 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - Carrusels cap a frases útils (decisió del 19 nov): estació, 〜たい, quiz de partícules; només una taula de referència (yōon) i amb repte al davant.
 - Eina: `render_carousel.py` ara redueix els kana de dues lletres (きゃ…) a les taules perquè no es parteixin.
 
+## Esborranys a vidIQ (setmana del 23 nov) · postId / revision
+Vídeos (IG + YT + TT, hores comprovades): 23 20:30 右/左 60455d6a-45ac-48fb-99b6-3cea9efd07ce / 3ac24224-5a963d17-9cb7521e · 24 13:30 ぬ/め 658a0ce2-6447-4893-87d8-fe292c21ac0d / db7b6aa0-dc0073a2-e186e682 · 26 13:30 金 2a94618e-4bbc-4e4f-9035-f1ffd97944da / 08b73305-095ffe9b-10083149 · 27 20:30 tiempo 9a09f1fc-42a1-46b2-b1ef-551340eea6ab / 004b2388-a1eb9dec-e20db017 · 29 11:30 dilo 190a054b-9819-4c55-81fe-0646d8d26c6a / 4cdf7224-932a07dd-93ed612a
+Carrusels (IG): 23 13:30 yōon 1e8b0e1b-3ba8-41ba-9770-a26a28f67b8c / 294676a8 · 24 20:30 parejas ab705409-e161-47f9-af16-50bff5b9efea / 0e43b082 · 25 13:30 estación 41361889-9dac-4d77-a8b4-37d52ac1eea7 / 1bf60a8b · 26 20:30 食 ca0845aa-1828-4ed6-aa6f-9c20ef190401 / 228ebbb6 · 27 13:30 たい a3224510-f6b4-4b63-a5e4-1119f5e72d39 / 9298866d · 28 13:30 partículas 590c8019-0693-4a4f-9b89-de0d31c784e1 / 5b822437 · 29 19:30 repaso 57fae446-8fdf-451a-85df-85eefa2adae0 / 48db7563
+
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
 - Carrusels (16 nov, Xavi): el de taules soles no convida a lliscar. Estructura nova: portada amb repte → pregunta i resposta a la diapositiva següent → el truc → la referència per desar al final. Comparar els guardats i el % de diapositives vistes amb el d'hiragana (11 nov).
