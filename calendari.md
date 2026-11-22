@@ -56,27 +56,29 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 | 2026-11-21 | 20:30 | Repaso de la semana #2 | 雨 · ボタン · 出口 · llavor 16 | IG, YT, TT | programat (vidIQ) |
 | 2026-11-22 | 11:30 | Si sabes katakana… #1 | カメラ, ギター, テレビ · llavor 17 | IG, YT, TT | programat (vidIQ) |
 | 2026-11-22 | 19:30 | Carrusel #12 | Repaso de la semana (palabras, ソ/ン, を) | IG | programat (vidIQ) |
-| 2026-11-23 | 13:30 | Carrusel #13 | Yōon: ¿Sabes leer しゃしん? (quiz → truc → 3 taules きゃ…ぴょ → 6 paraules) | IG | esborrany |
-| 2026-11-23 | 20:30 | Kanji del día #6 (X vs Y) | 右 vs 左 («¿cuál significa derecha?») · fosc · llavor 18 | IG, YT, TT | esborrany |
-| 2026-11-24 | 13:30 | Parelles #3 (prova fons clar) | ぬ / め · いぬ, めがね, ぬぐ · clar · llavor 19 | IG, YT, TT | esborrany |
-| 2026-11-24 | 20:30 | Carrusel #14 | 5 parejas de hiragana: さ/ち る/ろ ね/わ は/ほ い/り + quiz くるま, ほん | IG | esborrany |
-| 2026-11-25 | 13:30 | Carrusel #15 | En la estación: 駅 電車 地下鉄 切符 乗る 降りる + frases (g5, g13, g14, g16) | IG | esborrany |
+| 2026-11-23 | 13:30 | Carrusel #13 | Yōon: ¿Sabes leer しゃしん? (quiz → truc → 3 taules きゃ…ぴょ → 6 paraules) | IG | programat (vidIQ) |
+| 2026-11-23 | 20:30 | Kanji del día #6 (X vs Y) | 右 vs 左 («¿cuál significa derecha?») · fosc · llavor 18 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-24 | 13:30 | Parelles #3 (prova fons clar) | ぬ / め · いぬ, めがね, ぬぐ · clar · llavor 19 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-24 | 20:30 | Carrusel #14 | 5 parejas de hiragana: さ/ち る/ろ ね/わ は/ほ い/り + quiz くるま, ほん | IG | programat (vidIQ) |
+| 2026-11-25 | 13:30 | Carrusel #15 | En la estación: 駅 電車 地下鉄 切符 乗る 降りる + frases (g5, g13, g14, g16) | IG | programat (vidIQ) |
 | 2026-11-25 | 20:30 | Sobrevive en Japón #1 (cartel) | lavabo 男/女 · vidIQ f93168a5 | IG, YT, TT | programat (vidIQ) |
-| 2026-11-26 | 13:30 | Kanji del día #7 | 金 (quiz: 千) · fosc · llavor 20 | IG, YT, TT | esborrany |
-| 2026-11-26 | 20:30 | Carrusel #16 | Fitxa de kanji 食: 食べる 食べ物 食堂 (g6, g28) | IG | esborrany |
-| 2026-11-27 | 13:30 | Carrusel #17 | Quiero: 〜たい i 〜がほしい (g12) | IG | esborrany |
-| 2026-11-27 | 20:30 | 3 palabras de… #3 (obertura: paraula gran + pregunta) | el tiempo: 今日, 明日, 昨日 · clar · llavor 21 | IG, YT, TT | esborrany |
-| 2026-11-28 | 13:30 | Carrusel #18 | Quiz: ¿qué partícula falta? に で に を (g5, g6, g14) | IG | esborrany |
+| 2026-11-26 | 13:30 | Kanji del día #7 | 金 (quiz: 千) · fosc · llavor 20 | IG, YT, TT | programat (vidIQ) |
+| 2026-11-26 | 20:30 | Carrusel #16 | Fitxa de kanji 食: 食べる 食べ物 食堂 (g6, g28) | IG | programat (vidIQ) |
+| 2026-11-27 | 13:30 | Carrusel #17 | Quiero: 〜たい i 〜がほしい (g12) | IG | programat (vidIQ) |
+| 2026-11-27 | 20:30 | 3 palabras de… #3 (obertura: paraula gran + pregunta) | el tiempo: 今日, 明日, 昨日 · clar · llavor 21 | IG, YT, TT | programat (vidIQ) a IG i TT · YT pendent (límit de 3 pujades/dia), es publica el 23 nov 9:15 |
+| 2026-11-28 | 13:30 | Carrusel #18 | Quiz: ¿qué partícula falta? に で に を (g5, g6, g14) | IG | programat (vidIQ) |
 | 2026-11-28 | 20:30 | Sobrevive en Japón #2 (cartel) | pissarra お茶/水 (¥0) · vidIQ 500951ef | IG, YT, TT | programat (vidIQ) |
-| 2026-11-29 | 11:30 | Dilo en japonés #1 | icones: 傘, 時計, 花 · clar · llavor 22 | IG, YT, TT | esborrany |
-| 2026-11-29 | 19:30 | Carrusel #19 | Repaso de la semana (右/左, お金, 昨日/明日, 時計, ぬ/め, 水を飲みたいです) | IG | esborrany |
+| 2026-11-29 | 11:30 | Dilo en japonés #1 | icones: 傘, 時計, 花 · clar · llavor 22 | IG, YT, TT | programat (vidIQ) a IG i TT · YT pendent (límit de 3 pujades/dia), es publica el 23 nov 9:15 |
+| 2026-11-29 | 19:30 | Carrusel #19 | Repaso de la semana (右/左, お金, 昨日/明日, 時計, ぬ/め, 水を飲みたいです) | IG | programat (vidIQ) |
 
 ## Setmana del 23 nov (preparada el 22 nov)
 - Proves: (1) parelles amb **fons clar** (ぬ/め, dt 24) per comparar el % «se quedaron» de YT amb els 4 foscos (9,8–12,4 %); (2) «3 palabras de…» obre amb la **primera paraula gran + pregunta** (escena `guess`, dv 27), com es va decidir el 16 nov; (3) Kanji del día #6 en format «X vs Y» (右/左), com 人/入.
 - Carrusels cap a frases útils (decisió del 19 nov): estació, 〜たい, quiz de partícules; només una taula de referència (yōon) i amb repte al davant.
 - Eina: `render_carousel.py` ara redueix els kana de dues lletres (きゃ…) a les taules perquè no es parteixin.
 
-## Esborranys a vidIQ (setmana del 23 nov) · postId / revision
+## Programats a vidIQ (setmana del 23 nov, «endavant» de Xavi el 22 nov) · postId / revision
+- vidIQ gratuït: **màxim 3 pujades a YouTube al dia** (es reinicia a mitjanit del Pacífic, 9:00 a Madrid). Els YT de 27 i 29 nov es programen el 23 nov a les 9:15 (tasca automàtica). Per a les setmanes següents: repartir la programació dels shorts de YouTube en 2–3 dies o programar-los a mesura.
+- YouTube (privats fins a l'hora): 右/左 KblJxxBJsvg · ぬ/め 0WkrW2dfOm0 · 金 NoRbSbogyfw
 Vídeos (IG + YT + TT, hores comprovades): 23 20:30 右/左 60455d6a-45ac-48fb-99b6-3cea9efd07ce / 3ac24224-5a963d17-9cb7521e · 24 13:30 ぬ/め 658a0ce2-6447-4893-87d8-fe292c21ac0d / db7b6aa0-dc0073a2-e186e682 · 26 13:30 金 2a94618e-4bbc-4e4f-9035-f1ffd97944da / 08b73305-095ffe9b-10083149 · 27 20:30 tiempo 9a09f1fc-42a1-46b2-b1ef-551340eea6ab / 004b2388-a1eb9dec-e20db017 · 29 11:30 dilo 190a054b-9819-4c55-81fe-0646d8d26c6a / 4cdf7224-932a07dd-93ed612a
 Carrusels (IG): 23 13:30 yōon 1e8b0e1b-3ba8-41ba-9770-a26a28f67b8c / 294676a8 · 24 20:30 parejas ab705409-e161-47f9-af16-50bff5b9efea / 0e43b082 · 25 13:30 estación 41361889-9dac-4d77-a8b4-37d52ac1eea7 / 1bf60a8b · 26 20:30 食 ca0845aa-1828-4ed6-aa6f-9c20ef190401 / 228ebbb6 · 27 13:30 たい a3224510-f6b4-4b63-a5e4-1119f5e72d39 / 9298866d · 28 13:30 partículas 590c8019-0693-4a4f-9b89-de0d31c784e1 / 5b822437 · 29 19:30 repaso 57fae446-8fdf-451a-85df-85eefa2adae0 / 48db7563
 
