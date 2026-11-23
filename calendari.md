@@ -95,8 +95,8 @@ Fonts: Instagram amb Windsor.ai (més al dia que Metricool, que no tenia el 22 n
 | Cartel 出口/入口 | dc 13:30 | 283 | 51,9 % | 6,9 s | 6 / 0 | 112 | **35 %** (39/110) | 16 |
 | 手 (Kanji #5) | dj 20:30 | 124 | 35,4 % | 4,1 s | 2 / 0 | 98 | 16 % (16/98) | **256** |
 | Compras (3 palabras #2) | dv 13:30 | 134 | 38,1 % | 4,8 s | 1 / 0 | 97 | 7 % (6/88) | 12 |
-| Repaso #2 | ds 20:30 | 217 | 41,7 % | 6,7 s | 5 / 0 | 111 | sense dades | sense dades |
-| **Si sabes katakana… #1** | dg 11:30 | **1.180** | 42,7 % | 6,5 s | **12 / 7** | **259** (1 dia) | sense dades | sense dades |
+| Repaso #2 | ds 20:30 | 217 | 41,7 % | 6,7 s | 5 / 0 | 111 | sense dades | 33 |
+| **Si sabes katakana… #1** | dg 11:30 | **1.180** | 42,7 % | 6,5 s | **12 / 7** | **259** (1 dia) | sense dades | 6 |
 
 **Carrusels (IG)**
 | Carrusel | Hora | Abast | Visualitz. | Desats | Comp. |
@@ -113,12 +113,13 @@ Fonts: Instagram amb Windsor.ai (més al dia que Metricool, que no tenia el 22 n
 - Millor: **«Si sabes katakana…» #1** (dg 11:30): abast 1.180 (×4 el segon), 12 desats i 7 compartits (els primers compartits de reel en dues setmanes) i 259 visualitzacions a YT en un dia (el màxim des del 16 nov). Obre amb una paraula que el principiant ja pot llegir: «ja pots fer alguna cosa». n=1. Segon: el cartell (51,9 % >3 s a IG i 35 % engaged a YT, el millor a les dues xarxes).
 - Pitjor: compras (38,1 % >3 s, 7 % engaged a YT) i 手 (35,4 %, 4,1 s), però 手 és de lluny el millor a TikTok (256; la resta 1–35).
 - Carrusels: 2 setmanes i 12 carrusels amb abast 10–192 (aquesta setmana 10–68) i 0–2 desats; els reels, 124–1.180 i 1–12 desats. Ni el canvi a «frases que pots fer servir» (família, を) ni l'estructura repte → resposta ho han mogut. Avui els carrusels no porten gent ni es desen més que els reels.
-- YouTube: els shorts nous es queden a ~100 visualitzacions (abans del 16 nov, 400–1.000). L'API de vidIQ no ha retornat cap país (només «KR 0», ni per al 16–21): no es pot comprovar si el Japó i Corea encara se'n porten la part gran → cal mirar-ho a YouTube Studio. El katakana (259 en un dia) diu que el canal no està parat.
+- YouTube: els shorts nous es queden a ~100 visualitzacions (abans del 16 nov, 400–1.000). L'API de vidIQ no dona països (només «KR 0»). YouTube Studio (captura de Xavi, 15–21 nov): només surt **Corea del Sur, 15,9 %** de les visualitzacions; cap altre país arriba al mínim que YouTube ensenya (ni el Japó ni els de parla hispana). El Japó ja no surt (el 18 nov era el gruix): «Idioma del vídeo: Español» i els títols en castellà sembla que han tret el Japó, però Corea encara en treu 1 de cada 6. El katakana (259 en un dia) diu que el canal no està parat.
+- TikTok (captura de Xavi, 23 nov 9:11; hores de Madrid): 手 256 (dj 20:30) · さかな 223 (dg 17:30, reel antic) · comida 176 (ds 17:30, reel antic) · シ/ツ 35 · Repaso #2 33 · 人/入 33 · compras 13 · katakana 6 (dg 11:30; a IG va ser el millor) · ねこ 6 · Repaso #1 3. Tres vídeos passen de 170 i la resta es queden per sota de 40, sense relació clara amb l'hora ni amb el resultat a IG: a un compte nou, TikTok reparteix gairebé a l'atzar. Cal més setmanes abans de decidir res per a TikTok.
 - Hores: 13:30 (雨, cartell, compras: abast 134–283) vs 20:30 (ソ/ン, 手, Repaso: 124–217) — sense diferència clara; el contingut pesa més que l'hora. Diumenge 11:30 ha guanyat aquesta setmana, però el 魚 (15 nov) no té dades d'abast per comparar. Les hores no es toquen.
 - Decisions per a la setmana del 30 nov:
   1. Repetir **«Si sabes katakana…»** (escena `guess`) un altre cop la setmana del 30 (no esperar dues setmanes per alternança) per confirmar si és el format o l'atzar. Paraules que un hispanoparlant endevina (p. ex. パン, ピザ, サッカー). Si torna a passar de 500 d'abast, passa a sèrie fixa setmanal.
   2. **Carrusels: de 7 a 3 per setmana** (dc, dv, dg), sempre «situació + frases» o quiz; el temps que s'estalvia va a reels. Proposta: si Xavi no diu el contrari, s'aplica des del 30 nov (ja hi ha 7 programats per a aquesta setmana i no es poden cancel·lar a vidIQ).
-  3. YouTube i TikTok: Xavi, captura de YouTube Studio › Audiència › països (últims 7 dies) i de TikTok › Estadístiques dels vídeos del 21–22 nov. TikTok: repetir un «Kanji del día» d'un sol kanji per veure si el 手 (256) és repetible.
+  3. YouTube: mantenir títols en castellà i idioma «Español»; tornar a mirar Corea a Studio d'aquí a una setmana. TikTok: repetir un «Kanji del día» d'un sol kanji per veure si el 手 (256) és repetible.
 
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
