@@ -5,6 +5,7 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 
 ## Pla vigent (des del 11 nov 2026)
 - Instagram: 2 publicacions al dia. Un reel (el vídeo del dia) i un **carrusel** (`render_carousel.py`, vegeu tools/senri-shorts/references/carrusels.md), separats unes 5–7 h: el carrusel va a l'hora que no fa servir el reel (reel 20:30 → carrusel 13:30; reel 13:30 → carrusel 20:30; diumenge reel 11:30 → carrusel 19:30). Motiu: els reels porten gent nova; els carrusels es desen i s'envien, i això fa que Instagram els ensenyi a més gent.
+- Proposta (23 nov, pendent de l'«endavant» de Xavi): des del 30 nov, **3 carrusels per setmana** (dc, dv, dg) en lloc de 7: en 2 setmanes cap carrusel ha passat de 192 d'abast ni de 2 desats (reels: 124–1.180 i fins a 12 desats). Vegeu «Resum setmana del 16 nov».
 - Carrusels per dia: dl taula de kana (hiragana/katakana per files) · dt parelles que es confonen (guia) · dc vocabulari temàtic (6 paraules) · dj fitxa de kanji (kanji + 3 paraules) · dv gramàtica fàcil (una partícula o estructura amb frases de Senri) · ds quiz (pregunta → resposta a la diapositiva següent) · dg repàs de la setmana o errors típics.
 - Text dels posts d'Instagram: acabar demanant que l'**enviïn** («Envíaselo a quien…») i que el desin, a més de comentar. Text alternatiu a cada imatge.
 - YouTube: 1 Short al dia (el mateix vídeo). YouTube no premia el volum («no hi ha cap llindar de 5 o 10 shorts al dia») i decideix cada short pel % que «decideix veure'l» en lloc de lliscar: el que compta és el primer segon. Els dies de Trial Reels, la segona variant també surt a YouTube com a Short separat (5 h després) per comparar el % que es queda. Títols amb paraules que es busquen («Cómo se escribe 水 en japonés»). Mai esborrar i tornar a pujar un short.
@@ -81,6 +82,43 @@ Comptes: @senriapp (Instagram, TikTok, YouTube). Metricool blogId 7939447, fus E
 - YouTube (privats fins a l'hora): 右/左 KblJxxBJsvg · ぬ/め 0WkrW2dfOm0 · 金 NoRbSbogyfw
 Vídeos (IG + YT + TT, hores comprovades): 23 20:30 右/左 60455d6a-45ac-48fb-99b6-3cea9efd07ce / 3ac24224-5a963d17-9cb7521e · 24 13:30 ぬ/め 658a0ce2-6447-4893-87d8-fe292c21ac0d / db7b6aa0-dc0073a2-e186e682 · 26 13:30 金 2a94618e-4bbc-4e4f-9035-f1ffd97944da / 08b73305-095ffe9b-10083149 · 27 20:30 tiempo 9a09f1fc-42a1-46b2-b1ef-551340eea6ab / 004b2388-a1eb9dec-e20db017 · 29 11:30 dilo 190a054b-9819-4c55-81fe-0646d8d26c6a / 4cdf7224-932a07dd-93ed612a
 Carrusels (IG): 23 13:30 yōon 1e8b0e1b-3ba8-41ba-9770-a26a28f67b8c / 294676a8 · 24 20:30 parejas ab705409-e161-47f9-af16-50bff5b9efea / 0e43b082 · 25 13:30 estación 41361889-9dac-4d77-a8b4-37d52ac1eea7 / 1bf60a8b · 26 20:30 食 ca0845aa-1828-4ed6-aa6f-9c20ef190401 / 228ebbb6 · 27 13:30 たい a3224510-f6b4-4b63-a5e4-1119f5e72d39 / 9298866d · 28 13:30 partículas 590c8019-0693-4a4f-9b89-de0d31c784e1 / 5b822437 · 29 19:30 repaso 57fae446-8fdf-451a-85df-85eefa2adae0 / 48db7563
+
+## Resum setmana del 16 nov 2026 (dades del 23 nov, 8:50)
+Fonts: Instagram amb Windsor.ai (més al dia que Metricool, que no tenia el 22 nov); YouTube amb vidIQ (visualitzacions actuals de cada short i, per al % que es queda, Analytics 16–22 nov, que encara no té ni el Repaso del 21 ni el katakana del 22); TikTok amb Metricool (només fins al 21 nov al matí). El Trial Reel 雨 B no surt a cap API.
+
+**Reels (IG) i Shorts (YT)**
+| Vídeo | Hora | IG abast | IG >3 s | IG temps mitjà | IG desats / comp. | YT visualitz. (23 nov) | YT engaged/views (16–22) | TikTok visualitz. |
+|---|---|---|---|---|---|---|---|---|
+| 雨 A (Kanji #4) | dl 13:30 | 182 | 35,7 % | 4,9 s | 4 / 0 | 17 | 41 % (7/17) | – |
+| 雨 B (Trial, YT separat) | dl 18:30 | – | – | – | – | 21 | 35 % (7/20) | – |
+| ソ/ン (Parelles #2, fosc) | dt 20:30 | 159 | 39,6 % | 3,8 s | 2 / 0 | 18 | 33 % (6/18) | – |
+| Cartel 出口/入口 | dc 13:30 | 283 | 51,9 % | 6,9 s | 6 / 0 | 112 | **35 %** (39/110) | 16 |
+| 手 (Kanji #5) | dj 20:30 | 124 | 35,4 % | 4,1 s | 2 / 0 | 98 | 16 % (16/98) | **256** |
+| Compras (3 palabras #2) | dv 13:30 | 134 | 38,1 % | 4,8 s | 1 / 0 | 97 | 7 % (6/88) | 12 |
+| Repaso #2 | ds 20:30 | 217 | 41,7 % | 6,7 s | 5 / 0 | 111 | sense dades | sense dades |
+| **Si sabes katakana… #1** | dg 11:30 | **1.180** | 42,7 % | 6,5 s | **12 / 7** | **259** (1 dia) | sense dades | sense dades |
+
+**Carrusels (IG)**
+| Carrusel | Hora | Abast | Visualitz. | Desats | Comp. |
+|---|---|---|---|---|---|
+| Katakana v2 (repte → taula) | dl 20:30 | 25 | 54 | 1 | 0 |
+| 5 parejas katakana | dt 13:30 | 68 | 139 | 0 | 0 |
+| La familia | dc 20:30 | 51 | 106 | 2 | 1 |
+| Fitxa 学 | dj 13:30 | 44 | 77 | 1 | 0 |
+| を (gramàtica) | dv 20:30 | 20 | 66 | 2 | 0 |
+| Quiz kanji que se parecen | ds 13:30 | 23 | 55 | 2 | 0 |
+| Repaso (carrusel) | dg 19:30 | 10 | 28 | 1 | 0 |
+
+- Seguidors IG: 56 (16 nov) → 58 (21 nov; el 22 encara no hi és). Subscriptors YT: 15 → 17. TikTok: sense dada de seguidors.
+- Millor: **«Si sabes katakana…» #1** (dg 11:30): abast 1.180 (×4 el segon), 12 desats i 7 compartits (els primers compartits de reel en dues setmanes) i 259 visualitzacions a YT en un dia (el màxim des del 16 nov). Obre amb una paraula que el principiant ja pot llegir: «ja pots fer alguna cosa». n=1. Segon: el cartell (51,9 % >3 s a IG i 35 % engaged a YT, el millor a les dues xarxes).
+- Pitjor: compras (38,1 % >3 s, 7 % engaged a YT) i 手 (35,4 %, 4,1 s), però 手 és de lluny el millor a TikTok (256; la resta 1–35).
+- Carrusels: 2 setmanes i 12 carrusels amb abast 10–192 (aquesta setmana 10–68) i 0–2 desats; els reels, 124–1.180 i 1–12 desats. Ni el canvi a «frases que pots fer servir» (família, を) ni l'estructura repte → resposta ho han mogut. Avui els carrusels no porten gent ni es desen més que els reels.
+- YouTube: els shorts nous es queden a ~100 visualitzacions (abans del 16 nov, 400–1.000). L'API de vidIQ no ha retornat cap país (només «KR 0», ni per al 16–21): no es pot comprovar si el Japó i Corea encara se'n porten la part gran → cal mirar-ho a YouTube Studio. El katakana (259 en un dia) diu que el canal no està parat.
+- Hores: 13:30 (雨, cartell, compras: abast 134–283) vs 20:30 (ソ/ン, 手, Repaso: 124–217) — sense diferència clara; el contingut pesa més que l'hora. Diumenge 11:30 ha guanyat aquesta setmana, però el 魚 (15 nov) no té dades d'abast per comparar. Les hores no es toquen.
+- Decisions per a la setmana del 30 nov:
+  1. Repetir **«Si sabes katakana…»** (escena `guess`) un altre cop la setmana del 30 (no esperar dues setmanes per alternança) per confirmar si és el format o l'atzar. Paraules que un hispanoparlant endevina (p. ex. パン, ピザ, サッカー). Si torna a passar de 500 d'abast, passa a sèrie fixa setmanal.
+  2. **Carrusels: de 7 a 3 per setmana** (dc, dv, dg), sempre «situació + frases» o quiz; el temps que s'estalvia va a reels. Proposta: si Xavi no diu el contrari, s'aplica des del 30 nov (ja hi ha 7 programats per a aquesta setmana i no es poden cancel·lar a vidIQ).
+  3. YouTube i TikTok: Xavi, captura de YouTube Studio › Audiència › països (últims 7 dies) i de TikTok › Estadístiques dels vídeos del 21–22 nov. TikTok: repetir un «Kanji del día» d'un sol kanji per veure si el 手 (256) és repetible.
 
 ## Prova d'obertura (setmana del 16 nov)
 - dl 16: el mateix Kanji del día #4 (雨) amb dues obertures. A = obertura actual (traç des del fotograma 0 amb «¿Qué significa?»), REEL a les 13:30. B = kanji gran i ple + «Este kanji tiene **8 trazos**» (estil 水), TRIAL_REEL a les 18:30 i Short separat a YouTube. Sense pista (hint) en cap de les dues perquè l'única diferència sigui l'obertura. Comparar % que passa dels 3 s (IG) i % que es queda (YT).
